@@ -20,7 +20,7 @@ print_hi('Tom')
 
 Jekyll을 최대한 활용하는 방법에 대한 자세한 정보는 [Jekyll 문서][jekyll-docs]를 확인하십시오. 모든 버그/기능 요청은 [Jekyll’s GitHub repo][jekyll-gh]에 제출하십시오. [Jekyll Talk][jekyll-talk]에 질문 할 수도 있습니다.
 
-[jekyll-docs]: https://jekyllrb-ko.github.io/docs/home/
+[jekyll-docs]: https://jekyllrb-ko.github.io/
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 [yaml-header]: https://jekyllrb-ko.github.io/docs/frontmatter/
