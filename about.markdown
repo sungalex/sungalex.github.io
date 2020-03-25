@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+이 사이트는 Artificial Intelligence, Machine Learning, Natural Language Processing, Computer Vision, Python, Markdown, LaTeX, docker, git 등 AI와 Programming 관련 기술 블로그 입니다.
 
-You can find the source code for Minima at GitHub:
+이 페이지는 kekyll 기본 테마를 사용하고 있습니다. [Jekyllrb-ko.github.io](https://jekyllrb-ko.github.io/)에서 기본 Jekyll 사용 설명서뿐만 아니라, Jekyll 테마 사용자 정의에 대한 자세한 정보를 찾을 수 있습니다.
+
+GitHub에서 Minima에 대한 소스 코드를 찾을 수 있습니다.
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
+GitHub에서 Jekyll의 소스 코드를 찾을 수 있습니다.
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
-
 
 [jekyll-organization]: https://github.com/jekyll
