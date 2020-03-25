@@ -21,8 +21,7 @@
 title: Alex's Github Pages
 email: cloudallera@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Artificial Intelligence, Machine Learning, Natural Language Processing, 
-  Computer Vision, Python, Markdown, LaTeX, docker, git, etc.
+  Artificial Intelligence, Python, Markdown, LaTeX, docker, git, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: S.Alex.Lee
