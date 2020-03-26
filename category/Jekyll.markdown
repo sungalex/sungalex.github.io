@@ -1,4 +1,4 @@
 ---
 layout: category
-title: jekyll
+title: Jekyll
 ---
