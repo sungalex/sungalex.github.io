@@ -1,4 +1,4 @@
 ---
 layout: category
-title: STT&TTS
+title: AI&Vision
 ---
