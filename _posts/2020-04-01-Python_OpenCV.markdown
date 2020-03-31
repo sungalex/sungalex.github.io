@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python OpenCV"
-date:   2020-04-01 00:40:00 +0900
+date:   2020-04-01 01:10:00 +0900
 categories: AI&Vision
 ---
 
