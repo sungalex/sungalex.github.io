@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "딥러닝 개발환경 구축하기(Windows 환경)"
+date:   2020-04-06 22:50:00 +0900
+categories: Developer
+---
+
+## 목차
+
+### NVIDIA GPU가 있는 경우
+
+- GPU 모델 및 CUDA 지원 여부 확인하기
+- 아나콘다(Anaconda) 설치하기
+- 텐서플로(TensorFlow)를 위한 사전 호환성 검토
+- IDE(Visual Studio Code) 설치하기
+- CUDA 설치하기
+- cuDNN 설치하기
+- Anaconda 가상 개발환경 사용하기
+- 텐서플로 및 기타 라이브러리 설치하기
+- git client 설치하기
+- 개발환경 테스트
+
+### NVIDIA GPU가 없는 경우
+
+- 아나콘다(Anaconda) 설치하기
+- IDE(Visual Studio Code) 설치하기
+- Anaconda 가상 개발환경 사용하기
+- 텐서플로 및 기타 라이브러리 설치하기
+- git client 설치하기
+- 개발환경 테스트
+
+## 1. GPU 모델 및 CUDA 지원 여부 확인하기
+
+## 2. 아나콘다(Anaconda) 설치하기
+
+## 3. 텐서플로(TensorFlow)를 위한 사전 호환성 검토
+
+## 4. IDE(Visual Studio Code) 설치하기
+
+## 5. CUDA 설치하기
+
+이 과정은 위의 1번 과정을 통해 NVIDIA GPU를 보유한 것으로 확인 된 경우에만 진행한다.
+
+## 6. cuDNN 설치하기
+
+이 과정은 위의 1번 과정을 통해 NVIDIA GPU를 보유한 것으로 확인 된 경우에만 진행한다.
+
+## 7. Anaconda 가상 개발환경 사용하기
+
+## 8. 텐서플로 및 기타 라이브러리 설치하기
+
+## 9. git client 설치하기
+
+## 10. 개발환경 테스트
