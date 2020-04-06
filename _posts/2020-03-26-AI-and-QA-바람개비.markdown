@@ -13,7 +13,6 @@ categories: AI&QA
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
   - Machine Learning Cheat Key, Python !!!
   - Data Science Python Library : numpy, pandas, matplotlib
-  - 머신러닝 프레임워크 : Tensorflow, Keras, PyTorch
 
 ## (M2) Machine Learning & Deep Learning 따라하기
 
@@ -22,6 +21,7 @@ categories: AI&QA
 - ASR/STT(음성 문자 변환) 따라하기 (Machine Learning API 서비스 사용해보기)
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
   - 공공데이터 활용하기
+  - 머신러닝 프레임워크 : Tensorflow, Keras, PyTorch
   - 다양한 Google ML API(Vision, Language, Speech) 사용해보기
 
 ## (M3) AI 기술 활용방안을 찾아보자
