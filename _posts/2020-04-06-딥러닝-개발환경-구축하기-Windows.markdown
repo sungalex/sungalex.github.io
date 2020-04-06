@@ -5,50 +5,136 @@ date:   2020-04-06 22:50:00 +0900
 categories: Developer
 ---
 
+## 딥러닝 개발환경 개요
+
+딥러닝은 Windows, Linux, MAC 환경에서 모두 실행 할 수 있습니다.
+
+머신러닝/딥러닝에 Python, Java, C++, R 등 다양한 프로그래밍 언어를 사용할 수 있지만, 대부분의 머신러닝과 딥 러닝 프레임워크는 Python용으로 만들어지며, AI 분야에서 Python을 가장 활발하게 사용하고 있습니다.
+
+Windows 환경에서 Python 언어 딥 러닝 개발환경을 구축하는 과정을 소개합니다.
+
+Anaconda 가상환경 관리자(패키지 관리자), Tensorflow 프레임워크 및 머신러닝 라이브러리 설치 방법 등을 소개 합니다.
+
+*아래 사이트를 참고하여 작성하였습니다.*
+*- [한권으로 끝내는 파이썬 & 딥러닝](https://sdc-james.gitbook.io/onebook/2.)*
+*- [Windows에 딥러닝 개발환경 구축하기](https://seongkyun.github.io/others/2019/05/12/win_env/)*
+*- [[Setup] 딥러닝 개발 환경 구축 한방에 끝내기](https://theorydb.github.io/dev/2020/02/14/dev-dl-setting-local-python/)*
+
 ## 목차
 
 ### NVIDIA GPU가 있는 경우
 
-- GPU 모델 및 CUDA 지원 여부 확인하기
-- 아나콘다(Anaconda) 설치하기
-- 텐서플로(TensorFlow)를 위한 사전 호환성 검토
-- IDE(Visual Studio Code) 설치하기
-- CUDA 설치하기
-- cuDNN 설치하기
-- Anaconda 가상 개발환경 사용하기
-- 텐서플로 및 기타 라이브러리 설치하기
-- git client 설치하기
-- 개발환경 테스트
+1. [아나콘다(Anaconda) 설치하기](#index1)
+2. [Anaconda 가상 개발환경 만들기](#index2)
+3. [IDE(Visual Studio Code) 설치하기](#index3)
+4. [GPU 모델 및 CUDA 지원 여부 확인하기](#index4)
+5. [CUDA(GPU Computing SDK) 설치하기](#index5)
+6. [cuDNN(GPU 가속 라이브러리) 설치하기](#index6)
+7. [텐서플로 설치하기(GPU 버전 설치하기)](#index7-1)
+8. [기타 라이브러리 설치하기](#index8)
+9. [git client 설치하기](#index9)
+10. [개발환경 테스트](#index10)
 
 ### NVIDIA GPU가 없는 경우
 
-- 아나콘다(Anaconda) 설치하기
-- IDE(Visual Studio Code) 설치하기
-- Anaconda 가상 개발환경 사용하기
-- 텐서플로 및 기타 라이브러리 설치하기
-- git client 설치하기
-- 개발환경 테스트
+1. [아나콘다(Anaconda) 설치하기](#index1)
+2. [Anaconda 가상 개발환경 만들기](#index2)
+3. [IDE(Visual Studio Code) 설치하기](#index3)
+4. [텐서플로 설치하기(CPU 버전 설치하기)](#index7-2)
+5. [기타 라이브러리 설치하기](#index8)
+6. [git client 설치하기](#index9)
+7. [개발환경 테스트](#index10)
 
-## 1. GPU 모델 및 CUDA 지원 여부 확인하기
+## <div id="index1">아나콘다(Anaconda) 설치하기</div>
 
-## 2. 아나콘다(Anaconda) 설치하기
+Anaconda는 Data Science & Machine Learning 패키지를 일괄 설치 및 패키지 의존성를 관리해주는 패키지 관리자이며, 가상환경 관리자 입니다.
 
-## 3. 텐서플로(TensorFlow)를 위한 사전 호환성 검토
+Anaconda를 통해 Arrary 연산 패키지 넘파이(NumPy), 행렬 데이터 구조 분석 패키지 판다스(Pandas), 도형/그래프 패키지 맷플롯립(matplotlib), Machine Learning and Data Mining 패키지 사이킷-런(Scikit-learn) 등 수십여 종의 기본적인 패키지를 일괄 설치하고, 가상환경을 만들어서 가상환경 단위로 의존성을 관리할 수 있습니다.
 
-## 4. IDE(Visual Studio Code) 설치하기
+[https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)에 접속하여 Anaconda를 다운로드 합니다.
 
-## 5. CUDA 설치하기
+![anaconda download](/img/anaconda-download.png)
 
-이 과정은 위의 1번 과정을 통해 NVIDIA GPU를 보유한 것으로 확인 된 경우에만 진행한다.
+다운로드 된 파일을 실행하여 설치합니다.
+아래 선택 화면에서 체크박스 2개를 모두 체크 후 Install을 선택 합니다.
 
-## 6. cuDNN 설치하기
+![anaconda install](/img/anaconda-install.png)
 
-이 과정은 위의 1번 과정을 통해 NVIDIA GPU를 보유한 것으로 확인 된 경우에만 진행한다.
+## <div id="index2">Anaconda 가상 개발환경 사용하기</div>
 
-## 7. Anaconda 가상 개발환경 사용하기
+패키지 버전관리(의존성 관리)를 위해 가상환경을 만듭니다.
+Anaconda prompt에서 아래 명령을 수행 합니다.
 
-## 8. 텐서플로 및 기타 라이브러리 설치하기
+- **가상환경 생성**
+  - `conda create --name 가상환경_이름 python=파이썬_버전`
+  - ex. `conda create --name vane python=3.7` *(바람개비를 의미하는 vane을 가상환경 이름으로 사용함)*
+- **가상환경 리스트 보기**
+  - `conda info --envs`
+  - `conda env list`
+- **가상환경 활성화**: `activate 가상환경_이름`
+  - ex. `activate vane`
+- **가상환경 비활성화**: `deactivate 가상환경_이름` 또는 `deactivate`
+  - ex. `deactivate vane`
 
-## 9. git client 설치하기
+## <div id="index3">IDE(Visual Studio Code) 설치하기</div>
 
-## 10. 개발환경 테스트
+개발 IDE는 Visual Studio Code를 설치 합니다. PyCharm 보다 가볍고 오픈소스 버전이라서 자유롭게 사용할 수 있습니다.
+
+[https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)에서 64bit Installer 버전을 다운로드 하여 설치 합니다.
+
+![vscode download](/img/vscode-download.png)
+
+## <div id="index4">GPU 모델 및 CUDA 지원 여부 확인하기</div>
+
+머신러닝/딥러닝 학습을 위해서는 고속의 병렬처리가 필요하며, GPU(Graphics Processing Unit, 비디오 카드)가 고속의 병렬처리를 수행하는 장치 입니다.
+
+![CPU vs. GPU](/img/cpu-gpu.png)
+
+딥러닝 프레임워크를 지원하는 CUDA, cuDNN를 설치하기 위해서는 NVIDIA GPU가 필요 합니다.
+
+현재 컴퓨터의 GPU 모델을 확인하고, 해당 모델이 CUDA, cuDNN 드라이버를 지원하는지 확인이 필요합니다.
+
+- 내 PC에 장착된 GPU 모델 확인 : "윈도우키+X" > 장치관리자 클릭 > 디스플레이 어댑터 클릭 > 모델명 확인
+
+![Device Manager](/img/win-device-manager.png)
+
+- 내 GPU가 CUDA 툴킷을 활용할 수 있는지 [NVIDIA](https://developer.nvidia.com/cuda-gpus)에 접속하여 확인 합니다.
+
+![Cuda Enabled](/img/nvidia-cuda-enabled.png)
+
+## <div id="index5">CUDA(GPU Computing SDK) 설치하기</div>
+
+딥러닝 프레임워크에서 NVIDIA GPU를 사용하기 위해서는 CUDA와 cuDDN을 설치해야 합니다.
+이 과정은 CUDA 지원이 가능한 NVIDIA GPU를 보유한 경우에만 진행합니다.
+
+- [https://developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive)에서 원하는 버전을 다운로드 받습니다.
+  - 현재 설치하려는 딥러닝 라이브러리와 호환되는 버전을 설치해야 합니다.
+  - 설치할 Tensorflow 버전(1.x, 2.x)과 호환되는 버전을 다운로드 합니다. (가장 최신 버전이 설치하는 것이 아니고, GPU 모델 및 설치할 딥러닝 라이브러리 버전과 호환되는 버전을 설치해야 합니다. 여기서는 10.0을 선택 합니다.)
+
+![Cuda Toolkit Download](/img/CUDA-toolkit-download.png)
+
+- 자세한 사항은 [NVIDIA CUDA INSTALLATION GUIDE FOR MICROSOFT WINDOWS](https://developer.download.nvidia.com/compute/cuda/10.0/Prod/docs/sidebar/CUDA_Installation_Guide_Windows.pdf) 와 [CUDA QUICK START GUIDE](https://developer.download.nvidia.com/compute/cuda/10.0/Prod/docs/sidebar/CUDA_Quick_Start_Guide.pdf) 문서를 참고 합니다.
+
+- Tensorflow GPU 지원 관련 내용은 [여기](https://www.tensorflow.org/install/gpu)를 참고 하세요.
+
+## <div id="index6">cuDNN(GPU 가속 라이브러리) 설치하기</div>
+
+GPU 가속을 위한 라이브러리인 cuDNN을 설치 합니다.
+CUDA를 설치한 이후 진행 합니다.
+
+- [https://developer.nvidia.com/rdp/cudnn-download](https://developer.nvidia.com/rdp/cudnn-download)에서 다운로드 합니다.
+  - 다운로드를 위해서는 개발자 NVIDIA Developer 사이트 로그인이 하고, License Agreement에 동의해야 합니다.
+  - CUDA 버전과 호환되는 cuDNN 버전을 선택하여 다운로드 합니다.
+  - 낮은 버전의 cuDNN은 [Archived cuDNN Releases](https://developer.nvidia.com/rdp/cudnn-archive) 사이트에서 다운로드 할 수 있습니다. (CUDA 10.0을 설치한 경우 cuDNN 7.4.2 for CUDA 10.0을 선택 합니다.)
+
+![cuDNN Download](/img/cuDNN-download.png)
+
+## <div id="index7-1">텐서플로 설치하기(GPU 버전 설치하기)</div>
+
+## <div id="index7-2">텐서플로 설치하기(CPU 버전 설치하기)</div>
+
+## <div id="index8">기타 라이브러리 설치하기</div>
+
+## <div id="index9">git client 설치하기</div>
+
+## <div id="index10">개발환경 테스트</div>
