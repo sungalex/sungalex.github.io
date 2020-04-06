@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "회오리 바람을 탄 파이썬(A Whirlwind Tour of Python)"
+title:  "회오리바람을 탄 파이썬(A Whirlwind Tour of Python)"
 date:   2020-04-06 21:30:00 +0900
 categories: Python
 ---
@@ -11,7 +11,7 @@ categories: Python
 
 *박해선(https://tensorflow.blog), 2018년 봄*
 
-*이 노트북은 제이크 반더플라스(Jake VanderPlas)의 [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp)(OReilly Media, 2016)를 기반으로 만들어졌습니다. 전체 노트북의 목록은 https://github.com/sungalex/WhirlwindTourOfPython 에서 볼 수 있습니다. 박해선 님의 노트북 원문은 [여기](https://github.com/rickiepark/WhirlwindTourOfPython)에서 볼 수 있습니다.*
+*이 노트북은 제이크 반더플라스(Jake VanderPlas)의 [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp)(OReilly Media, 2016)를 기반으로 만들어졌습니다. 전체 노트북의 목록은 [여기](https://github.com/sungalex/WhirlwindTourOfPython)에서 볼 수 있습니다. 박해선 님의 노트북 원문은 [여기](https://github.com/rickiepark/WhirlwindTourOfPython)에서 볼 수 있습니다.*
 
 *회오리바람을 탄 파이썬*은 다른 프로그래밍 언어를 이미 알고 있는 연구자와 개발자들에게 파이썬의 핵심 요소를 빠르게 전달하기 위한 안내서입니다. 파이썬을 데이터 과학이나 과학 프로그래밍에 사용하는데 촛점을 맞추었습니다.
 
@@ -21,24 +21,26 @@ categories: Python
 
 *(노트: 깃허브의 노트북 렌더링이 느리거나 문제가 있을 때는 [nbviewer](https://nbviewer.jupyter.org/github/sungalex/WhirlwindTourOfPython/blob/master/목차.ipynb)를 사용하세요)*
 
-1. [소개](00-소개.ipynb)
-2. [파이썬 코드를 실행하는 방법](01-파이썬%20코드를%20실행하는%20방법.ipynb)
-3. [파이썬 문법 빠르게 훑어 보기](02-파이썬%20문법%20빠르게%20훑어%20보기.ipynb)
-4. [변수와 객체](03-변수와%20객체.ipynb)
-5. [연산자](04-연산자.ipynb)
-6. [간단한 기본 데이터 타입](05-간단한%20기본%20데이터%20타입.ipynb)
-7. [기본 데이터 구조](06-기본%20데이터%20구조.ipynb)
-8. [제어문](07-제어문.ipynb)
-9. [함수](08-함수.ipynb)
-10. [에러와 예외처리](09-에러와%20예외처리.ipynb)
-11. [반복자](10-반복자.ipynb)
-12. [리스트 내포](11-리스트%20내포.ipynb)
-13. [제너레이터](12-제너레이터.ipynb)
-14. [모듈과 패키지](13-모듈과%20패키지.ipynb)
-15. [문자열과 정규 표현식](14-문자열과%20정규%20표현식.ipynb)
-16. [데이터 과학 도구 소개](15-데이터%20과학%20도구%20소개.ipynb)
-17. [Resources for Further Learning](16-Further-Resources.ipynb)
-18. [Appendix: Code To Reproduce Figures](17-Figures.ipynb)
+*본 노트북을 학습하는 가장 좋은 방법은 [Github Repository](https://github.com/sungalex/WhirlwindTourOfPython)를 Clone 하여 [Jupyter Notebook](https://jupyter.org) 환경에서 직접 실행해보는 것입니다.*
+
+1. [소개](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/00-소개.ipynb)
+2. [파이썬 코드를 실행하는 방법](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/01-파이썬%20코드를%20실행하는%20방법.ipynb)
+3. [파이썬 문법 빠르게 훑어 보기](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/02-파이썬%20문법%20빠르게%20훑어%20보기.ipynb)
+4. [변수와 객체](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/03-변수와%20객체.ipynb)
+5. [연산자](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/04-연산자.ipynb)
+6. [간단한 기본 데이터 타입](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/05-간단한%20기본%20데이터%20타입.ipynb)
+7. [기본 데이터 구조](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/06-기본%20데이터%20구조.ipynb)
+8. [제어문](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/07-제어문.ipynb)
+9. [함수](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/08-함수.ipynb)
+10. [에러와 예외처리](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/09-에러와%20예외처리.ipynb)
+11. [반복자](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/10-반복자.ipynb)
+12. [리스트 내포](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/11-리스트%20내포.ipynb)
+13. [제너레이터](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/12-제너레이터.ipynb)
+14. [모듈과 패키지](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/13-모듈과%20패키지.ipynb)
+15. [문자열과 정규 표현식](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/14-문자열과%20정규%20표현식.ipynb)
+16. [데이터 과학 도구 소개](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/15-데이터%20과학%20도구%20소개.ipynb)
+17. [Resources for Further Learning](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/16-Further-Resources.ipynb)
+18. [Appendix: Code To Reproduce Figures](https://github.com/sungalex/WhirlwindTourOfPython/blob/master/17-Figures.ipynb)
 
 ## 라이센스
 
