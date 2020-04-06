@@ -89,7 +89,7 @@ Anaconda prompt에서 아래 명령을 수행 합니다.
 
 머신러닝/딥러닝 학습을 위해서는 고속의 병렬처리가 필요하며, GPU(Graphics Processing Unit, 비디오 카드)가 고속의 병렬처리를 수행하는 장치 입니다.
 
-![CPU vs. GPU](/img/cpu-gpu.png)
+![CPU vs. GPU](/img/cpu-gpu.jpg)
 
 딥러닝 프레임워크를 지원하는 CUDA, cuDNN를 설치하기 위해서는 NVIDIA GPU가 필요 합니다.
 
