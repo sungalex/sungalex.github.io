@@ -57,9 +57,15 @@ Anaconda를 통해 Arrary 연산 패키지 넘파이(NumPy), 행렬 데이터 �
 ![anaconda download](/img/anaconda-download.png)
 
 다운로드 된 파일을 실행하여 설치합니다.
-아래 선택 화면에서 체크박스 2개를 모두 체크 후 Install을 선택 합니다.
+
+Installation Type은 Default로 선택된 "Just Me (recommended)"를 선택 합니다.
+"All Users (requires admin privileges)"를 선택하면 conda 명령어 실행 시 admin 권한이 필요 합니다. 이 경우 "conda prompt" 실행 시 "관리자 권한"으로 실행 하면 됩니다.
+
+Python 개발 환경을 처음 설치 하는 경우는, 아래 선택 화면에서 체크박스 2개를 모두 체크 후 Install을 선택 합니다. (Python이 기 설치되어 있는 경우는 "Add Anaconda to the system PATH..." 항목을 체크하면 충돌이 발생할 수 있습니다.)
 
 ![anaconda install](/img/anaconda-install.png)
+
+윈도우10 아나콘다 설치 세부과정은 [아나콘다(Anaconda) 설치 하기 on Windows](https://wonderbout.tistory.com/22) 사이트를 참고 하세요.
 
 ## Anaconda 가상 개발환경 사용하기
 
