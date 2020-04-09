@@ -25,11 +25,11 @@ categories: AI&ASR AI&NLP AI&QA AI&Vision Python
 
   ![머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로](/img/python-machine-learning.jpg)
 
-### [핸즈온 머신러닝 노트북][book4] [[도서][kyobobook4]]
+### [핸즈온 머신러닝][book4] [[도서][kyobobook4]]
 
 scikit-learn 라이브러리, tensorflow 프레임워크를 활용한 머신러닝를 활용해 프로그램을 실제 구현하기 위해 필요한 개념과 도구를 설명 합니다.
 
-  ![핸즈온 머신러닝 노트북](/img/hands-on-machine-learning.jpg)
+  ![핸즈온 머신러닝](/img/hands-on-machine-learning.jpg)
 
 ### [파이썬 라이브러리를 활용한 머신러닝][book5] [[도서][kyobobook5]]
 
