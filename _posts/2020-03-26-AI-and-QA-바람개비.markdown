@@ -7,8 +7,8 @@ categories: AI&QA
 
 ## (M1) AI 기본부터 알아보자
 
-- Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [Study Day1 자료](2020-04-10-Study1-Development-Environment-and-AI-Concept.markdown)
-- AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료](2020-04-10-Study1-Development-Environment-and-AI-Concept.markdown)
+- Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [Study Day1 자료](https://sungalex.github.io/ai&qa/2020/04/09/Study1-Development-Environment-and-AI-Concept.html)
+- AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료](https://sungalex.github.io/ai&qa/2020/04/09/Study1-Development-Environment-and-AI-Concept.html)
 - 머신러닝의 Hello World, MNIST 문자 인식 하기
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
   - Machine Learning Cheat Key, Python !!!
