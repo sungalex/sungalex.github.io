@@ -15,6 +15,15 @@ Jekyll과 Github Pages를 활용한 Alex의 블로그 입니다.
 - [ ] Github Pages에 페이지 나누기 기능 추가하기
 - [ ] 특정 브라우저에서 랜더링 깨짐 현상 해결
   - IE11에서 footter가 Navigation Bar 바로 아래 나타나서, 본문 컨텐츠와 겹쳐 보이는 현상
-- [ ] Internal Link(Anchor Link)가 동작하지 않는 현상 : 한글과 영문이 섞여있는 Heading의 Anchor link가 예상한 형태로 생성되지 않음
+- [x] Internal Link(Anchor Link)가 동작하지 않는 현상
+  - 현상: 한글, 영문, 특수문자가 섞여있는 Heading의 Anchor link가 예상한 형태로 생성되지 않음
+  - 해결방법: <https://stackoverrun.com/ko/q/11899008> 참조
+  > The [GitLab documentation](https://gitlab.com/help/user/markdown.md#header-ids-and-links) states how it creates anchors from markdown headers:
+  > 1. All text is converted to lowercase
+  > 2. All non-word text (e.g., punctuation, HTML) is removed
+  > 3. All spaces are converted to hyphens
+  > 4. Two or more hyphens in a row are converted to one
+  > 5. If a header with the same ID has already been generated, a unique incrementing number is appended, starting at 1.
+  
 - [x] 개발환경 구축하기 Post에서 git 설치하기 내용을 분리하여 Posting
 - [ ] jupyter notebook, colab 사용법 포스팅
