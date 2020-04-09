@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows git client 설치하기"
-date:   2020-04-06 22:50:00 +0900
+date:   2020-04-09 11:45:00 +0900
 categories: Developer
 ---
 
