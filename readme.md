@@ -24,7 +24,8 @@ Jekyll과 Github Pages를 활용한 Alex의 블로그 입니다.
       2. All non-word text (e.g., punctuation, HTML) is removed
       3. All spaces are converted to hyphens
       4. Two or more hyphens in a row are converted to one
-      5. If a header with the same ID has already been generated, a unique incrementing number is appended, starting at 1.
+      5. If a header with the same ID has already been generated, 
+         a unique incrementing number is appended, starting at 1.
     ~~~
   
 - [x] 개발환경 구축하기 Post에서 git 설치하기 내용을 분리하여 Posting
