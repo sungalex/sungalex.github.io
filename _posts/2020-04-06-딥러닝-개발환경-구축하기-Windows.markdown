@@ -23,7 +23,7 @@ Anaconda 가상환경 관리자(패키지 관리자), Tensorflow 프레임워크
 
 ### NVIDIA GPU가 있는 경우 개발환경 구축하기
 
-1. [아나콘다(Anaconda) 설치하기](#아나콘다(Anaconda)-설치하기)
+1. [아나콘다(Anaconda) 설치하기](#index1)
 2. [Anaconda 가상 개발환경 사용하기](#Anaconda-가상-개발환경-사용하기)
 3. [IDE(Visual Studio Code) 설치하기](#IDE(Visual-Studio-Code)-설치하기)
 4. [GPU 모델 및 CUDA 지원 여부 확인하기](#GPU-모델-및-CUDA-지원-여부-확인하기)
@@ -45,7 +45,7 @@ Anaconda 가상환경 관리자(패키지 관리자), Tensorflow 프레임워크
 -----
 <br>
 
-## 아나콘다(Anaconda) 설치하기
+## <div id="index1">아나콘다(Anaconda) 설치하기</div>
 
 Anaconda는 Data Science & Machine Learning 패키지를 일괄 설치 및 패키지 의존성를 관리해주는 패키지 관리자이며, 가상환경 관리자 입니다.
 
