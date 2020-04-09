@@ -32,6 +32,8 @@ categories: AI&QA
 
 - [초보를 위한 도커 안내서](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 
-## 추천 도서 및 추천 강좌 : [AI 초보자를 위한 추천 도서 및 추천 강좌][recommendation] 참조
+## 추천 도서 및 추천 강좌
+
+- [AI 초보자를 위한 추천 도서 및 추천 강좌][recommendation] 참조
 
 [recommendation]: https://sungalex.github.io/ai&asr/ai&nlp/ai&qa/ai&vision/python/2020/04/09/AI-추천도서-추천강좌.html
