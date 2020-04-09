@@ -15,5 +15,5 @@ Jekyll과 Github Pages를 활용한 Alex의 블로그 입니다.
 - [ ] Github Pages에 페이지 나누기 기능 추가하기
 - [ ] 특정 브라우저에서 랜더링 깨짐 현상 해결
   - [ ] IE11에서 footter가 Navigation Bar 바로 아래 나타나서, 본문 컨텐츠와 겹쳐 보이는 현상
-  - [ ] Chrome (버전 79.0.3945.130(공식 빌드) (64비트))에서 Internal Link가 동작하지 않는 현상
+  - [ ] Internal Link(Anchor Link)가 동작하지 않는 현상 : 한글과 영문이 섞여있는 Heading의 Anchor link가 예상한 형태로 생성되지 않음
 - [x] 개발환경 구축하기 Post에서 git 설치하기 내용을 분리하여 Posting
