@@ -83,13 +83,11 @@ Anaconda prompt에서 아래 명령을 수행 합니다.
 
 conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하는 경우는,
 
-  ```
-  Could not fetch URL https://pypi.org/...: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: ... (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)')))
-  ```
+  > Could not fetch URL <https://pypi.org/>...: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: ... (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)')))
 
 임시 해결책으로 아래와 같이 ssl_verify 설정을 false로 변경하면 문제를 비켜갈 수 있습니다.(보안상 권장되지는 않습니다.)
 
-  ```
+  ```bash
   conda config --set ssl_verify false
   ```
 
@@ -153,20 +151,20 @@ CUDA를 설치한 이후 진행 합니다.
 아래 명령으로 tensorflow GPU 버전을 설치 합니다.
 tensorflow GPU 버전을 사용하기 위해서는 [NVIDIA Cuda Toolkit 설치](#CUDA(GPU-Computing-SDK)-설치하기)와 [cuDNN 설치](#cuDNN(GPU-가속-라이브러리)-설치하기)를 완료해야 합니다.
 
-  ```
+  ```bash
   conda install tensorflow-gpu
   ```
 
 아래와 같이 Python 패키지 관리자인 pip 명령을 이용해서도 설치가 가능합니다.
 
-  ```
+  ```bash
   pip install tensorflow-gpu
   ```
 
 Python을 실행하여 tensorflow가 잘 설치되었는지 확인 합니다. (">>>" 문자열은 Python 명령어를 실행할 수 있는 Interpreter Prompt 입니다.)
 tf.test.is_gpu_available() 명령은 GPU가 사용 가능한 상태인지를 알려 줍니다.(결과가 True일 경우 제대로 설치 된 것입니다.)
 
-  ```
+  ```python
   >>> import tensorflow as tf
   >>> tf.test.is_gpu_available()
   ```
@@ -175,13 +173,14 @@ tf.test.is_gpu_available() 명령은 GPU가 사용 가능한 상태인지를 알
 
 아래 명령으로 tensorflow CPU 버전을 설치 합니다.
 
-  ```
+  ```bash
   conda install tensorflow
   ```
+
 Python을 실행하여 tensorflow가 잘 설치되었는지 확인 합니다.
 print(tf.__version)) 명령은 tensorflow가 정상적으로 설치된 경우 tensorflow 버전을 출력 합니다.
 
-  ```
+  ```python
   >>> import tensorflow as tf
   >>> print(tf.__version))
   ```
@@ -194,14 +193,14 @@ Anaconda를 설치하면 기본 개발환경으로 "base"라는 가상환경이 
 
 아래 명령으로 "vane" 가상 환경을 활성화 합니다. "(vane) C:\Users\user>"와 같이 Prompt 맨 앞부분에 "(vane)"이라는 문자열이 추가된 것을 확인할 수 있습니다. (사용자 Home Directory 환경에 따라 Prompt 문자열은 달라질 수 있습니다.)
 
-  ```
+  ```bash
   conda activate vane
   ```
 
 아래와 같이 기본적인 패키지 몇 가지를 설치 합니다.
 여러 개의 패키지(라이브러리)를 한번에 설치할 수 있으며, Spacebar(공백문자)로 구분하여 여러 개 패키지를 나열할 수 있습니다.
 
-  ```
+  ```bash
   conda install ipython notebook jupyter
   conda install numpy pandas scipy matplotlib spyder seaborn scikit-learn
   ```
@@ -212,7 +211,7 @@ ipython, notebook, jupyter는 jypyter notebook 관련 패키지들 입니다. nu
 
 아래 명령으로 Jupyter Notebook을 실행할 수 있습니다. 위에서 "vane"이라는 Anaconda 가상환경에 Jupyter Notebook을 설치했기 때문에 "vane" 가상환경에서 아래 명령을 실행 해야 합니다. Prompt 맨 앞 부분에 "(vane)"이 나타나 있어야 합니다.
 
-  ```
+  ```bash
   jupyter notebook
   ```
 
