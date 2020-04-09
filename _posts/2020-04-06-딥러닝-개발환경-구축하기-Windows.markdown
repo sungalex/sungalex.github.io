@@ -21,9 +21,7 @@ Anaconda 가상환경 관리자(패키지 관리자), Tensorflow 프레임워크
 - *[Windows에 딥러닝 개발환경 구축하기](https://seongkyun.github.io/others/2019/05/12/win_env/)*
 - *[[Setup] 딥러닝 개발 환경 구축 한방에 끝내기](https://theorydb.github.io/dev/2020/02/14/dev-dl-setting-local-python/)*
 
-## 목차
-
-### NVIDIA GPU가 있는 경우
+### NVIDIA GPU가 있는 경우 개발환경 구축하기
 
 1. [아나콘다(Anaconda) 설치하기](#아나콘다(Anaconda)-설치하기)
 2. [Anaconda 가상 개발환경 사용하기](#Anaconda-가상-개발환경-사용하기)
@@ -35,7 +33,7 @@ Anaconda 가상환경 관리자(패키지 관리자), Tensorflow 프레임워크
 8. [기타 라이브러리 설치하기](#기타-라이브러리-설치하기)
 9. [Jupyter Notebook 개발환경 테스트](#Jupyter-Notebook-개발환경-테스트)
 
-### NVIDIA GPU가 없는 경우
+### NVIDIA GPU가 없는 경우 개발환경 구축하기
 
 1. [아나콘다(Anaconda) 설치하기](#아나콘다(Anaconda)-설치하기)
 2. [Anaconda 가상 개발환경 사용하기](#Anaconda-가상-개발환경-사용하기)
@@ -91,7 +89,7 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
   conda config --set ssl_verify false
   ```
 
-[여기](https://rfriend.tistory.com/tag/conda%20install%20SSL%20CERTIFICATE%20VERIFY%20error)에서 이 문제의 다양한 해결 방법을 확인 할 수 있습니다.
+<https://rfriend.tistory.com/304> 블로그에서 이 문제의 다양한 해결 방법을 확인 할 수 있습니다.
 
 ## IDE(Visual Studio Code) 설치하기
 
@@ -115,7 +113,7 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
 
 ![Device Manager](/img/win-device-manager.png)
 
-- 내 GPU가 CUDA 툴킷을 활용할 수 있는지 [NVIDIA](https://developer.nvidia.com/cuda-gpus)에 접속하여 확인 합니다.
+- 내 GPU가 CUDA 툴킷을 활용할 수 있는지 <https://developer.nvidia.com/cuda-gpus>에서 확인 합니다.
 
 ![Cuda Enabled](/img/nvidia-cuda-enabled.png)
 
@@ -132,7 +130,7 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
 
 - 자세한 사항은 [NVIDIA CUDA INSTALLATION GUIDE FOR MICROSOFT WINDOWS](https://developer.download.nvidia.com/compute/cuda/10.0/Prod/docs/sidebar/CUDA_Installation_Guide_Windows.pdf) 와 [CUDA QUICK START GUIDE](https://developer.download.nvidia.com/compute/cuda/10.0/Prod/docs/sidebar/CUDA_Quick_Start_Guide.pdf) 문서를 참고 합니다.
 
-- Tensorflow GPU 지원 관련 내용은 [여기](https://www.tensorflow.org/install/gpu)를 참고 하세요.
+- Tensorflow GPU 지원 관련 내용은 <https://www.tensorflow.org/install/gpu> 사이트를 참고 하세요.
 
 ## cuDNN(GPU 가속 라이브러리) 설치하기
 
@@ -202,17 +200,17 @@ Anaconda를 설치하면 기본 개발환경으로 "base"라는 가상환경이 
 
   ```bash
   conda install ipython notebook jupyter
-  conda install numpy pandas scipy matplotlib spyder seaborn scikit-learn
+  conda install numpy pandas scipy matplotlib seaborn scikit-learn
   ```
 
-ipython, notebook, jupyter는 jypyter notebook 관련 패키지들 입니다. numpy, pandas, scipy는 tensorflow 패키지를 설치했다면 이미 함께 설치되었을 것 입니다. matplotlib, seaborn는 그래프(도형)을 화면에 그려주는 패키지이며, scikit-learn는 다양한 머신러닝 알고리즘을 지원하는 패키지 입니다.
+ipython, notebook, jupyter는 jypyter notebook 관련 패키지들 입니다. numpy, pandas, scipy는 tensorflow 패키지를 설치했다면 이미 함께 설치되었을 것 입니다. matplotlib, seaborn는 그래프를 그려주는 Visualization 패키지이며, scikit-learn는 다양한 머신러닝 알고리즘을 지원하는 패키지 입니다.
 
 ## Jupyter Notebook 개발환경 테스트
 
-아래 명령으로 Jupyter Notebook을 실행할 수 있습니다. 위에서 "vane"이라는 Anaconda 가상환경에 Jupyter Notebook을 설치했기 때문에 "vane" 가상환경에서 아래 명령을 실행 해야 합니다. Prompt 맨 앞 부분에 "(vane)"이 나타나 있어야 합니다.
+아래 명령으로 Jupyter Notebook을 실행할 수 있습니다. 위에서 "vane"이라는 Anaconda 가상환경에 Jupyter Notebook을 설치했기 때문에 "vane" 가상환경에서 아래 명령을 실행 해야 합니다. 아래 명령을 실행하기 전에 Prompt 맨 앞 부분에 "(vane)"이 나타나 있는지 확인 합니다.
 
   ```bash
   jupyter notebook
   ```
 
-Jupyter Notebook 사용법은 [여기](https://greeksharifa.github.io/references/2019/01/26/Jupyter-usage/)에 잘 설명되어 있습니다.
+Jupyter Notebook 사용법은 <https://greeksharifa.github.io/references/2019/01/26/Jupyter-usage/> 블로그에 잘 설명되어 있습니다.
