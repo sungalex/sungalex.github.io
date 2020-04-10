@@ -17,7 +17,7 @@ GUI Client 프로그램을 사용하는 것이 입니다.
 ![git_download](/img/git-download.png)
 
 설치 과정의 선택 사항들은 기본적으로 선택되어 있는 항목을 특별히 변경하지 않고 "Next"를 선택해도 됩니다.
-설치 과정을 설명하는 [여기](https://coding-factory.tistory.com/245) 사이트를 참고하세요.
+설치 과정을 설명하는 <https://coding-factory.tistory.com/245> 사이트를 참고하세요.
 
 ## git SSL Certificate 에러 해결하기
 
@@ -33,4 +33,4 @@ git push 또는 pull 수행 시 다음의 에러가 발생한다면,
   git config --global http.sslVerify false
   ```
 
-이 문제의 구체적인 해결 방법은 [여기](https://confluence.atlassian.com/bitbucketserverkb/ssl-certificate-problem-unable-to-get-local-issuer-certificate-816521128.html)를 참고하세요.
+이 문제의 구체적인 해결 방법은 Bitbucket 지식 저장소 사이트의 [SSL certificate problem: Unable to get local issuer certificate](https://confluence.atlassian.com/bitbucketserverkb/ssl-certificate-problem-unable-to-get-local-issuer-certificate-816521128.html) 게시물에서 확인할 수 있습니다.
