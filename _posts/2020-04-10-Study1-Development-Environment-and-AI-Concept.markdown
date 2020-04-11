@@ -64,4 +64,4 @@ categories: AI&QA
 
 - [AI 초보자를 위한 추천 도서 및 추천 강좌][recommendation] 참조
 
-[recommendation]: https://sungalex.github.io/ai&asr/ai&nlp/ai&qa/ai&vision/python/2020/04/09/AI-추천도서-추천강좌.html
+[recommendation]: https://sungalex.github.io/ai&asr/ai&nlp/ai&qa/ai&vision/developer/python/2020/04/09/AI-추천도서-추천강좌.html
