@@ -44,7 +44,15 @@ categories: AI&QA
 
 - Deep Neural Network(DNN)에 대해 알아보자!!!
 
-  - TBD ...
+  - [밑바닥부터 시작하는 딥러닝 도서의 신경망 개요 부분 보기](https://nbviewer.jupyter.org/github/sungalex/deep-learning-from-scratch/blob/master/_mystudy/03_neuralnet.ipynb) (Notebook Viewer에서 보기)
+    - [Github Repository에서 확인하기](https://github.com/sungalex/deep-learning-from-scratch/blob/master/_mystudy/03_neuralnet.ipynb) (*Github Repository에서 직접 확인 시 Markdown으로 작성된 설명 부분이 깨져보이는 경우가 있음*)
+    - Repository 가져오기 (Local에서 Jupyter Notebook을 통해 직접 확인하고 실행해볼 수 있음)
+      - `git clone https://github.com/sungalex/deep-learning-from-scratch.git`
+      - "_mystudy" 폴더 아래에 있는 "03_neuralnet.ipynb" 파일에 포함되어 있음
+
+  - [딥러닝의 기본 개념](https://www.youtube.com/watch?v=n7DNueHGkqE) (*김성훈 교수님의 강의, Neural Network(신경망) 개념부터 Deep Leaning까지 체계적인 정리*)
+
+    [![딥러닝의 기본 개념](/img/deep-neural-nets-for-everyone.png)](https://www.youtube.com/watch?v=n7DNueHGkqE)
 
 ## 딥러닝 개발환경 이해하기
 
