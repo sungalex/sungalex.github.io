@@ -46,8 +46,12 @@ categories: AI&QA
 
 - Deep Neural Network(DNN)에 대해 알아보자!!!
 
-  - 밑바닥부터 시작하는 딥러닝 도서의 [신경망 개요](https://nbviewer.jupyter.org/github/sungalex/deep-learning-from-scratch/blob/master/_mystudy/03_neuralnet.ipynb) (Notebook Viewer에서 보기)
-    - [Github Repository에서 확인하기](https://github.com/sungalex/deep-learning-from-scratch/blob/master/_mystudy/03_neuralnet.ipynb) (*Github Repository에서 직접 확인 시 Markdown으로 작성된 설명 부분이 깨져보이는 경우가 있음*)
+  - [딥러닝의 기본 개념](https://www.youtube.com/watch?v=n7DNueHGkqE) (*김성훈 교수님의 강의, Neural Network(신경망) 개념부터 Deep Leaning까지 체계적인 정리*)
+
+    [![딥러닝의 기본 개념](/img/deep-neural-nets-for-everyone.png)](https://www.youtube.com/watch?v=n7DNueHGkqE)
+
+  - [밑바닥부터 시작하는 딥러닝 도서 학습하기](https://nbviewer.jupyter.org/github/sungalex/deep-learning-from-scratch/tree/master/) (Notebook Viewer에서 보기)
+    - [Github Repository에서 확인하기](https://github.com/sungalex/deep-learning-from-scratch/) (*Github Repository에서 직접 확인 시 Markdown으로 작성된 설명 부분이 깨져보이는 경우가 있음*)
     - Local에서 Jupyter Notebook을 통해 직접 확인하고 실행해보기 (*Github Repository를 Clone 할 폴더로 이동하여 아래 명령을 차례로 실행하기*)
 
       ~~~bash
@@ -59,11 +63,7 @@ categories: AI&QA
       ~~~
 
       - 위의 첫번째 명령은 학습할 Github Repository를 현재 폴더 아래에 deep-learning-from-scratch 이라는 폴더에 Clone 함 (폴더명을 지정하지 않으면, Repository 이름과 동일한 폴더에 Clone 함)
-      - 세번째 줄의 `jupyter notebook` 명령으로 주피터 노트북을 실행하고, 브라우저에서 "_mystudy" 폴더 아래에 있는 "03_neuralnet.ipynb" 파일을 선택하여 학습
-
-  - [딥러닝의 기본 개념](https://www.youtube.com/watch?v=n7DNueHGkqE) (*김성훈 교수님의 강의, Neural Network(신경망) 개념부터 Deep Leaning까지 체계적인 정리*)
-
-    [![딥러닝의 기본 개념](/img/deep-neural-nets-for-everyone.png)](https://www.youtube.com/watch?v=n7DNueHGkqE)
+      - 세번째 줄의 `jupyter notebook` 명령으로 주피터 노트북을 실행하고, 브라우저에서 "_mystudy" 폴더 아래에 있는 파일들을 선택하여 학습
 
 ## 딥러닝 개발환경 이해하기
 
