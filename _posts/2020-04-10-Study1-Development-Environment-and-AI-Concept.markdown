@@ -28,6 +28,7 @@ categories: AI&QA
 - AI, Machine Learning, Deep Learning을 텍스트로 정리해보면...
 
     ![ai-machinelearning-deeplearning](/img/ai-machinelearning-deeplearning.png)
+    (그림 출처: <https://blogs.nvidia.co.kr/2016/08/03/difference_ai_learning_machinelearning/>)
 
   - **AI(Artifical Intelligence)**
     - 인공지능은 인간의 지능을 갖고 있는 기능을 갖춘 컴퓨터 시스템이나 인간의 지능을 기계 등에 인공적으로 시연(구현)한 것
@@ -44,7 +45,11 @@ categories: AI&QA
     - 큰 틀에서 사람의 사고방식을 컴퓨터에게 가르치는 Machine Learning의 한 분야
     - 지금 우리가 학습하고자 하는 내용이 Deep Learning(Deep Neural Network, DNN) 기술들 임 (*딥러닝을 공부하자는 얘기~~~*)
 
-- Deep Neural Network(DNN)에 대해 알아보자!!!
+- Artificial Neural Network(ANN), Deep Neural Network(DNN)에 대해 좀더 알아보자!!!
+
+  - [인공지능, 기계학습 그리고 딥러닝 Slideshare, 이진원/SNU](https://www.slideshare.net/JinWonLee9/ss-70446412) : 8, 14~15, 23, 26~36페이지 참조
+
+  - [[머신러닝] 머신러닝?!](https://devtimes.com/bigdata/2019/01/30/machine-learning/) : 스팸필터를 만들기 위해서는... 전통적인 접근 방식 vs. 머신러닝 접근 방식... 
 
   - [딥러닝의 기본 개념](https://www.youtube.com/watch?v=n7DNueHGkqE) (*김성훈 교수님의 강의, Neural Network(신경망) 개념부터 Deep Leaning까지 체계적인 정리*)
 
