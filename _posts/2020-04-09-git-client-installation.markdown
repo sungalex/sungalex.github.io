@@ -21,7 +21,7 @@ Client 프로그램을 사용하는 것이 입니다.
 
 ## Github GUI client 설치하기
 
-[Github.com](https://github.com)에 계정에 가입 합니다.
+[Github.com](https://github.com) 계정에 가입 합니다.
 
 ![github-sign-up](/img/github-sign-up.png)
 
