@@ -9,7 +9,7 @@ categories: AI&QA
 
 ## AI/머신러닝/딥러닝 개념 이해하기
 
-- [머신러닝 vs 딥러닝 vs 인공지능? A.I. 개념정리!](https://www.youtube.com/watch?v=arbbhHyRP90) : 니콜라스의 초간단 설명, 다양한 이미지/영상을 포함하여 설명 (*인사 만 한국말... 한글 자막 있음)
+- [머신러닝 vs 딥러닝 vs 인공지능? A.I. 개념정리!](https://www.youtube.com/watch?v=arbbhHyRP90) : 니콜라스의 초간단 설명, 다양한 이미지/영상을 포함하여 설명 (*인사 만 한국말... 한글 자막 있음*)
 
   [![AI 개념정리 동영상](/img/ai-concept-youtube.png)](https://www.youtube.com/watch?v=arbbhHyRP90)
 
