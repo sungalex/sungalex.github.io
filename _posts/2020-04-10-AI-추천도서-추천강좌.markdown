@@ -31,6 +31,14 @@ scikit-learn 라이브러리, tensorflow 프레임워크를 활용한 머신러�
 
   ![핸즈온 머신러닝](/img/hands-on-machine-learning.jpg)
 
+### [핸즈온 머신러닝(2판)][link4-2] [[도서][book4-2]]
+
+머신러닝, 딥러닝 분야 핵심 개념과 이론을 이해하기 쉽게 설명한다. 사이킷런, 케라스, 텐서플로 2.0을 이용해 실전에서 바로 활용 가능한 예제로 모델을 훈련하고 신경망을 구축하는 방법을 상세하게 안내 합니다.
+
+[핸즈온 머신러닝][book4] 도서의 개정판 입니다.
+
+  ![핸즈온 머신러닝(2판)](/img/hands-on-machine-learning2.jpg)
+
 ### [파이썬 라이브러리를 활용한 머신러닝][link5] [[도서][book5]]
 
 scikit-learn의 코어 개발자이자 배포 관리자인 안드레아스 뮐러(Andreas Mueller)이 쓴 ‘Introduction to Machine Learning with Python‘의 번역서입니다.
@@ -67,12 +75,14 @@ scikit-learn의 코어 개발자이자 배포 관리자인 안드레아스 뮐�
 [link2]: https://github.com/sungalex/deep-learning-from-scratch-2
 [link3]: https://github.com/sungalex/python-machine-learning-book-2nd-edition
 [link4]: https://github.com/sungalex/handson-ml
+[link4-2]: https://github.com/sungalex/handson-ml2
 [link5]: https://github.com/sungalex/introduction_to_ml_with_python
 [link6]: https://github.com/sungalex/deep-learning-with-python-notebooks
 [book1]: http://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198
 [book2]: http://www.hanbit.co.kr/store/books/look.php?p_code=B8950212853
 [book3]: http://www.yes24.com/Product/Goods/73270768?scode=032&OzSrank=1
 [book4]: http://www.hanbit.co.kr/store/books/look.php?p_code=B9267655530
+[book4-2]: http://www.hanbit.co.kr/store/books/look.php?p_code=B7033438574
 [book5]: http://www.yes24.com/Product/Goods/42806875
 [book6]: http://www.yes24.com/Product/goods/65050162?scode=029
 [google]: https://developers.google.com/machine-learning/crash-course/?hl=ko
