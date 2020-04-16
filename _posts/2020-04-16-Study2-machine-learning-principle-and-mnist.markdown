@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Study2] 머신러닝 Hello World!!! MNIST 따라하기"
+title:  "[Study2] 머신러닝 Hello World!!! MNIST 문자 인식"
 date:   2020-04-16 22:00:00 +0900
 categories: AI&QA
 ---
