@@ -20,4 +20,4 @@ categories: AI&QA
 - 모델 평가
 - 예측
 
-## MNIST 따라 하기
+## MNIST 문자 인식
