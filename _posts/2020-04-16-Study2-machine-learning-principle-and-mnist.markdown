@@ -21,3 +21,10 @@ categories: AI&QA
 - 예측
 
 ## MNIST 문자 인식
+
+- Tensorflow MNIST 초급
+  - <https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/beginners/>
+  - <https://www.tensorflow.org/tutorials/quickstart/beginner>
+- Tensorflow MNIST 고급
+  - <https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/pros/>
+  - <https://www.tensorflow.org/tutorials/quickstart/advanced>
