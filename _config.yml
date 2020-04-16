@@ -29,8 +29,6 @@ github_username:  sungalex
 
 # Build settings
 markdown: kramdown
-kramdown:
-  line_width: 100
 theme: minima
 plugins:
   - jekyll-feed
