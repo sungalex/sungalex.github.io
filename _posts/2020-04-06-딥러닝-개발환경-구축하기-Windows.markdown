@@ -53,7 +53,7 @@ Anaconda를 통해 Arrary 연산 패키지 넘파이(NumPy), 행렬 데이터 �
 
 [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)에 접속하여 Anaconda를 다운로드 합니다.
 
-![anaconda download](/img/anaconda-download.png)
+![anaconda download](/img/dev_env/anaconda-download.png)
 
 다운로드 된 파일을 실행하여 설치합니다.
 
@@ -62,7 +62,7 @@ Installation Type 선택 화면에서는 Default로 선택된 "Just Me (recommen
 
 Python 개발 환경을 처음 설치 하는 경우는, 아래 선택 화면에서 체크박스 2개를 모두 체크 후 Install을 선택 합니다. (Python이 기 설치되어 있는 경우는 "Add Anaconda to the system PATH..." 항목을 체크하면 충돌이 발생할 수 있습니다.)
 
-![anaconda install](/img/anaconda-install.png)
+![anaconda install](/img/dev_env/anaconda-install.png)
 
 윈도우10 아나콘다 설치 세부과정은 [아나콘다(Anaconda) 설치 하기 on Windows](https://wonderbout.tistory.com/22) 사이트를 참고 하세요.
 
@@ -106,7 +106,7 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
 
 [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)에서 64bit Installer 버전을 다운로드 하여 설치 합니다.
 
-![vscode download](/img/vscode-download.png)
+![vscode download](/img/dev_env/vscode-download.png)
 
 -----
 <br>
@@ -115,7 +115,7 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
 
 머신러닝/딥러닝 학습을 위해서는 고속의 병렬처리가 필요하며, GPU(Graphics Processing Unit, 비디오 카드)가 고속의 병렬처리를 수행하는 장치 입니다.
 
-![CPU vs. GPU](/img/cpu-gpu.jpg)
+![CPU vs. GPU](/img/dev_env/cpu-gpu.jpg)
 
 딥러닝 프레임워크를 지원하는 CUDA, cuDNN를 설치하기 위해서는 NVIDIA GPU가 필요 합니다.
 
@@ -123,11 +123,11 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
 
 - 내 PC에 장착된 GPU 모델 확인 : "윈도우키+X" > 장치관리자 클릭 > 디스플레이 어댑터 클릭 > 모델명 확인
 
-![Device Manager](/img/win-device-manager.png)
+![Device Manager](/img/dev_env/win-device-manager.png)
 
 - 내 GPU가 CUDA 툴킷을 활용할 수 있는지 <https://developer.nvidia.com/cuda-gpus>에서 확인 합니다.
 
-![Cuda Enabled](/img/nvidia-cuda-enabled.png)
+![Cuda Enabled](/img/dev_env/nvidia-cuda-enabled.png)
 
 -----
 <br>
@@ -141,7 +141,7 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
   - 현재 설치하려는 딥러닝 라이브러리와 호환되는 버전을 설치해야 합니다.
   - 설치할 Tensorflow 버전(1.x, 2.x)과 호환되는 버전을 다운로드 합니다. (가장 최신 버전이 설치하는 것이 아니고, GPU 모델 및 설치할 딥러닝 라이브러리 버전과 호환되는 버전을 설치해야 합니다. 여기서는 10.0을 선택 합니다.)
 
-![Cuda Toolkit Download](/img/CUDA-toolkit-download.png)
+![Cuda Toolkit Download](/img/dev_env/CUDA-toolkit-download.png)
 
 - 자세한 사항은 [NVIDIA CUDA INSTALLATION GUIDE FOR MICROSOFT WINDOWS](https://developer.download.nvidia.com/compute/cuda/10.0/Prod/docs/sidebar/CUDA_Installation_Guide_Windows.pdf) 와 [CUDA QUICK START GUIDE](https://developer.download.nvidia.com/compute/cuda/10.0/Prod/docs/sidebar/CUDA_Quick_Start_Guide.pdf) 문서를 참고 합니다.
 
@@ -160,7 +160,7 @@ CUDA를 설치한 이후 진행 합니다.
   - CUDA 버전과 호환되는 cuDNN 버전을 선택하여 다운로드 합니다.
   - 낮은 버전의 cuDNN은 [Archived cuDNN Releases](https://developer.nvidia.com/rdp/cudnn-archive) 사이트에서 다운로드 할 수 있습니다. (CUDA 10.0을 설치한 경우 cuDNN 7.4.2 for CUDA 10.0을 선택 합니다.)
 
-![cuDNN Download](/img/cuDNN-download.png)
+![cuDNN Download](/img/dev_env/cuDNN-download.png)
 
 -----
 <br>
