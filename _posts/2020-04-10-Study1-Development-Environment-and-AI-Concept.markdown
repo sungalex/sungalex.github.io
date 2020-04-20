@@ -11,23 +11,23 @@ categories: AI&QA
 
 - [머신러닝 vs 딥러닝 vs 인공지능? A.I. 개념정리!](https://www.youtube.com/watch?v=arbbhHyRP90) : 니콜라스의 초간단 설명, 다양한 이미지/영상을 포함하여 설명 (*인사 만 한국말... 한글 자막 있음*)
 
-  [![AI 개념정리 동영상](/img/ai-concept-youtube.png)](https://www.youtube.com/watch?v=arbbhHyRP90)
+  [![AI 개념정리 동영상](/img/study1/ai-concept-youtube.png)](https://www.youtube.com/watch?v=arbbhHyRP90)
 
 - [김형진님 유튜브 영상 보기](https://www.youtube.com/watch?v=aF03asAmQbY) : 우버 머신러닝 엔지니어가 실제 현업 엔지니어 관점에서 설명
 
-  [![김형진 유튜브](/img/hjkim-uber-ml.png)](https://www.youtube.com/watch?v=aF03asAmQbY)
+  [![김형진 유튜브](/img/study1/hjkim-uber-ml.png)](https://www.youtube.com/watch?v=aF03asAmQbY)
 
 - [Raj Ramesh 유튜브 영상 보기](https://www.youtube.com/watch?v=2ePf9rue1Ao) : AI 분류에 대해 그림으로 설명 (*그림 그리는 실력이 대단함. 배우고 싶네... 한글 자막이 없어서 아쉬움*)
 
-  [![what-is-ai](/img/what-is-ai.jpg)](https://www.youtube.com/watch?v=2ePf9rue1Ao)
+  [![what-is-ai](/img/study1/what-is-ai.jpg)](https://www.youtube.com/watch?v=2ePf9rue1Ao)
 
 - [김성훈 교수님의 유튜브 영상 보기](https://www.youtube.com/watch?v=qPMeuL2LIqY) : 교수님 답게 이론적인 설명에 충실함 (*재미는 없음!!!*)
 
-  [![김성운 유튜브](/img/hunkim-ml-basics.png)](https://www.youtube.com/watch?v=qPMeuL2LIqY)
+  [![김성운 유튜브](/img/study1/hunkim-ml-basics.png)](https://www.youtube.com/watch?v=qPMeuL2LIqY)
 
 - AI, Machine Learning, Deep Learning을 텍스트로 정리해보면...
 
-    ![ai-machinelearning-deeplearning](/img/ai-machinelearning-deeplearning.png)
+    ![ai-machinelearning-deeplearning](/img/study1/ai-machinelearning-deeplearning.png)
     (그림 출처: <https://blogs.nvidia.co.kr/2016/08/03/difference_ai_learning_machinelearning/>)
 
   - **AI(Artifical Intelligence)**
@@ -53,7 +53,7 @@ categories: AI&QA
 
   - [딥러닝의 기본 개념](https://www.youtube.com/watch?v=n7DNueHGkqE) (*김성훈 교수님의 강의, Neural Network(신경망) 개념부터 Deep Leaning까지 체계적인 정리*)
 
-    [![딥러닝의 기본 개념](/img/deep-neural-nets-for-everyone.png)](https://www.youtube.com/watch?v=n7DNueHGkqE)
+    [![딥러닝의 기본 개념](/img/study1/deep-neural-nets-for-everyone.png)](https://www.youtube.com/watch?v=n7DNueHGkqE)
 
   - [밑바닥부터 시작하는 딥러닝 도서 학습하기](https://nbviewer.jupyter.org/github/sungalex/deep-learning-from-scratch/tree/master/) (Notebook Viewer에서 보기)
     - [Github Repository에서 확인하기](https://github.com/sungalex/deep-learning-from-scratch/) (*Github Repository에서 직접 확인 시 Markdown으로 작성된 설명 부분이 깨져보이는 경우가 있음*)
