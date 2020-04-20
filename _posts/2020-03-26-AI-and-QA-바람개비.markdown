@@ -9,7 +9,7 @@ categories: AI&QA
 
 - Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [Study Day1 자료][day1]
 - AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료][day1]
-- 머신러닝 Hello World!!! MNIST 문자 인식 : [Study Day2 자료][day2]
+- 머신러닝 Hello World!!! MNIST 문자 인식 : Study Day2 [자료1][day2-1], [자료2][day2-2] 
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
   - Machine Learning Cheat Key, Python !!!
   - Data Science Python Library : numpy, pandas, matplotlib
@@ -33,4 +33,5 @@ categories: AI&QA
   - Deep Learning Models : CNN, RNN, BERT, GAN, ...
 
 [day1]: https://sungalex.github.io/ai&qa/2020/04/09/Study1-Development-Environment-and-AI-Concept.html
-[day2]: https://sungalex.github.io/ai&qa/2020/04/16/Study2-machine-learning-principle-and-mnist.html
+[day2-1]: https://sungalex.github.io/ai&qa/2020/04/16/Study2-machine-learning-principle.html
+[day2-2]: https://sungalex.github.io/ai&qa/2020/04/20/Study2-machine-learning-hello-world-MNIST.html
