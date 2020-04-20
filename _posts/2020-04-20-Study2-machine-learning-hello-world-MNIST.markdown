@@ -5,6 +5,8 @@ date:   2020-04-21 01:45:00 +0900
 categories: AI&QA
 ---
 
+*[AI와 QA의 만남] - Study Day2 (학습일: '20.04.21)*
+
 ## Tensorflow MNIST 초급
 
 - <https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/beginners/>
