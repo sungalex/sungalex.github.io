@@ -11,25 +11,25 @@ categories: AI&ASR AI&NLP AI&QA AI&Vision Developer Python
 
 기본적인 딥러닝 이론을 소개 합니다. 딥러닝을 프레임워크 도움 없이 밑바닥 부터 구현해봅니다.(이론적인 토대를 쌓을 수 있습니다.)
 
-  ![밑바닥 부터 시작하는 딥러닝](/img/deep-learning-from-scratch.jpg)
+  ![밑바닥 부터 시작하는 딥러닝](/img/books/deep-learning-from-scratch.jpg)
 
 ### [밑바닥 부터 시작하는 딥러닝2][link2] [[도서][book2]]
 
 밑바닥 부터 시작하는 딥러닝의 속편 입니다. 자연어 처리가 추가 되었습니다.
 
-  ![밑바닥 부터 시작하는 딥러닝2](/img/deep-learning-from-scratch2.png)
+  ![밑바닥 부터 시작하는 딥러닝2](/img/books/deep-learning-from-scratch2.png)
 
 ### [머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로][link3] [[도서][book3]]
 
 파이썬 필수 라이브러리와 사이킷런을 이용한 머신러닝/딥러닝 기본 개념을 소개하고, tensorflow를 이용해 CNN(합성곱 신경망 영상처리), RNN(순환 신경망 자연어 처리)을 구현해 봅니다.
 
-  ![머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로](/img/python-machine-learning.jpg)
+  ![머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로](/img/books/python-machine-learning.jpg)
 
 ### [핸즈온 머신러닝][link4] [[도서][book4]]
 
 scikit-learn 라이브러리, tensorflow 프레임워크를 활용한 머신러닝를 활용해 프로그램을 실제 구현하기 위해 필요한 개념과 도구를 설명 합니다.
 
-  ![핸즈온 머신러닝](/img/hands-on-machine-learning.jpg)
+  ![핸즈온 머신러닝](/img/books/hands-on-machine-learning.jpg)
 
 ### [핸즈온 머신러닝(2판)][link4-2] [[도서][book4-2]]
 
@@ -37,19 +37,19 @@ scikit-learn 라이브러리, tensorflow 프레임워크를 활용한 머신러�
 
 [핸즈온 머신러닝][book4] 도서의 개정판 입니다.
 
-  ![핸즈온 머신러닝(2판)](/img/hands-on-machine-learning2.jpg)
+  ![핸즈온 머신러닝(2판)](/img/books/hands-on-machine-learning2.jpg)
 
 ### [파이썬 라이브러리를 활용한 머신러닝][link5] [[도서][book5]]
 
 scikit-learn의 코어 개발자이자 배포 관리자인 안드레아스 뮐러(Andreas Mueller)이 쓴 ‘Introduction to Machine Learning with Python‘의 번역서입니다.
 
-  ![파이썬 라이브러리를 활용한 머신러닝](/img/machine-learning-with-python.jpg)
+  ![파이썬 라이브러리를 활용한 머신러닝](/img/books/machine-learning-with-python.jpg)
 
 ### [케라스 창시자에게 배우는 딥러닝][link6] [[도서][book6]]
 
 케라스 창시자이자 구글 AI 연구원인 프랑소와 숄레(François Chollet)의 “Deep Learning with Python“의 번역서입니다.
 
-  ![케라스 창시자에게 배우는 딥러닝](/img/keras-deep-learning.jpg)
+  ![케라스 창시자에게 배우는 딥러닝](/img/books/keras-deep-learning.jpg)
 
 <br>
 
