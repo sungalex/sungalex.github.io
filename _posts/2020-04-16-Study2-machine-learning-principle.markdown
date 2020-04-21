@@ -42,7 +42,7 @@ categories: AI&QA
 
   - Deep Learning은 Deep Neural Network을 통하여 학습하는 것을 의미한다.
   - Hidden Layer 수가 2 이상인 경우를 딥러닝이라 한다.
-  - 노든 간을 연결하는 각 라인이 하나의 파라미터를 가지고 있으므로, 학습해야 할 가중치(Weight값)이 괭장이 많다. 
+  - 노드 간을 연결하는 각 라인이 하나의 파라미터를 가지고 있으므로, 학습해야 할 가중치(Weight값)이 괭장이 많다. 
 
 - Gradient Descent & Back Propagation
 
@@ -51,8 +51,7 @@ categories: AI&QA
   - 손실 함수를 사용하여 가중치(Weight)를 조정한다.
   - 손실 함수를 미분하여 기울기를 계산하고, 기울기가 0에 가까워지는 방향으로 가중치를 조정(+ or -) 한다.
   - 이 방법을 경사하강법(Gradient Descent) 이라 한다.
-  - Y의 예측값으로 부터 입력 데이터 방향으로 모든 가중치 값을 경사하강법(Gradient Descent)을 사용하여 조정한다.
-  - 이 과정을 오차역전파(Back Propagation of Error) 이라 한다.
+  - Y의 예측값으로 부터 입력 데이터 방향으로 모든 가중치 값을 경사하강법을 사용하여 조정한다. 이 과정을 오차역전파(Back Propagation of Error)라 한다.
 
 - Vanishing Gradient 문제
 
