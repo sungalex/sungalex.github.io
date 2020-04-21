@@ -33,7 +33,7 @@ categories: AI&QA
 
   ![Sigmoid](/img/study2/Logical_AND_Sigmoid.png)
 
-  - 출력 값이 Threshold를 넘어서는지 판단하기 위해 사용하는 함수가 활성화 합수이며, 초창기에는 Sigmoid 함수(S자 모향의 함수)를 사용했다.
+  - 출력 값이 Threshold를 넘어서는지 판단하기 위해 사용하는 함수가 활성화 합수이며, 초창기에는 Sigmoid 함수(S자 모양의 함수)를 사용했다.
   - 활성화 함수는 1차 함수를 사용하면 Layer(층)을 Deep 하게 쌓는 의미가 없다.
 
 - 딥러닝
