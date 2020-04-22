@@ -42,7 +42,7 @@ categories: AI&QA
 
   - Deep Learning은 Deep Neural Network을 통하여 학습하는 것을 의미한다.
   - Hidden Layer 수가 2 이상인 경우를 딥러닝이라 한다.
-  - 노드 간을 연결하는 각 라인이 하나의 파라미터를 가지고 있으므로, 학습해야 할 가중치(Weight값)이 굉장이 많아진다. 
+  - 노드 간을 연결하는 각 라인이 하나의 파라미터를 가지고 있으므로, 층이 깊게 할수록 학습해야 할 가중치(Weight)가 많아진다. 
 
 - Gradient Descent & Back Propagation
 
