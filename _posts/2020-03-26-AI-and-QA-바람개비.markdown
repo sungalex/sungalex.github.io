@@ -12,7 +12,7 @@ categories: AI&QA
 - 딥러닝 작동 원리 이해하기 : [Study Day2 자료[2-1]][day2-1]
 - 머신러닝 Hello World!!! MNIST 문자 인식 : [Study Day2 자료[2-2]][day2-2] 
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
-  - Machine Learning Cheat Key, Python !!!
+  - Machine Learning Cheat Key, Python !!! : [점프 투 파이썬](https://sungalex.github.io/python/2020/03/31/Jump-to-Python.html), [회오리바람을 탄 파이썬](https://sungalex.github.io/python/2020/04/06/WhirlwindTourOfPython.html)
   - Data Science Python Library : numpy, pandas, matplotlib
 
 ## (M2) Machine Learning & Deep Learning 따라하기
