@@ -5,7 +5,7 @@ date:   2020-04-21 01:45:00 +0900
 categories: AI&QA
 ---
 
-*[AI와 QA의 만남] - Study Day2 (학습일: '20.04.21)*
+*[AI와 QA의 만남] - Study Day2 (학습일: '20.04.21, update: '20.04.26)*
 
 ## Tensorflow MNIST 초급
 
