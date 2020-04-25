@@ -9,10 +9,6 @@ categories: AI&QA
 
 ## Tensorflow MNIST 초급
 
-- <https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/beginners/>
-- <https://www.tensorflow.org/tutorials/quickstart/beginner>
+- 텐서플로우 문서 한글 번역본 : [튜토리얼 - MNIST 초급 (텐서플로우 1.x 버전)](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/beginners/)
 
-## Tensorflow MNIST 고급
-
-- <https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/pros/>
-- <https://www.tensorflow.org/tutorials/quickstart/advanced>
+- 텐서플로우 튜토리얼 : [텐서플로 2.0 시작하기: 초보자용](https://www.tensorflow.org/tutorials/quickstart/beginner)
