@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Study1] 딥러닝 개발환경 & AI/머신러닝/딥러닝 개념 이해하기"
+title:  "[Study1] AI/머신러닝/딥러닝 개념 이해하기"
 date:   2020-04-10 02:00:00 +0900
 categories: AI&QA
 ---
@@ -45,7 +45,7 @@ categories: AI&QA
     - 큰 틀에서 사람의 사고방식을 컴퓨터에게 가르치는 Machine Learning의 한 분야
     - 지금 우리가 학습하고자 하는 내용이 Deep Learning(Deep Neural Network, DNN) 기술들 임 (*딥러닝을 공부하자는 얘기~~~*)
 
-- Artificial Neural Network(ANN), Deep Neural Network(DNN)에 대해 좀더 알아보자!!!
+## Artificial Neural Network(ANN), Deep Neural Network(DNN)에 대해 좀더 알아보자!!!
 
   - [인공지능, 기계학습 그리고 딥러닝 Slideshare, 이진원/SNU](https://www.slideshare.net/JinWonLee9/ss-70446412) : 8, 14~15, 23, 26~36페이지 참조
 
@@ -69,20 +69,6 @@ categories: AI&QA
 
       - 위의 첫번째 명령은 학습할 Github Repository를 현재 폴더 아래에 deep-learning-from-scratch 이라는 폴더에 Clone 함 (폴더명을 지정하지 않으면, Repository 이름과 동일한 폴더에 Clone 함)
       - 세번째 줄의 `jupyter notebook` 명령으로 주피터 노트북을 실행하고, 브라우저에서 "_mystudy" 폴더 아래에 있는 파일들을 선택하여 학습
-
-## 딥러닝 개발환경 이해하기
-
-- [딥러닝 개발환경 구축하기](https://sungalex.github.io/developer/2020/04/06/딥러닝-개발환경-구축하기-Windows.html#ide(visual-studio-code)-설치하기)
-
-- [Jupyter Notebook 기본 사용법](https://greeksharifa.github.io/references/2019/01/26/Jupyter-usage/#jupyter의-기본-사용법)
-
-- [Google Colab(코랩) 환경설정 및 사용법](https://theorydb.github.io/dev/2019/08/23/dev-ml-colab/)
-
-- [파이썬 초심자를 위한 PIP 그리고 Virtualenv 소개](https://medium.com/@dan_kim/파이썬-초심자를-위한-pip-그리고-virtualenv-소개-a53512fab3c2)
-
-- [Docker란 무엇입니까?](https://aws.amazon.com/ko/docker/)
-
-- [초보를 위한 도커 안내서](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 
 ## 추천 도서 및 추천 강좌
 
