@@ -5,15 +5,15 @@ date:   2020-03-26 11:08:00 +0900
 categories: AI&QA
 ---
 
+*(created: '20.03.26, last-updated: '20.04.28)*
+
 ## (M1) AI 기본부터 알아보자
 
 - Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [Study Day1 자료][day1]
 - AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료][day1]
 - 딥러닝 작동 원리 이해하기 : [Study Day2 자료[2-1]][day2-1]
 - 머신러닝 Hello World!!! MNIST 문자 인식 : [Study Day2 자료[2-2]][day2-2] 
-- 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
-  - Machine Learning Cheat Key, Python !!! : [점프 투 파이썬](https://sungalex.github.io/python/2020/03/31/Jump-to-Python.html), [회오리바람을 탄 파이썬](https://sungalex.github.io/python/2020/04/06/WhirlwindTourOfPython.html)
-  - Data Science Python Library : numpy, pandas, matplotlib
+- Machine Learning Cheat-Key! Python and 필수 라이브러리 : [Study Day3 자료][day3]
 
 ## (M2) Machine Learning & Deep Learning 따라하기
 
@@ -36,3 +36,4 @@ categories: AI&QA
 [day1]: https://sungalex.github.io/ai&qa/2020/04/09/Study1-Development-Environment-and-AI-Concept.html
 [day2-1]: https://sungalex.github.io/ai&qa/2020/04/16/Study2-machine-learning-principle.html
 [day2-2]: https://sungalex.github.io/ai&qa/2020/04/20/Study2-machine-learning-hello-world-MNIST.html
+[day3]: https://sungalex.github.io/ai&qa/python/2020/04/28/Study3-Python-and-numpy-matplotlib.html
