@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Study3] Python Fundamentals and Basic Librarys"
+title:  "[Study3] Python Fundamentals and 필수 라이브러리"
 date:   2020-04-28 10:15:00 +0900
 categories: AI&QA Python
 ---
@@ -22,9 +22,9 @@ categories: AI&QA Python
 - [회오리바람을 탄 파이썬(A Whirlwind Tour of Python)](https://sungalex.github.io/python/2020/04/06/WhirlwindTourOfPython.html) : 다른 프로그래밍 언어를 이미 알고 있는 연구자와 개발자들에게 파이썬의 핵심 요소를 빠르게 전달하기 위한 안내서 이며, 파이썬을 데이터 과학이나 과학 프로그래밍에 사용하는데 촛점을 맞춘 학습 안내서 이다. 제이크 반더플라스(Jake VanderPlas)의 원문과, 박해선 님의
 한글 번역본을 이용할 수 있다.
 
-## Python 필수 라이브러리들
+## Python 필수 라이브러리
 
-numpy, matplotlib, pandas 학습을 위해 [Hands on Machine Learning Github 사이트(박해선 님의 Github을 Fork한 Repository)](https://github.com/sungalex/handson-ml.git)를 Local로 Clone 합니다.
+numpy, matplotlib, pandas 학습을 위해 [Hands on Machine Learning Github 사이트(박해선 님의 Github을 Fork 한 Repository)](https://github.com/sungalex/handson-ml.git)를 아래 명령으로 Local로 Clone 합니다.
 
 ```bash
 git clone https://github.com/sungalex/handson-ml.git
