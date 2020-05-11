@@ -9,16 +9,16 @@ categories: AI&QA
 
 ## (M1) AI 기본부터 알아보자
 
-- Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [딥러닝 개발환경 구축하기][day0]
-- AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료][day1]
-- 딥러닝 작동 원리 이해하기 : [Study Day2 자료[2-1]][day2-1]
-- 머신러닝 Hello World!!! MNIST 문자 인식 : [Study Day2 자료[2-2]][day2-2] 
-- Machine Learning Cheat-Key! Python and 필수 라이브러리 : [Study Day3 자료][day3]
+- \[Day0\] Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [딥러닝 개발환경 구축하기][day0]
+- \[Day1\] AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료][day1]
+- \[Day2\] 딥러닝 작동 원리 이해하기 : [Study Day2 자료[2-1]][day2-1]
+- \[Day2\] 머신러닝 Hello World!!! MNIST 문자 인식 : [Study Day2 자료[2-2]][day2-2] 
+- \[Day3\] Machine Learning Cheat-Key! Python and 필수 라이브러리 : [Study Day3 자료][day3]
 
 ## (M2) Machine Learning & Deep Learning 따라하기
 
+- \[Day4\] Computer Vision(영상처리) 따라하기 : [Study Day4 자료][day4]
 - Natural Language Processing(자연어처리) 따라하기
-- Computer Vision(영상처리) 따라하기
 - ASR/STT(음성 문자 변환) 따라하기 (Machine Learning API 서비스 사용해보기)
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
   - 공공데이터 활용하기
@@ -38,3 +38,4 @@ categories: AI&QA
 [day2-1]: https://sungalex.github.io/ai&qa/2020/04/16/Study2-machine-learning-principle.html
 [day2-2]: https://sungalex.github.io/ai&qa/2020/04/20/Study2-machine-learning-hello-world-MNIST.html
 [day3]: https://sungalex.github.io/ai&qa/python/2020/04/28/Study3-Python-and-numpy-matplotlib.html
+[day4]: https://sungalex.github.io/ai&qa/ai&vision/2020/05/11/Study4-Computer-Vision-and-CNN.html
