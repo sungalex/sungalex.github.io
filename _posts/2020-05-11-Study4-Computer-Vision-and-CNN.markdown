@@ -42,6 +42,10 @@ CNN을 Study 하는데 참고할 사이트는;
 
 ## CNN 따라하기
 
-[deep-learning-from-scratch Github Repository](https://github.com/sungalex/deep-learning-from-scratch.git)를 Clone 해서 Jupyter Notebook에서 **`_mystudy`** 폴더의 **`07_CNN.ipynb`** 파일 내용을 따라해본다. 
+[deep-learning-from-scratch Github Repository](https://github.com/sungalex/deep-learning-from-scratch.git)를 Clone 해서 Jupyter Notebook에서 `_mystudy` 폴더의 `07_CNN.ipynb` 파일 내용을 따라해본다. 
 
-- [deep-learning-from-scratch - CNN 코드 보기](https://github.com/sungalex/deep-learning-from-scratch/blob/master/_mystudy/07_CNN.ipynb) : CNN에 대한 설명도 포함되어 있다
+- [deep-learning-from-scratch - CNN 코드 보기](https://github.com/sungalex/deep-learning-from-scratch/blob/master/_mystudy/07_CNN.ipynb) : "밑바닥부터 시작하는 딥러닝" 도서에 포함된 CNN에 대한 설명이 요약되어 있다.
+
+위의 코드는 함수를 직접 구현해보면 CNN을 이해하는데는 도움이 되지만, 실제는 아래와 같이 Tensorflow를 사용하면 훨씬 쉽게 더 좋은 결과를 만들 수 있다. (최적화된 알고리즘을 사용하여 훨씬 성능이 좋다)
+
+- [Tensorflow 튜토리얼: 합성곱 신경망](https://www.tensorflow.org/tutorials/images/cnn) : MNIST 데이터셋에 대해 tf.keras.Sequential 모델을 사용했을 때 보다 더 좋은 결과를 보여준다. (tf.keras.Sequential 모델을 사용하는 [Tensorflow MNIST 튜토리얼](https://www.tensorflow.org/tutorials/quickstart/beginner)과 비교해본다)
