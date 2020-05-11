@@ -9,6 +9,9 @@ categories: AI&Vision
 
 - Computer Vision은 ...
 - CNN 이란 ...
+  - <https://kr.mathworks.com/solutions/deep-learning/convolutional-neural-network.html>
+  - <http://aikorea.org/cs231n/convolutional-networks/>
+  - <https://umbum.dev/223>
 
 ## CNN 따라하기
 
