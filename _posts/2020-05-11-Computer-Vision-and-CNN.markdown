@@ -7,6 +7,9 @@ categories: AI&Vision
 
 ## Computer Vision & CNN 개요
 
+- Computer Vision은 ...
+- CNN 이란 ...
+
 ## CNN 따라하기
 
 - [deep-learning-from-scratch : CNN](https://github.com/sungalex/deep-learning-from-scratch/blob/master/_mystudy/07_CNN.ipynb)
