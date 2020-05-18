@@ -53,6 +53,10 @@ categories: AI&QA AI&NLP
   - 출현 횟수를 세는 방법 : SVD(LSA)
   - 단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법 : Word2Vec
 
+### 한국어 형태소 분석기와 말뭉치들
+
+[KoNLPy](https://konlpy.org/ko/latest/) 홈페이지의 [참고문헌](https://konlpy.org/ko/v0.4.3/references/) 페이지에 다양한 언어로 구현된 형태소 분석기, 말뭉치 및 NLP 도구들의 링크가 정리되어 있습니다.
+
 ### [KoNLPy(코엔엘파이)](https://konlpy.org/ko/latest/)
 
 KoNLPY는 한국어 정보처리를 위한 파이썬 패키지 입니다.
@@ -61,18 +65,15 @@ KoNLPY는 한국어 정보처리를 위한 파이썬 패키지 입니다.
   - OS와 비트 수가 일치하고, 버젼이 1.7 이상인 [자바(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)가 설치되어 있어야 합니다. [JAVA_HOME을 설정](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html) 합니다.
 
   - Python Java 라이브러리를 설치 합니다.
-    """bash
+  
+    ```bash
     pip install JPype1-0.5.7-cp27-none-win_amd64.whl
-    """
+    ```
 
   - KoNLPy 패키지를 설치 합니다.
-    """bash
+  
+    ```bash
     pip install konlpy
-    """
+    ```
 
 - KoNLPy 사용 예시 : [워드클라우드 그리기](https://konlpy.org/ko/latest/examples/wordcloud/)
-
-
-### 한국어 형태소 분석기와 말뭉치
-
-[KoNLPy](https://konlpy.org/ko/latest/) 홈페이지의 [참고문헌](https://konlpy.org/ko/v0.4.3/references/) 페이지에 다양한 언어로 구현된 형태소 분석기, 말뭉치 및 NLP 도구들의 링크가 정리되어 있습니다.
