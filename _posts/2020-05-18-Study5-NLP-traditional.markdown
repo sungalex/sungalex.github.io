@@ -59,7 +59,7 @@ categories: AI&QA AI&NLP
 
 ### [KoNLPy(코엔엘파이)](https://konlpy.org/ko/latest/)
 
-KoNLPY는 한국어 정보처리를 위한 파이썬 패키지 입니다.
+KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
 
 - 설치방법
   - OS와 비트 수가 일치하고, 버젼이 1.7 이상인 [자바(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)가 설치되어 있어야 합니다. [JAVA_HOME을 설정](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html) 합니다.
