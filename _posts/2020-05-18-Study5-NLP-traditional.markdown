@@ -23,6 +23,7 @@ categories: AI&QA AI&NLP
 
 - **형태소 분석** : 토큰 분리, 어간 추출, 품사 부착, 색인, 벡터화
   - 입력된 문장을 형태소 단위로 분류하고 품사를 부착
+  - 형태소를 비롯하여, 어근, 접두사/접미사, 품사(POS, part-of-speech) 등 다양한 언어적 속성의 구조를 파악하는 것
 - **구문 분석** : 문장 경계 인식, 구문분석, 공기어, 개체명 사전 구축(PLOT, 수치, 외국어 한글 표기), 개체명 인식
   - 주어, 목적어, 서술어와 같은 구문단위를 찾음
 - **의미 분석** : 대용어 해소(대명사, 두문자어, 약어, 수치), 의미 중의성 해결(동명이인 ,이명이인)
@@ -38,18 +39,17 @@ categories: AI&QA AI&NLP
 - 문장 : 완결된 내용을 나타내는 최소 단위
 - 어절 : 문장을 구성하는 단위 (주어, 서술어, 관형어, ...) --> 띄어쓰기 단위
 - 단어 : 어절을 구성하는 요소 --> 형태소의 조합으로 구성되어 있음 (관형사, 명사, 조사, 동사) --> 품사를 붙일 수 있는 단위
-- 형태소 : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리) --> 형식 형태소(분석에 불필요)와 의존 형태소(분석에 사용)로 구분
-- 형태소 분석 : 형태소를 비롯하여, 어근, 접두사/접미사, 품사(POS, part-of-speech) 등 다양한 언어적 속성의 구조를 파악하는 것
-- POS(Part-of-Speech) Tagging : 품사 태깅은 형태소의 뜻과 문맥을 고려하여 그것에 마크업을 하는 일
-- 코퍼스(Corpus, 말뭉치) : 
-- Tokenizing(토큰화) : 
-- Word Embedding : 
+- 형태소 : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리)
+- 코퍼스(Corpus, 말뭉치) : 자연언어 연구를 위해 특정한 목적을 가지고 언어의 표본을 추출한 집합이다. 언어의 빈도와 분포를 확인할 수 있는 자료이며, 현대 언어학 연구에 필수적인 자료이다. '컴퓨터로 분석하기에 용이하도록 "잘" 모아둔 다량의 텍스트 데이터' 이다
+- Tokenizing(토큰화) : 주어진 코퍼스(corpus)에서 토큰(token)이라 불리는 단위로 나누는 작업을 토큰화(tokenization)라고 부릅니다. 토큰의 단위가 상황에 따라 다르지만, 보통 의미있는 단위로 토큰을 정의합니다. 단어 토큰화(Word Tokenization), 문장 토큰화(Sentence Tokenization), 품사 태깅(Part-of-speech tagging)
+- POS(Part-of-Speech) Tagging : 품사 태깅은 형태소의 뜻과 문맥을 고려하여 그것에 마크업을 하는 일. 단어 토큰화 과정에서 각 단어가 어떤 품사로 쓰였는지를 구분해놓는 일
 
 ## 전통적인(통계적 기법을 이용한) 자연어처리
 
 ### 언어의 벡터 표현
 
 - 분포 가설 : 비슷한 문맥을 가진 단어는 비슷한 의미를 갖는다. (현대의 통계적 자연어 처리에서 사용하는 기본 가설)
+- Word Embedding : 워드 임베딩(Word Embedding)은 단어를 벡터로 표현하는 것을 말합니다. 워드 임베딩은 단어를 밀집 표현으로 변환하는 방법을 말합니다.
   - 출현 횟수를 세는 방법 : SVD(LSA)
   - 단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법 : Word2Vec
 
@@ -64,16 +64,22 @@ KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
 - 설치방법
   - OS와 비트 수가 일치하고, 버젼이 1.7 이상인 [자바(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)가 설치되어 있어야 합니다. [JAVA_HOME을 설정](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html) 합니다.
 
-  - Python Java 라이브러리를 설치 합니다.
+  - Python Java 라이브러리(JPype)를 설치 합니다. 설치된 Python 버전에 맞는 JPype를 다운로드 후, 다운로드 한 JPype 파일이 있는 폴더에서 아래 명령으로 설치 합니다.
   
     ```bash
-    pip install JPype1-0.5.7-cp27-none-win_amd64.whl
+    pip install JPype1-0.7.5-cp36-cp36m-win_amd64.whl
     ```
 
   - KoNLPy 패키지를 설치 합니다.
   
     ```bash
     pip install konlpy
+    ```
+
+  - pip install konlpy 실행 시 SSL 인증서 에러가 나는 경우 아래 명령을 사용하여 설치 합니다.
+
+    ```
+    pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install
     ```
 
 - KoNLPy 사용 예시 : [워드클라우드 그리기](https://konlpy.org/ko/latest/examples/wordcloud/)
