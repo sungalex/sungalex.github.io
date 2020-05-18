@@ -20,7 +20,7 @@ categories: AI&QA
 - \[Day4\] Computer Vision(영상처리) 따라하기 : [Study Day4 자료][day4]
 - \[Day5\] Natural Language Processing - 1 (자연어처리 개요) : [Study Day5 자료][day5]
 - \[Day6\] 특강 (프로젝트 사례 공유)
-- \[Day7\] Natural Language Processing - 2 (딥러닝 자연어처리 모델)
+- \[Day7\] Natural Language Processing - 2 (딥러닝 자연어처리 모델) : [Study Day7 자료][day7]
 
 ## (M3) AI 기술 활용방안을 찾아보자
 
@@ -39,3 +39,4 @@ categories: AI&QA
 [day3]: https://sungalex.github.io/ai&qa/python/2020/04/28/Study3-Python-and-numpy-matplotlib.html
 [day4]: https://sungalex.github.io/ai&qa/ai&vision/2020/05/11/Study4-Computer-Vision-and-CNN.html
 [day5]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study5-NLP-traditional.html
+[day7]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study7-NLP-DeepLearning-RNN-BERT.html
