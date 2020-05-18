@@ -12,14 +12,15 @@ categories: AI&QA AI&NLP
 우리 일상에도 다양한 NLP 응용사례가 있습니다;
   - 검색엔진과 같은 정보검색 시스템
   - 스팸 필터
-  - 온라인 광고
-  - 감정분석
+  - 감성분석
   - 맞춤법 검사
   - 텍스트 요약
   - 대화 시스템
   - 기계 번역 등
 
 ### 자연어 분석 기반 기술
+
+![자연어 처리 기술](/img/study5/NLP_process.png)
 
 - **형태소 분석** : 토큰 분리, 어간 추출, 품사 부착, 색인, 벡터화
   - 입력된 문장을 형태소 단위로 분류하고 품사를 부착
@@ -39,19 +40,61 @@ categories: AI&QA AI&NLP
 - 문장 : 완결된 내용을 나타내는 최소 단위
 - 어절 : 문장을 구성하는 단위 (주어, 서술어, 관형어, ...) --> 띄어쓰기 단위
 - 단어 : 어절을 구성하는 요소 --> 형태소의 조합으로 구성되어 있음 (관형사, 명사, 조사, 동사) --> 품사를 붙일 수 있는 단위
-- 형태소 : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리)
+- 형태소(Morpheme) : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리)
+
+  ![어절_단어_형태소](/img/study5/어절_단어_형태소.png)
+  참조: <https://www.korean.go.kr/nkview/nklife/2017_4/27_0401.pdf>
+
 - 코퍼스(Corpus, 말뭉치) : 자연언어 연구를 위해 특정한 목적을 가지고 언어의 표본을 추출한 집합이다. 언어의 빈도와 분포를 확인할 수 있는 자료이며, 현대 언어학 연구에 필수적인 자료이다. '컴퓨터로 분석하기에 용이하도록 "잘" 모아둔 다량의 텍스트 데이터' 이다
-- Tokenizing(토큰화) : 주어진 코퍼스(corpus)에서 토큰(token)이라 불리는 단위로 나누는 작업을 토큰화(tokenization)라고 부릅니다. 토큰의 단위가 상황에 따라 다르지만, 보통 의미있는 단위로 토큰을 정의합니다. 단어 토큰화(Word Tokenization), 문장 토큰화(Sentence Tokenization), 품사 태깅(Part-of-speech tagging)
-- POS(Part-of-Speech) Tagging : 품사 태깅은 형태소의 뜻과 문맥을 고려하여 그것에 마크업을 하는 일. 단어 토큰화 과정에서 각 단어가 어떤 품사로 쓰였는지를 구분해놓는 일
+- Tokenizing(토큰화) : 주어진 코퍼스(corpus)에서 토큰(token)이라 불리는 단위로 나누는 작업을 토큰화(tokenization)라고 부릅니다. 토큰의 단위가 상황에 따라 다르지만, 보통 의미있는 단위로 토큰을 정의합니다. 단어 토큰화(Word Tokenization), 문장 토큰화(Sentence Tokenization) 등
+- POS(Part-of-Speech, 품사) Tagging : 품사 태깅은 형태소의 뜻과 문맥을 고려하여 형태소에 마크업을 추가하는 일. 단어 토큰화 과정에서 각 단어가 어떤 품사로 쓰였는지를 구분해놓는 일
 
-## 전통적인(통계적 기법을 이용한) 자연어처리
+## 전통적인(통계적/확률적 기법을 이용한) 자연어처리
 
-### 언어의 벡터 표현
+### 언어의 벡터 표현 - [카운트 기반의 단어 표현](https://wikidocs.net/24557)
+  
+- Bag of Words(BoW)
 
-- 분포 가설 : 비슷한 문맥을 가진 단어는 비슷한 의미를 갖는다. (현대의 통계적 자연어 처리에서 사용하는 기본 가설)
+  Bag of Words란 단어들의 순서는 전혀 고려하지 않고, 단어들의 출현 빈도(frequency)에만 집중하는 텍스트 데이터의 수치화 표현 방법입니다. Bag of Words를 직역하면 단어들의 가방이라는 의미입니다. 단어들이 들어있는 가방을 상상해봅시다. 갖고있는 어떤 텍스트 문서에 있는 단어들을 가방에다가 전부 넣습니다. 그러고나서 이 가방을 흔들어 단어들을 섞습니다. 만약, 해당 문서 내에서 특정 단어가 N번 등장했다면, 이 가방에는 그 특정 단어가 N개 있게됩니다. 또한 가방을 흔들어서 단어를 섞었기 때문에 더 이상 단어의 순서는 중요하지 않습니다.
+
+- 문서 단어 행렬(Document-Term Matrix, DTM)
+
+  문서 단어 행렬(Document-Term Matrix, DTM)이란 다수의 문서에서 등장하는 각 단어들의 빈도를 행렬로 표현한 것을 말합니다. 쉽게 생각하면 각 문서에 대한 BoW를 하나의 행렬로 만든 것으로 생각할 수 있으며, BoW와 다른 표현 방법이 아니라 BoW 표현을 다수의 문서에 대해서 행렬로 표현하고 부르는 용어입니다.
+
+- TF-IDF(Term Frequency-Inverse Document Frequency)
+
+  TF-IDF(Term Frequency-Inverse Document Frequency)는 단어의 빈도와 역 문서 빈도(문서의 빈도에 특정 식을 취함)를 사용하여 DTM 내의 각 단어들마다 중요한 정도를 가중치로 주는 방법입니다. 사용 방법은 우선 DTM을 만든 후, TF-IDF 가중치를 부여합니다.
+  
+  TF-IDF는 주로 문서의 유사도를 구하는 작업, 검색 시스템에서 검색 결과의 중요도를 정하는 작업, 문서 내에서 특정 단어의 중요도를 구하는 작업 등에 쓰일 수 있습니다.
+
+### [Word2Vec](https://wikidocs.net/22660)
+
+단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법(확률/추론 기법) 이다.
+
+- 단어의 국소표현
+
+  ![국소표현](/img/study5/국소표현.png)
+
 - Word Embedding : 워드 임베딩(Word Embedding)은 단어를 벡터로 표현하는 것을 말합니다. 워드 임베딩은 단어를 밀집 표현으로 변환하는 방법을 말합니다.
-  - 출현 횟수를 세는 방법 : SVD(LSA)
-  - 단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법 : Word2Vec
+
+- **분포 가설 : 비슷한 문맥을 가진 단어는 비슷한 의미를 갖는다.** (현대의 통계적/확률적 자연어 처리에서 사용하는 기본 가설)
+
+- 문맥창
+
+  ![문맥창](/img/study5/문맥창.png)
+
+- 단어문맥행렬
+
+  ![단어문맥행렬](/img/study5/단어문맥행렬.png)
+
+- CBOW(Continuous Bag of Words) : 문맥으로부터 단어를 예측하는 방법
+
+  ![CBOW](/img/study5/CBOW.png)
+
+- Skip-Gram : 단어로 부터 문맥을 예측하는 방법
+
+  ![skip-gram](/img/study5/skip-gram.png)
+  참조: <https://excelsior-cjh.tistory.com/156>
 
 ### 한국어 형태소 분석기와 말뭉치들
 
@@ -84,4 +127,10 @@ KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
 
 - KoNLPy 사용 예시 : [워드클라우드 그리기](https://konlpy.org/ko/latest/examples/wordcloud/)
 
-- KoNLPy 형태소 분석, POS Tagging 실습 : [NLP Github Repository](https://github.com/sungalex/nlp.git)를 Clone 후 "lecture13-형태소분석_POS_Taggers-구문분석_구_연어_시각화.ipynb" 파일을 Jupyter Notebook에서 학습
+  ![wordcloud](/img/study5/wordcloud.png)
+
+### 자연어처리 학습 참고자료
+
+- NLP Github Repository : <https://github.com/sungalex/nlp>
+
+- KoNLPy 형태소 분석, POS Tagging 실습 : 위의 Repository에 포함된 "lecture13-형태소분석_POS_Taggers-구문분석_구_연어_시각화.ipynb" 파일을 Jupyter Notebook에서 학습
