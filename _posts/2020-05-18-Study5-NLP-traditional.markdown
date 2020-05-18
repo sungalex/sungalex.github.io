@@ -94,6 +94,7 @@ categories: AI&QA AI&NLP
 - Skip-Gram : 단어로 부터 문맥을 예측하는 방법
 
   ![skip-gram](/img/study5/skip-gram.png)
+  
   참조: <https://excelsior-cjh.tistory.com/156>
 
 ### 한국어 형태소 분석기와 말뭉치들
