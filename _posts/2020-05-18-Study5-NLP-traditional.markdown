@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "[Study5] NLP(Natural Language Processing) 개요"
+date:   2020-05-18 15:30:00 +0900
+categories: AI&QA AI&NLP
+---
+
+## NLP(Natural Language Processing)
+
+자연어 처리는 텍스트에서 의미있는 정보를 분석, 추출하고 이해하는 일련의 기술집합입니다.
+
+우리 일상에도 다양한 NLP 응용사례가 있습니다;
+  - 검색엔진과 같은 정보검색 시스템
+  - 스팸 필터
+  - 온라인 광고
+  - 감정분석
+  - 맞춤법 검사
+  - 텍스트 요약
+  - 대화 시스템
+  - 기계 번역 등
+
+### 자연어 분석 기반 기술
+
+- **형태소 분석** : 토큰 분리, 어간 추출, 품사 부착, 색인, 벡터화
+  - 입력된 문장을 형태소 단위로 분류하고 품사를 부착
+- **구문 분석** : 문장 경계 인식, 구문분석, 공기어, 개체명 사전 구축(PLOT, 수치, 외국어 한글 표기), 개체명 인식
+  - 주어, 목적어, 서술어와 같은 구문단위를 찾음
+- **의미 분석** : 대용어 해소(대명사, 두문자어, 약어, 수치), 의미 중의성 해결(동명이인 ,이명이인)
+  - 문장이 의미적으로 올바른 문장인지를 판단
+- **담화 분석(담론 분석)** : 분류, 군집, 중복, 요약, 가중치, 순위화, 토픽 모델링, 이슈 트래킹, 평판분석, 감성분석, 복합논증분석
+  - 대화 흐름상 어떤 의미를 가지는지를 찾음: 문맥 구조 분석(문장들의 연관관계), 의도분석(중의성 해소)
+
+형태소 분석, 구문 분석 분야는 어느 정도 기술이 성숙되어 있으나, 의미 분석, 담화 분석 등은 아직도 연구가 진행중인 분야입니다.
+
+### 자연어처리 용어 정의
+
+- 담화 : 문장이 연속되어 이루어지는 말의 단위, 문단
+- 문장 : 완결된 내용을 나타내는 최소 단위
+- 어절 : 문장을 구성하는 단위 (주어, 서술어, 관형어, ...) --> 띄어쓰기 단위
+- 단어 : 어절을 구성하는 요소 --> 형태소의 조합으로 구성되어 있음 (관형사, 명사, 조사, 동사) --> 품사를 붙일 수 있는 단위
+- 형태소 : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리) --> 형식 형태소(분석에 불필요)와 의존 형태소(분석에 사용)로 구분
+- 형태소 분석 : 형태소를 비롯하여, 어근, 접두사/접미사, 품사(POS, part-of-speech) 등 다양한 언어적 속성의 구조를 파악하는 것
+- POS(Part-of-Speech) Tagging : 품사 태깅은 형태소의 뜻과 문맥을 고려하여 그것에 마크업을 하는 일
+- 코퍼스(Corpus, 말뭉치) : 
+- Tokenizing(토큰화) : 
+- Word Embedding : 
+
+## 전통적인(통계적 기법을 이용한) 자연어처리
+
+### 언어의 벡터 표현
+
+- 분포 가설 : 비슷한 문맥을 가진 단어는 비슷한 의미를 갖는다. (현대의 통계적 자연어 처리에서 사용하는 기본 가설)
+  - 출현 횟수를 세는 방법 : SVD(LSA)
+  - 단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법 : Word2Vec
+
+### [KoNLPy(코엔엘파이)](https://konlpy.org/ko/latest/)
+
+KoNLPY는 한국어 정보처리를 위한 파이썬 패키지 입니다.
+
+- 설치방법
+  - OS와 비트 수가 일치하고, 버젼이 1.7 이상인 [자바(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)가 설치되어 있어야 합니다. [JAVA_HOME을 설정](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html) 합니다.
+
+  - Python Java 라이브러리를 설치 합니다.
+    """bash
+    pip install JPype1-0.5.7-cp27-none-win_amd64.whl
+    """
+
+  - KoNLPy 패키지를 설치 합니다.
+    """bash
+    pip install konlpy
+    """
+
+- KoNLPy 사용 예시 : [워드클라우드 그리기](https://konlpy.org/ko/latest/examples/wordcloud/)
+
+
+### 한국어 형태소 분석기와 말뭉치
+
+[KoNLPy](https://konlpy.org/ko/latest/) 홈페이지의 [참고문헌](https://konlpy.org/ko/v0.4.3/references/) 페이지에 다양한 언어로 구현된 형태소 분석기, 말뭉치 및 NLP 도구들의 링크가 정리되어 있습니다.
+
+## 딥러닝을 이용한 자연어처리
+
+- RNN/LSTM : [순환 신경망(RNN, Recurrent Neural Network)](https://excelsior-cjh.tistory.com/183), [RNN과 LSTM을 이해해보자!](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/)
+
+- [Transformer/BERT](https://github.com/google-research/bert)
+
+- [KoBERT](https://github.com/SKTBrain/KoBERT)
