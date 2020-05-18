@@ -43,6 +43,7 @@ categories: AI&QA AI&NLP
 - 형태소(Morpheme) : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리)
 
   ![어절_단어_형태소](/img/study5/어절_단어_형태소.png)
+  
   참조: <https://www.korean.go.kr/nkview/nklife/2017_4/27_0401.pdf>
 
 - 코퍼스(Corpus, 말뭉치) : 자연언어 연구를 위해 특정한 목적을 가지고 언어의 표본을 추출한 집합이다. 언어의 빈도와 분포를 확인할 수 있는 자료이며, 현대 언어학 연구에 필수적인 자료이다. '컴퓨터로 분석하기에 용이하도록 "잘" 모아둔 다량의 텍스트 데이터' 이다
@@ -94,7 +95,7 @@ categories: AI&QA AI&NLP
 - Skip-Gram : 단어로 부터 문맥을 예측하는 방법
 
   ![skip-gram](/img/study5/skip-gram.png)
-  
+
   참조: <https://excelsior-cjh.tistory.com/156>
 
 ### 한국어 형태소 분석기와 말뭉치들
