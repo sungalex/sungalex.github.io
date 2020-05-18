@@ -76,11 +76,3 @@ KoNLPY는 한국어 정보처리를 위한 파이썬 패키지 입니다.
 ### 한국어 형태소 분석기와 말뭉치
 
 [KoNLPy](https://konlpy.org/ko/latest/) 홈페이지의 [참고문헌](https://konlpy.org/ko/v0.4.3/references/) 페이지에 다양한 언어로 구현된 형태소 분석기, 말뭉치 및 NLP 도구들의 링크가 정리되어 있습니다.
-
-## 딥러닝을 이용한 자연어처리
-
-- RNN/LSTM : [순환 신경망(RNN, Recurrent Neural Network)](https://excelsior-cjh.tistory.com/183), [RNN과 LSTM을 이해해보자!](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/)
-
-- [Transformer/BERT](https://github.com/google-research/bert)
-
-- [KoBERT](https://github.com/SKTBrain/KoBERT)
