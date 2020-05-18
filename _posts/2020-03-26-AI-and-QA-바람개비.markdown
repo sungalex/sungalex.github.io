@@ -18,7 +18,9 @@ categories: AI&QA
 ## (M2) Machine Learning & Deep Learning 따라하기
 
 - \[Day4\] Computer Vision(영상처리) 따라하기 : [Study Day4 자료][day4]
-- \[Day5\] Natural Language Processing(자연어처리) 따라하기 : [Study Day5 자료][day5]
+- \[Day5\] Natural Language Processing - 1 (자연어처리 개요) : [Study Day5 자료][day5]
+- \[Day6\] 특강 (프로젝트 사례 공유)
+- \[Day7\] Natural Language Processing - 2 (딥러닝 자연어처리 모델)
 - ASR/STT(음성 문자 변환) 따라하기 (Machine Learning API 서비스 사용해보기)
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
   - 공공데이터 활용하기
