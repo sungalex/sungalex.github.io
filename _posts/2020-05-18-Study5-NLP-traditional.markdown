@@ -124,7 +124,7 @@ KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
   - pip install konlpy 실행 시 SSL 인증서 에러가 나는 경우 아래 명령을 사용하여 설치 합니다.
 
     ```
-    pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install
+    pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install konlpy
     ```
 
 - KoNLPy 사용 예시 : [워드클라우드 그리기](https://konlpy.org/ko/latest/examples/wordcloud/)
