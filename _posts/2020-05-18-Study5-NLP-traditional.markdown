@@ -20,7 +20,9 @@ categories: AI&QA AI&NLP
 
 ### 자연어 분석 기반 기술
 
-![자연어 처리 기술](/img/study5/NLP_process.png)
+  ![자연어 처리 기술](/img/study5/NLP_process.png)
+  
+  참조: <https://www.korean.go.kr/nkview/nklife/2017_4/27_0401.pdf>
 
 - **형태소 분석** : 토큰 분리, 어간 추출, 품사 부착, 색인, 벡터화
   - 입력된 문장을 형태소 단위로 분류하고 품사를 부착
@@ -43,8 +45,6 @@ categories: AI&QA AI&NLP
 - 형태소(Morpheme) : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리)
 
   ![어절_단어_형태소](/img/study5/어절_단어_형태소.png)
-  
-  참조: <https://www.korean.go.kr/nkview/nklife/2017_4/27_0401.pdf>
 
 - 코퍼스(Corpus, 말뭉치) : 자연언어 연구를 위해 특정한 목적을 가지고 언어의 표본을 추출한 집합이다. 언어의 빈도와 분포를 확인할 수 있는 자료이며, 현대 언어학 연구에 필수적인 자료이다. '컴퓨터로 분석하기에 용이하도록 "잘" 모아둔 다량의 텍스트 데이터' 이다
 - Tokenizing(토큰화) : 주어진 코퍼스(corpus)에서 토큰(token)이라 불리는 단위로 나누는 작업을 토큰화(tokenization)라고 부릅니다. 토큰의 단위가 상황에 따라 다르지만, 보통 의미있는 단위로 토큰을 정의합니다. 단어 토큰화(Word Tokenization), 문장 토큰화(Sentence Tokenization) 등
