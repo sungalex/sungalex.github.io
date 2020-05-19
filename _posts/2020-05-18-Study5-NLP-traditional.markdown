@@ -127,12 +127,14 @@ KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
     pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install konlpy
     ```
 
-- KoNLPy 사용 예시 : [워드클라우드 그리기](https://konlpy.org/ko/latest/examples/wordcloud/)
-
-  ![wordcloud](/img/study5/wordcloud.png)
+- KoNLPy 사용 예시 : [~~워드 클라우드 그리기~~](https://konlpy.org/ko/latest/examples/wordcloud/) --> 확인해보니 이 사이트의 코드에 포함된 URL이 동작하지 않는 사이트라서 삭제 표시함(링크 제거 예정. 아래 쪽의 코드로 실습)
 
 ### 자연어처리 학습 참고자료
 
 - NLP Github Repository : <https://github.com/sungalex/nlp>
 
 - KoNLPy 형태소 분석, POS Tagging 실습 : 위의 Repository에 포함된 "lecture13-형태소분석_POS_Taggers-구문분석_구_연어_시각화.ipynb" 파일을 Jupyter Notebook에서 학습
+
+- KoNLPy 워드 클라우드 : "lecture14-1-parser_wordcloud.ipynb"
+
+  ![wordcloud](/img/study5/wordcloud.png)
