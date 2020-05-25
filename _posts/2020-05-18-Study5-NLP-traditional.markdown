@@ -105,7 +105,7 @@ categories: AI&QA AI&NLP
 
 ## [KoNLPy(코엔엘파이)](https://konlpy.org/ko/latest/)
 
-KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
+KoNLPy는 한국어 자연어처리를 위한 파이썬 패키지 입니다. 대표적인 자연어처리 패키지로는 NLTK가 있습니다. NLTK로도 한국어 자연어처리를 할 수는 있지만 한국어를 제대로 처리하기 위해서는 한국어를 지원하는 패키지가 필요 합니다.
 
 - KoNLPy 설치방법
   - OS와 비트 수가 일치하고, 버전이 1.7 이상인 [자바(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)가 설치되어 있어야 합니다. [JAVA_HOME](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html)을 설정 합니다. [자바(JAVA) 다운로드 및 설치하기. 환경설정 세팅하는 법](https://jhnyang.tistory.com/224) 블로그 글을 참고 합니다.
@@ -128,14 +128,14 @@ KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
     pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install konlpy
     ```
 
-- KoNLPy 사용 예시 : [~~워드 클라우드 그리기~~](https://konlpy.org/ko/latest/examples/wordcloud/) --> 확인해보니 이 사이트의 코드에 포함된 URL이 동작하지 않는 사이트라서 삭제 표시함(링크 제거 예정. 아래 쪽의 코드로 실습)
+## KoNLPy 실습
+
+- KoNLPy 형태소 분석, POS Tagging 실습 : [aiqa_study repository](https://github.com/sungalex/aiqa)를 clone 후 jupyter notebook에서 "NLP-형태소분석_POS_Taggers.ipynb" 파일 학습
+
+- KoNLPy 워드 클라우드 : [aiqa_study repository](https://github.com/sungalex/aiqa)를 clone 후 jupyter notebook에서 "NLP_wordcloud.ipynb" 파일 학습
+
+  ![wordcloud](/img/study5/wordcloud.png)
 
 ## 자연어처리 학습 참고자료
 
 - NLP Github Repository : <https://github.com/sungalex/nlp>
-
-- KoNLPy 형태소 분석, POS Tagging 실습 : 위의 Repository에 포함된 "lecture13-형태소분석_POS_Taggers-구문분석_구_연어_시각화.ipynb" 파일을 Jupyter Notebook에서 학습
-
-- KoNLPy 워드 클라우드 : "lecture14-1-parser_wordcloud.ipynb"
-
-  ![wordcloud](/img/study5/wordcloud.png)
