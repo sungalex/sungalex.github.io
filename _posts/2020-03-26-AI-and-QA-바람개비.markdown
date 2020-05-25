@@ -5,7 +5,7 @@ date:   2020-03-26 11:08:00 +0900
 categories: AI&QA
 ---
 
-*(created: '20.03.26, last-updated: '20.05.18)*
+*(created: '20.03.26, last-updated: '20.05.26)*
 
 ## (M1) AI 기본부터 알아보자
 
@@ -38,5 +38,5 @@ categories: AI&QA
 [day2-2]: https://sungalex.github.io/ai&qa/2020/04/20/Study2-machine-learning-hello-world-MNIST.html
 [day3]: https://sungalex.github.io/ai&qa/python/2020/04/28/Study3-Python-and-numpy-matplotlib.html
 [day4]: https://sungalex.github.io/ai&qa/ai&vision/2020/05/11/Study4-Computer-Vision-and-CNN.html
-[day5]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study5-NLP-traditional.html
+[day5]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study5-NLP-fundamentals.html
 [day7]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study7-NLP-DeepLearning-RNN-BERT.html
