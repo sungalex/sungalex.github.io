@@ -36,7 +36,7 @@ categories: AI&QA AI&NLP
 - Tokenizing(토큰화) : 주어진 코퍼스(corpus)에서 토큰(token)이라 불리는 단위로 나누는 작업을 토큰화(tokenization)라고 부릅니다. 토큰의 단위가 상황에 따라 다르지만, 보통 의미있는 단위로 토큰을 정의합니다. 단어 토큰화(Word Tokenization), 문장 토큰화(Sentence Tokenization) 등
 - POS(Part-of-Speech, 품사) Tagging : 품사 태깅은 형태소의 뜻과 문맥을 고려하여 형태소에 마크업을 추가하는 일. 단어 토큰화 과정에서 각 단어가 어떤 품사로 쓰였는지를 구분해놓는 일
 
-### 자연어 분석 기반 기술
+### 자연어 분석 기술 분류
 
   ![자연어 처리 기술](/img/study5/NLP_process.png)
   
@@ -55,13 +55,13 @@ categories: AI&QA AI&NLP
 
 형태소 분석, 구문 분석 분야는 어느 정도 기술이 성숙되어 있으나, 의미 분석, 담화 분석 등은 아직도 연구가 진행중인 분야입니다.
 
-## 언어의 벡터 표현 - [카운트 기반의 단어 표현](https://wikidocs.net/24557)
+## 언어의 벡터 표현
 
 - 다양한 단어 표현 방법
 
   ![word representation](/img/study5/wordrepresentation.png)
 
-### Bag of Words(BoW)
+### [Bag of Words(BoW)](https://wikidocs.net/22650)
 
 Bag of Words란 단어들의 순서는 전혀 고려하지 않고, 단어들의 출현 빈도(frequency)에만 집중하는 텍스트 데이터의 수치화 표현 방법입니다. Bag of Words를 직역하면 단어들의 가방이라는 의미입니다. 단어들이 들어있는 가방을 상상해봅시다. 갖고있는 어떤 텍스트 문서에 있는 단어들을 가방에다가 전부 넣습니다. 그러고나서 이 가방을 흔들어 단어들을 섞습니다. 만약, 해당 문서 내에서 특정 단어가 N번 등장했다면, 이 가방에는 그 특정 단어가 N개 있게됩니다. 또한 가방을 흔들어서 단어를 섞었기 때문에 더 이상 단어의 순서는 중요하지 않습니다.
 
