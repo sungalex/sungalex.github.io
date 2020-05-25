@@ -57,11 +57,13 @@ categories: AI&QA AI&NLP
 
 ## 언어의 벡터 표현 - [카운트 기반의 단어 표현](https://wikidocs.net/24557)
 
-![word representation](/img/study5/wordrepresentation.png)
+- 다양한 단어 표현 방법
 
-- Bag of Words(BoW)
+  ![word representation](/img/study5/wordrepresentation.png)
 
-  Bag of Words란 단어들의 순서는 전혀 고려하지 않고, 단어들의 출현 빈도(frequency)에만 집중하는 텍스트 데이터의 수치화 표현 방법입니다. Bag of Words를 직역하면 단어들의 가방이라는 의미입니다. 단어들이 들어있는 가방을 상상해봅시다. 갖고있는 어떤 텍스트 문서에 있는 단어들을 가방에다가 전부 넣습니다. 그러고나서 이 가방을 흔들어 단어들을 섞습니다. 만약, 해당 문서 내에서 특정 단어가 N번 등장했다면, 이 가방에는 그 특정 단어가 N개 있게됩니다. 또한 가방을 흔들어서 단어를 섞었기 때문에 더 이상 단어의 순서는 중요하지 않습니다.
+### Bag of Words(BoW)
+
+Bag of Words란 단어들의 순서는 전혀 고려하지 않고, 단어들의 출현 빈도(frequency)에만 집중하는 텍스트 데이터의 수치화 표현 방법입니다. Bag of Words를 직역하면 단어들의 가방이라는 의미입니다. 단어들이 들어있는 가방을 상상해봅시다. 갖고있는 어떤 텍스트 문서에 있는 단어들을 가방에다가 전부 넣습니다. 그러고나서 이 가방을 흔들어 단어들을 섞습니다. 만약, 해당 문서 내에서 특정 단어가 N번 등장했다면, 이 가방에는 그 특정 단어가 N개 있게됩니다. 또한 가방을 흔들어서 단어를 섞었기 때문에 더 이상 단어의 순서는 중요하지 않습니다.
 
 - 문서 단어 행렬(Document-Term Matrix, DTM)
 
@@ -73,7 +75,7 @@ categories: AI&QA AI&NLP
   
   TF-IDF는 주로 문서의 유사도를 구하는 작업, 검색 시스템에서 검색 결과의 중요도를 정하는 작업, 문서 내에서 특정 단어의 중요도를 구하는 작업 등에 쓰일 수 있습니다.
 
-## [Word2Vec](https://wikidocs.net/22660)
+### [Word2Vec](https://wikidocs.net/22660)
 
 단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법 이다. 대표적인 워드 임베딩(Word Embedding) 방법 이다. word2vec은 CBOW 방식과 Skip-Gram 방식의 단어 임베딩을 구현한 C++ 라이브러리로 구글에 있던 Mikolov 등이 개발하였다.
 
