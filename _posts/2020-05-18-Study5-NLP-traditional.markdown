@@ -110,7 +110,7 @@ KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
 - KoNLPy 설치방법
   - OS와 비트 수가 일치하고, 버전이 1.7 이상인 [자바(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)가 설치되어 있어야 합니다. [JAVA_HOME](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html)을 설정 합니다. [자바(JAVA) 다운로드 및 설치하기. 환경설정 세팅하는 법](https://jhnyang.tistory.com/224) 블로그 글을 참고 합니다.
 
-  - Python Java 라이브러리(JPype)를 설치 합니다. 설치된 Python 버전에 맞는 [JPype를 다운로드](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype) 후, 다운로드 한 JPype 파일이 있는 폴더에서 아래 명령으로 설치 합니다.
+  - Windows 환경에서는 Python Java 라이브러리(JPype)를 설치 해야 합니다. 설치된 Python 버전에 맞는 [JPype를 다운로드](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype) 후, 다운로드 한 JPype 파일이 있는 폴더에서 아래 명령으로 설치 합니다.
   
     ```bash
     pip install JPype1-0.7.5-cp36-cp36m-win_amd64.whl
