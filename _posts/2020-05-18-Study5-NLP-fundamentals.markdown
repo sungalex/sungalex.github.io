@@ -99,6 +99,8 @@ Word2Vec은 단어에서 문맥을 예측하거나, 문맥에서 단어를 예�
 
   ![CBOW](/img/study5/CBOW.png)
 
+  참조 : [머신러닝의 자연어 처리기술(1)](https://www.slideshare.net/ssuser06e0c5/i-64267027) Slideshare 자료
+
 - Skip-Gram : 단어로 부터 문맥을 예측하는 방법
 
 ## 한국어 형태소 분석기와 말뭉치들
