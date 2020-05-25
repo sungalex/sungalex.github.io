@@ -55,10 +55,10 @@ categories: AI&QA AI&NLP
 
 형태소 분석, 구문 분석 분야는 어느 정도 기술이 성숙되어 있으나, 의미 분석, 담화 분석 등은 아직도 연구가 진행중인 분야입니다.
 
-## 전통적인(통계적/확률적 기법을 이용한) 자연어처리
+## 언어의 벡터 표현 - [카운트 기반의 단어 표현](https://wikidocs.net/24557)
 
-### 언어의 벡터 표현 - [카운트 기반의 단어 표현](https://wikidocs.net/24557)
-  
+![word representation](/img/study5/wordrepresentation.png)
+
 - Bag of Words(BoW)
 
   Bag of Words란 단어들의 순서는 전혀 고려하지 않고, 단어들의 출현 빈도(frequency)에만 집중하는 텍스트 데이터의 수치화 표현 방법입니다. Bag of Words를 직역하면 단어들의 가방이라는 의미입니다. 단어들이 들어있는 가방을 상상해봅시다. 갖고있는 어떤 텍스트 문서에 있는 단어들을 가방에다가 전부 넣습니다. 그러고나서 이 가방을 흔들어 단어들을 섞습니다. 만약, 해당 문서 내에서 특정 단어가 N번 등장했다면, 이 가방에는 그 특정 단어가 N개 있게됩니다. 또한 가방을 흔들어서 단어를 섞었기 때문에 더 이상 단어의 순서는 중요하지 않습니다.
@@ -69,23 +69,23 @@ categories: AI&QA AI&NLP
 
 - TF-IDF(Term Frequency-Inverse Document Frequency)
 
-  TF-IDF(Term Frequency-Inverse Document Frequency)는 단어의 빈도와 역 문서 빈도(문서의 빈도에 특정 식을 취함)를 사용하여 DTM 내의 각 단어들마다 중요한 정도를 가중치로 주는 방법입니다. 사용 방법은 우선 DTM을 만든 후, TF-IDF 가중치를 부여합니다.
+  TF-IDF(Term Frequency-Inverse Document Frequency)는 단어의 빈도와 역 문서 빈도(문서의 빈도에 특정 식을 취함)를 사용하여 DTM 내의 각 단어들마다 중요한 정도를 가중치로 주는 방법입니다. 사용 방법은 우선 DTM을 만든 후, TF-IDF 가중치를 부여합니다. 특정 문서 내에서 단어 빈도가 높을 수록, 그리고 전체 문서들 중 그 단어를 포함한 문서가 적을 수록 TF-IDF값이 높아진다.
   
   TF-IDF는 주로 문서의 유사도를 구하는 작업, 검색 시스템에서 검색 결과의 중요도를 정하는 작업, 문서 내에서 특정 단어의 중요도를 구하는 작업 등에 쓰일 수 있습니다.
 
-### [Word2Vec](https://wikidocs.net/22660)
+## [Word2Vec](https://wikidocs.net/22660)
 
-단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법(확률/추론 기법) 이다.
+단어에서 문맥을 예측하거나, 문맥에서 단어를 예측하는 방법 이다. 대표적인 워드 임베딩(Word Embedding) 방법 이다. word2vec은 CBOW 방식과 Skip-Gram 방식의 단어 임베딩을 구현한 C++ 라이브러리로 구글에 있던 Mikolov 등이 개발하였다.
 
-- 단어의 국소표현
+- Word Embedding : 워드 임베딩(Word Embedding)은 단어를 벡터로 표현하는 방법으로, 주로 희소 표현에서 밀집 표현으로 변환하는 것을 의미한다.
+
+- 단어의 국소표현으로는 단어의 의미를 알 수 없다.
 
   ![국소표현](/img/study5/국소표현.png)
 
-- Word Embedding : 워드 임베딩(Word Embedding)은 단어를 벡터로 표현하는 것을 말합니다. 워드 임베딩은 단어를 밀집 표현으로 변환하는 방법을 말합니다.
-
 - **분포 가설 : 비슷한 문맥을 가진 단어는 비슷한 의미를 갖는다.** (현대의 통계적/확률적 자연어 처리에서 사용하는 기본 가설)
 
-- 문맥창
+- 문맥창(Window)
 
   ![문맥창](/img/study5/문맥창.png)
 
@@ -99,15 +99,11 @@ categories: AI&QA AI&NLP
 
 - Skip-Gram : 단어로 부터 문맥을 예측하는 방법
 
-  ![skip-gram](/img/study5/skip-gram.png)
-
-  참조: <https://excelsior-cjh.tistory.com/156>
-
-### 한국어 형태소 분석기와 말뭉치들
+## 한국어 형태소 분석기와 말뭉치들
 
 [KoNLPy](https://konlpy.org/ko/latest/) 홈페이지의 [참고문헌](https://konlpy.org/ko/v0.4.3/references/) 페이지에 다양한 언어로 구현된 형태소 분석기, 말뭉치 및 NLP 도구들의 링크가 정리되어 있습니다.
 
-### [KoNLPy(코엔엘파이)](https://konlpy.org/ko/latest/)
+## [KoNLPy(코엔엘파이)](https://konlpy.org/ko/latest/)
 
 KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
 
@@ -134,7 +130,7 @@ KoNLPy는 한국어 정보처리를 위한 파이썬 패키지 입니다.
 
 - KoNLPy 사용 예시 : [~~워드 클라우드 그리기~~](https://konlpy.org/ko/latest/examples/wordcloud/) --> 확인해보니 이 사이트의 코드에 포함된 URL이 동작하지 않는 사이트라서 삭제 표시함(링크 제거 예정. 아래 쪽의 코드로 실습)
 
-### 자연어처리 학습 참고자료
+## 자연어처리 학습 참고자료
 
 - NLP Github Repository : <https://github.com/sungalex/nlp>
 
