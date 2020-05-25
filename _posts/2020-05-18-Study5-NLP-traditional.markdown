@@ -28,7 +28,7 @@ categories: AI&QA AI&NLP
 - 단어 : 어절을 구성하는 요소. 형태소의 조합으로 구성되어 있음(관형사, 명사, 조사, 동사). 품사를 붙일 수 있는 단위
 - 형태소(Morpheme) : (형태론적으로, 문법적으로) 의미를 가진 문법의 최소 단위(어근 분리)
 
-  ![어절_단어_형태소](/img/study5/어절_단어_형태소.png)
+![어절_단어_형태소](/img/study5/어절_단어_형태소.png)
 
 - \[참고\] [한국어의 단위: 음운, 음절, 형태소, 단어, 어절, 구절, 문장, 문단](https://m.blog.naver.com/PostView.nhn?blogId=zzangdol57&logNo=30166226241&proxyReferer=https:%2F%2Fwww.google.com%2F)
 
@@ -59,7 +59,7 @@ categories: AI&QA AI&NLP
 
 - 다양한 단어 표현 방법
 
-  ![word representation](/img/study5/wordrepresentation.png)
+![word representation](/img/study5/wordrepresentation.png)
 
 ### [Bag of Words(BoW)](https://wikidocs.net/22650)
 
