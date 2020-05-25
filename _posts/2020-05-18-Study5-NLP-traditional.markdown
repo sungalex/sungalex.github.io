@@ -5,6 +5,8 @@ date:   2020-05-18 15:30:00 +0900
 categories: AI&QA AI&NLP
 ---
 
+*[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.05.25)*
+
 ## NLP(Natural Language Processing)
 
 자연어 처리는 텍스트에서 의미있는 정보를 분석, 추출하고 이해하는 일련의 기술집합입니다.
