@@ -5,7 +5,7 @@ date:   2020-05-18 15:30:00 +0900
 categories: AI&QA AI&NLP
 ---
 
-*[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.05.25)*
+*[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.05.27)*
 
 ## NLP(Natural Language Processing)
 
