@@ -148,6 +148,10 @@ KoNLPy는 한국어 자연어처리를 위한 파이썬 패키지 이다. 대표
 
   ![wordcloud](/img/study5/wordcloud.png)
 
+- 코드에 matplotlib, wordcloud 한글 폰트 설정은 Windows와 MAC의 환경에 따라 설정을 변경해서 사용해야 함
+  - MAC에서는 'for MAC'이라는 코멘트가 있는 행을 활성화 (해당 라인의 맨 앞에 있는 코멘트 기호 '#'을 제거하고, 'for Windows' 행을 주석 처리)
+  - Windows에서는 'for Windwos'라는 코멘트가 있는 행을 활성화 (해당 라인의 맨 앞에 있는 코멘트 기호 '#'을 제거하고, 'for MAC' 행을 주석 처리)
+
 ## 자연어처리 학습 참고자료
 
 - NLP Github Repository : <https://github.com/sungalex/nlp>
