@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Study7] NLP(Natural Language Processing)-RNN/BERT"
+title:  "[Study6] NLP(Natural Language Processing)-RNN/BERT"
 date:   2020-05-18 16:15:00 +0900
 categories: AI&QA AI&NLP
 ---
