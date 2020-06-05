@@ -5,7 +5,7 @@ date:   2020-05-18 15:30:00 +0900
 categories: AI&QA AI&NLP
 ---
 
-*[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.05.27)*
+*[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.06.05)*
 
 ## NLP(Natural Language Processing)
 
@@ -154,4 +154,6 @@ KoNLPy는 한국어 자연어처리를 위한 파이썬 패키지 이다. 대표
 
 ## 자연어처리 학습 참고자료
 
-- NLP Github Repository : <https://github.com/sungalex/nlp>
+- 딥 러닝을 이용한 자연어 처리 입문 : <https://wikidocs.net/book/2155>
+- 딥 러닝을 이용한 자연어 처리 심화 : <https://wikidocs.net/book/2159>
+- NLP 학습용 Github Repository : <https://github.com/sungalex/nlp>
