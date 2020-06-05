@@ -103,6 +103,8 @@ Word2Vec은 단어에서 문맥을 예측하거나, 문맥에서 단어를 예�
 
 - Skip-Gram : 단어로 부터 문맥을 예측하는 방법
 
+- Word2vec 참고자료 : [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/)
+
 ## 한국어 형태소 분석기와 말뭉치들
 
 [KoNLPy](https://konlpy.org/ko/latest/) 홈페이지의 [참고문헌](https://konlpy.org/ko/v0.4.3/references/) 페이지에 다양한 언어로 구현된 형태소 분석기, 말뭉치 및 NLP 도구들의 링크가 정리되어 있다.
