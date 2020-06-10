@@ -43,7 +43,7 @@ categories: AI&QA AI&NLP
 
   - RNN은 tanh 함수가 중첩되면 0에 수렴하는 문제 때문에 RNN 노드를 많이 중첩 시킬 수 없습니다(Deep Network을 구성할 수 없습니다). LSTM은 이러한 RNN의 문제점을 해결하기 위해, Long Term Memory와 Short Term Memory를 함께 가지도록 만든 모델 입니다.
 
-- RNN & LSTM 참고 사이트
+- RNN & LSTM 학습 참고 사이트
 
   - [순환 신경망(Recurrent Neural Network, RNN), wikidocs](https://wikidocs.net/22886)
 
@@ -83,7 +83,9 @@ categories: AI&QA AI&NLP
 
 - BERT Github 사이트 : [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
 
-- BERT 참고 사이트
+- BERT 학습 참고 사이트
+
+  - [Colab에서 TPU로 BERT 처음부터 학습시키기](https://beomi.github.io/2020/02/26/Train-BERT-from-scratch-on-colab-TPU-Tensorflow-ver/) - Beomi's Tech Blog
 
   - The Illustrated BERT : [Jay Alammar's Blog](http://jalammar.github.io/illustrated-bert/)
 
