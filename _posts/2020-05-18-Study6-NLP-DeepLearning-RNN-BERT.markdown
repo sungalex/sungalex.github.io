@@ -46,15 +46,18 @@ categories: AI&QA AI&NLP
 - RNN & LSTM 참고 사이트
 
   - [순환 신경망(Recurrent Neural Network, RNN), wikidocs](https://wikidocs.net/22886)
-  - [RNN을 이용한 텍스트 생성(Text Generation using RNN), wikidocs](https://wikidocs.net/45101)
+
+  - [RNN/LSTM을 이용한 텍스트 생성(Text Generation using RNN and LSTM), wikidocs](https://wikidocs.net/45101)
 
   - [순환 신경망(RNN, Recurrent Neural Network), Excelsior-JH's Blog](https://excelsior-cjh.tistory.com/183)
+
   - [[러닝 텐서플로]Chap05 - 텍스트 1: 텍스트와 시퀀스 처리 및 텐서보드 시각화, Excelsior-JH's Blog](https://excelsior-cjh.tistory.com/154?category=940399)
 
   - [RNN과 LSTM을 이해해보자!, ratsgo's Blog](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/)
 
-  - [Tensorflow 튜토리얼 - RNN을 사용한 텍스트 분류](https://www.tensorflow.org/tutorials/text/text_classification_rnn?hl=ko)
-  - [Tensorflow 튜토리얼 - RNN을 사용한 텍스트 생성](https://www.tensorflow.org/tutorials/text/text_generation?hl=ko)
+  - [Tensorflow 튜토리얼: RNN을 사용한 텍스트 분류](https://www.tensorflow.org/tutorials/text/text_classification_rnn?hl=ko) - *한글 번역이 안되어 있음*
+
+  - [Tensorflow 튜토리얼: 순환 신경망을 활용한 문자열 생성](https://www.tensorflow.org/tutorials/text/text_generation?hl=ko)
 
 - RNN/LSTM keras 샘플 코드 : [sungalex's Github Repository](https://github.com/sungalex/aiqa/)를 clone 하여 "RNN_LSTM_example.ipynb" 파일을 Jupyter Notebook에서 학습하기
 
