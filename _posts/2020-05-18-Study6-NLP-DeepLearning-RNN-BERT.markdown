@@ -69,23 +69,17 @@ categories: AI&QA AI&NLP
 
   ![BERT](/img/study6/BERT_encoders.png)
 
-- BERT는 기본적으로 wiki나 book data와 같은 대용랑 unlabeled data로 모델을 미리 학습 시킨 후, 특정 task를 가지고 있는 labeled data로 transfer learning을 하는 모델입니다.
-
-- BERT는 모델의 크기에 따라 Base 모델과 Large 모델의 Pre-Trained 모델을 제공합니다.
-
-  - BERT_base : L=12, H=768, A=12, Total Parameters = 110M
-
-  - BERT_large : L=24, H=1024, A=16, Total Parameters = 340M
-
-    (L : transformer block의 layer 수, H : hidden size, A : self-attention heads 수, feed-forward/filter size = 4H)
-
-- BERT Structure
+- BERT Structure : Pre-Training and Fine-Tuning
 
   ![BERT Structure](/img/study6/BERT_Structure.png)
 
   ![BERT-2Step](/img/study6/BERT_2Step.png)
 
-  - BERT의 2단계 Step : Step1. pre-trained(trained on un-annotated data) model을 다운로드 한다 -> Step2. 해결하고자 하는 문제에 집중하여 fine-tuning을 한다. (위 그림에서는 스팸 분류를 위한 Classifier 부분만 추가적으로 학습함)
+  - BERT는 기본적으로 wiki나 book data와 같은 대용랑 unlabeled data로 모델을 미리 학습 시킨 후, 특정 task를 가지고 있는 labeled data로 transfer learning을 하는 모델입니다.
+
+  - BERT의 2단계 Step : (Step1) pre-trained(trained on un-annotated data) model을 다운로드 한다 -> (Step2) 해결하고자 하는 문제에 집중하여 fine-tuning을 한다 (위 그림에서는 스팸 분류를 위한 Classifier 부분만 추가적으로 학습한다)
+
+  - BERT는 모델의 크기에 따라 Base 모델과 Large 모델의 Pre-Trained 모델을 제공합니다.
 
 - BERT Github 사이트 : [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
 
