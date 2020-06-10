@@ -45,7 +45,7 @@ categories: AI&QA AI&NLP
 
 - RNN & LSTM 참고 사이트
 
-  - [RNN 언어 모델(Recurrent Neural Network Language Model, wikidocs](https://wikidocs.net/46496)
+  - [순환 신경망(Recurrent Neural Network, RNN), wikidocs](https://wikidocs.net/22886)
   - [RNN을 이용한 텍스트 생성(Text Generation using RNN), wikidocs](https://wikidocs.net/45101)
 
   - [순환 신경망(RNN, Recurrent Neural Network), Excelsior-JH's Blog](https://excelsior-cjh.tistory.com/183)
