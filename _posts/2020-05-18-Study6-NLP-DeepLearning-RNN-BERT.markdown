@@ -25,8 +25,6 @@ categories: AI&QA AI&NLP
 
   ![vanilla RNN](/img/study6/vanilla_RNN.png)
 
-  $H_{t}=tanh(W_{x}X_{t} + W_{h}H_{t−1} + b)$
-
 - RNN Examples
 
   ![RNN Examples](/img/study6/RNN_examples.png)
