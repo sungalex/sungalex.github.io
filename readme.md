@@ -19,3 +19,4 @@ Jekyll과 Github Pages를 활용한 Alex의 블로그 입니다.
   - 현상: 한글, 영문, 특수문자가 섞여있는 Heading의 Anchor link가 예상한 형태로 생성되지 않음
   - 해결방법: [Jekyll Anchor links(Header IDs) 생성 Rules](https://sungalex.github.io/jekyll/2020/04/09/How-it-creates-Jekyll-anchor-link-from-markdown.html)에 따라 Anchor links를 사용하여 해결  
 - [x] 개발환경 구축하기 Post에서 git 설치하기 내용을 분리하여 Posting
+- [ ] Latex Support in Jekyll 설정 -> 설정 후 블로그 글 작성
