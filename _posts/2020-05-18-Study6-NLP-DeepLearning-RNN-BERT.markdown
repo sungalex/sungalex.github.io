@@ -41,8 +41,7 @@ categories: AI&QA AI&NLP
 
   ![LSTM](/img/study6/LSTM.png)
 
-  - RNN은 tanh 함수가 중첩되면 0에 수렴하는 문제가 때문에 RNN 노드를 많이 중첩 시킬 수 없습니다.(Deep Network을 구성할 수 없습니다.)
-  - LSTM은 이러한 RNN의 문제점을 해결하기 위해, Long Term Memory와 Short Term Memory를 함께 가지도록 만든 모델 입니다.
+  - RNN은 tanh 함수가 중첩되면 0에 수렴하는 문제 때문에 RNN 노드를 많이 중첩 시킬 수 없습니다(Deep Network을 구성할 수 없습니다). LSTM은 이러한 RNN의 문제점을 해결하기 위해, Long Term Memory와 Short Term Memory를 함께 가지도록 만든 모델 입니다.
 
 - RNN & LSTM 참고 사이트
 
