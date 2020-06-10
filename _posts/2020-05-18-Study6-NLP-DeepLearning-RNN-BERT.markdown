@@ -95,7 +95,7 @@ categories: AI&QA AI&NLP
 
 ### 블로그 작성 참고자료
 
-\[참조1\] [Fastcampus On-line 강의("올인원패키지: 머신러닝과 데이터분석 A-Z")](https://www.fastcampus.co.kr/data_online_dataadv/) - 김용담 강사 강의자료)
+\[참조1\] [Fastcampus On-line 강의("올인원패키지: 머신러닝과 데이터분석 A-Z")](https://www.fastcampus.co.kr/data_online_dataadv/) - 김용담 강사 강의자료
 
 \[참조2\] [BERT 논문정리](https://mino-park7.github.io/nlp/2018/12/12/bert-논문정리/) - mino-park7's Blog
 
