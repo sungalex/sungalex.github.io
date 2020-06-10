@@ -9,7 +9,7 @@ categories: AI&QA AI&NLP
 
 ## 딥러닝을 이용한 자연어처리
 
-### NLP Model 역사
+### NLP Deep Learning Model의 역사
 
 ![NLP Model](/img/study6/NLP_Model_history.png)
 
@@ -27,7 +27,7 @@ categories: AI&QA AI&NLP
 
   ![vanilla RNN](/img/study6/vanilla_RNN.png)
 
-  - $H_t=tanh(W_xX_t+W_hH_{t−1}+b)$
+  $$H_t=tanh(W_xX_t+W_hH_{t−1}+b)$$
 
 - RNN Examples
 
