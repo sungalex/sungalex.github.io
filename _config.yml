@@ -21,7 +21,7 @@
 title: Alex's Blog
 email: cloudallera@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Artificial Intelligence, Python, etc. Data Science Blog
+  Artificial Intelligence, Data Science, Python, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: S.Alex.Lee
