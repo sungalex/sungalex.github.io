@@ -87,7 +87,7 @@ categories: AI&QA AI&NLP
 
   - The Illustrated BERT : [Jay Alammar's Blog](http://jalammar.github.io/illustrated-bert/)
 
-  - A Visual Guide to Using BERT for the First Time : [Jay Alammar's Blog](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) -> [notebook 보기](https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb) 또는 [colab에서 실행하기](https://colab.research.google.com/github/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb)
+  - A Visual Guide to Using BERT for the First Time : [Jay Alammar's Blog](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) -> [Github notebook 보기](https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb) 또는 [Colab에서 실행하기](https://colab.research.google.com/github/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb)
 
   - Cloud 서비스로 BERT 경험하기 : [AIN Cloud beta 서비스](cloud.ainetwork.ai) - ["AIN Cloud beta로 Open Resource 경험하기" 블로그](https://medium.com/ai-networkkr/aincloudbeta-2-experience-aincloud-kr-b145609264aa)
 
