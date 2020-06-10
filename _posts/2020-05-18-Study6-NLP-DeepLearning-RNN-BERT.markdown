@@ -89,7 +89,7 @@ categories: AI&QA AI&NLP
 
   - A Visual Guide to Using BERT for the First Time : [Jay Alammar's Blog](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) -> [Github notebook 보기](https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb) 또는 [Colab에서 실행하기](https://colab.research.google.com/github/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb)
 
-  - Cloud 서비스로 BERT 경험하기 : [AIN Cloud beta 서비스](cloud.ainetwork.ai) -> ["AIN Cloud beta로 Open Resource 경험하기"](https://medium.com/ai-networkkr/aincloudbeta-2-experience-aincloud-kr-b145609264aa) 블로그 참고
+  - Cloud 서비스로 BERT 경험하기 : [AIN Cloud beta 서비스](https://cloud.ainetwork.ai/) -> ["AIN Cloud beta로 Open Resource 경험하기"](https://medium.com/ai-networkkr/aincloudbeta-2-experience-aincloud-kr-b145609264aa) 블로그 참고
 
 - [KoBERT](https://github.com/SKTBrain/KoBERT)는 한글 위키와 뉴스 텍스트를 기반으로 Pre-Training을 한 한글 자연어처리를 위한 BERT 모델 입니다. SKT-Brain에서 개발하여 공개하였습니다.
 
