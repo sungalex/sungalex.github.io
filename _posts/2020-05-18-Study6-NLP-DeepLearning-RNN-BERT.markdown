@@ -19,15 +19,13 @@ categories: AI&QA AI&NLP
 
 - RNN은 은닉층의 노드에서 활성화 함수를 통해 나온 결과값을 출력층 방향으로도 보내면서, 다시 은닉층 노드의 다음 계산의 입력으로 보내는 특징을 갖고있습니다.
 
-- RNN & LSTM 소개자료 : [kt ds 교육센터 강의자료 - D Plus/파인코드 이숙번](https://github.com/sungalex/aiqa/blob/master/RNN_LSTM.pdf)
-
-  - 위 자료가 github 사이트에서 바로 열리지 않는 경우, "<https://github.com/sungalex/aiqa/>" Repository를 clone 하여 local에서 "RNN_LSTM.pdf" 파일을 참조
+- kt ds 교육센터 RNN & LSTM 강의자료 (D Plus/파인코드 이숙번 강사) : <https://github.com/sungalex/aiqa/> Repository를 clone 하여 "RNN_LSTM.pdf" 파일 참조
 
 - RNN(Recurrent Neural Network) 기본 모델
 
   ![vanilla RNN](/img/study6/vanilla_RNN.png)
 
-  $$H_t=tanh(W_xX_t+W_hH_{t−1}+b)$$
+  $$H_{t}=tanh(W_{x}X_{t} + W_{h}H_{t−1} + b)$$
 
 - RNN Examples
 
