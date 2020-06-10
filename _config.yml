@@ -32,10 +32,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-# highlighter: rouge
-# lsi: false
-# excerpt_separator: "\n\n"
-# incremental: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
