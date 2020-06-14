@@ -33,7 +33,7 @@ kramdown:
 #  math_engine: mathjax
   math_engine: katex
   math_engine_opts: {}
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
