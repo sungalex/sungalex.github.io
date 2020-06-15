@@ -40,4 +40,4 @@ categories: AI&QA
 [day4]: https://sungalex.github.io/ai&qa/ai&vision/2020/05/11/Study4-Computer-Vision-and-CNN.html
 [day5]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study5-NLP-fundamentals.html
 [day6]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study6-NLP-DeepLearning-RNN-BERT.html
-[day7]: 
+[day7]: https://sungalex.github.io/ai&qa/ai&asr/2020/06/15/Study7-STT-google-ml-api-fundamentals.html
