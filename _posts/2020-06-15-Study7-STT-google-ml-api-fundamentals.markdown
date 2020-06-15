@@ -102,7 +102,7 @@ categories: AI&QA AI&ASR
  
   - google cloud speech-to-text 개발환경 설정하기 : [Google Drive 링크(PDF)](https://drive.google.com/file/d/1IohYNCIXnQNZnGMJQks58hc3evzkMMld/view?usp=sharing)
 
-- [github aiqa repository](https://github.com/sungalex/aiqa)를 clone 합니다. 기존에 clone 되어 있는 경우는 fetch/pull 명령을 사용 합니다.
+- [github aiqa repository](https://github.com/sungalex/aiqa)를 clone 합니다. 기존에 clone 되어 있는 경우는 fetch/pull 명령을 사용하여 checkout 합니다.
 
   ~~~bash
   git clone https://github.com/sungalex/aiqa.git
@@ -111,8 +111,14 @@ categories: AI&QA AI&ASR
   git pull origin master
   ~~~
 
-- STT 폴더의 파일을 jupyter notebook에서 학습 합니다. jupyter notebook에서 아래 명령으로 필요한 패키지를 추가로 설치 합니다.
+- 아래 명령으로 필요한 패키지를 추가로 설치 합니다. (anaconda를 사용하는 경우, 본인이 사용하는 가상환경을 activate 후 설치 합니다.)
 
-  ~~~ipython
-  !pip install <패키지명>
+  ~~~bash
+  pip install --upgrade google-cloud-speech
+  ~~~
+
+- STT 폴더의 파일을 jupyter notebook에서 학습 합니다. 
+
+  ~~~bash
+  jupyter notebook
   ~~~
