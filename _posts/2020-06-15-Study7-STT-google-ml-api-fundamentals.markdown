@@ -102,12 +102,11 @@ categories: AI&QA AI&ASR
  
   - google cloud speech-to-text 개발환경 설정하기 : [Google Drive 링크(PDF)](https://drive.google.com/file/d/1IohYNCIXnQNZnGMJQks58hc3evzkMMld/view?usp=sharing)
 
-- [github aiqa repository](https://github.com/sungalex/aiqa)를 clone 합니다. 기존에 clone 되어 있는 경우는 fetch/pull 명령을 사용하여 checkout 합니다.
+- [github aiqa repository](https://github.com/sungalex/aiqa)를 clone 합니다. 기존에 clone 되어 있는 경우는 pull 명령을 사용하여 checkout 합니다.
 
   ~~~bash
   git clone https://github.com/sungalex/aiqa.git
   또는
-  git fetch origin master
   git pull origin master
   ~~~
 
