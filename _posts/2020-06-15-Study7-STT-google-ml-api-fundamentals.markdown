@@ -95,15 +95,24 @@ categories: AI&QA AI&ASR
 
 - Google Cloud Machine Learning API : [STT(Speech to Text) API](https://cloud.google.com/speech-to-text?hl=ko) and [TTS(Text to Speech) API](https://cloud.google.com/text-to-speech?hl=ko)를 이용할 수 있다. 상대적으로 쉽게 음성인식 서비스를 개발할 수 있지만, 영어에 비해 한국어에 대한 성능은 만족스럽지 않다.
 
-### Google STT(Speech to Text) 사용하기
+### Google STT(Speech to Text) API 실습
 
-- 
+- 실습을 위해서는 Google Cloud Machine Learning API 사용을 위해, Google 계정에 Billing Account 설정 및 Private Key 발급이 필요 합니다.
+아래 문서를 참고해서 환경설정 해주시기 바랍니다.
+ 
+  - google cloud speech-to-text 개발환경 설정하기 : [Google Drive 링크(PDF)](https://drive.google..com/file/d/1IohYNCIXnQNZnGMJQks58hc3evzkMMld/view?usp=sharing)
 
-### Google Cloud Machine Learning API 실습
+- [github aiqa repository](https://github.com/sungalex/aiqa)를 clone 합니다. 기존에 clone 되어 있는 경우는 fetch/pull 명령을 사용 합니다.
 
-- 
+  ~~~bash
+  git clone https://github.com/sungalex/aiqa.git
+  또는
+  git fetch origin master
+  git pull origin master
+  ~~~
 
-### 블로그 작성 참고자료
+- STT 폴더의 파일을 jupyter notebook에서 학습 합니다. jupyter notebook에서 아래 명령으로 필요한 패키지를 추가로 설치 합니다.
 
-- [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY&t=157s)
-
+  ~~~ipython
+  !pip install <패키지명>
+  ~~~
