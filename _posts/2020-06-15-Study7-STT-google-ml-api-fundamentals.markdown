@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Study7] STT(Speech to Text) - Google ML API Fuandamentals"
+title:  "[Study7] STT(Speech to Text) - Google ML API Fundamentals"
 date:   2020-06-15 16:00:00 +0900
 categories: AI&QA AI&ASR
 ---
