@@ -5,9 +5,9 @@ date:   2020-03-26 11:08:00 +0900
 categories: AI&QA
 ---
 
-*(created: '20.03.26, last-updated: '20.05.26)*
+*(created: '20.03.26, last-updated: '20.06.15)*
 
-## (M1) AI 기본부터 알아보자
+## Chapter1. AI 기본부터 알아보자
 
 - \[Day0\] Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [딥러닝 개발환경 구축하기][day0]
 - \[Day1\] AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료][day1]
@@ -15,16 +15,16 @@ categories: AI&QA
 - \[Day2\] 머신러닝 Hello World!!! MNIST 문자 인식 : [Study Day2 자료[2-2]][day2-2] 
 - \[Day3\] Machine Learning Cheat-Key! Python and 필수 라이브러리 : [Study Day3 자료][day3]
 
-## (M2) Machine Learning & Deep Learning 따라하기
+## Chapter2. Machine Learning & Deep Learning 따라하기
 
 - \[Day4\] Computer Vision(영상처리) 따라하기 : [Study Day4 자료][day4]
 - \[Day5\] Natural Language Processing - 1 (자연어처리 개요) : [Study Day5 자료][day5]
 - \[Day6\] Natural Language Processing - 2 (딥러닝 자연어처리 모델) : [Study Day6 자료][day6]
-- \[Day7\] 특강 (프로젝트 사례 공유)
+- \[Day7\] STT(음성 문자 변환) 따라하기 (Machine Learning API 서비스 사용해보기) [Study Day7 자료][day7]
 
-## (M3) AI 기술 활용방안을 찾아보자
+## Chapter3. AI 기술 활용방안을 찾아보자
 
-- STT(음성 문자 변환) 따라하기 (Machine Learning API 서비스 사용해보기)
+- \[Day8\] 특강 - AI 프로젝트 사례
 - 머신러닝 성능평가 지표(Precision, Recall, Accuracy, F-Measure)에 대해 알아보자
 - 품질관리, 테스팅 분야의 AI 활용사례(AI 서비스, 솔루션 등) 및 "내일의 AI 화" 대상을 찾아보자
 - 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
@@ -40,3 +40,4 @@ categories: AI&QA
 [day4]: https://sungalex.github.io/ai&qa/ai&vision/2020/05/11/Study4-Computer-Vision-and-CNN.html
 [day5]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study5-NLP-fundamentals.html
 [day6]: https://sungalex.github.io/ai&qa/ai&nlp/2020/05/18/Study6-NLP-DeepLearning-RNN-BERT.html
+[day7]: 
