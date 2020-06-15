@@ -114,7 +114,10 @@ categories: AI&QA AI&ASR
 
   ~~~bash
   pip install --upgrade google-cloud-speech
+  pip install pyaudio
   ~~~
+
+  - anaconda를 사용하는 경우, pip 명령어 대신 conda 명령을 사용할 수 있습니다.
 
 - STT 폴더의 파일을 jupyter notebook에서 학습 합니다. 
 
