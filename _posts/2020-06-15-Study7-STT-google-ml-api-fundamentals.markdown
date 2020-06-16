@@ -109,7 +109,7 @@ categories: AI&QA AI&ASR
 
 - 실습을 위해서는 Google Cloud Machine Learning API 사용을 위해, Google 계정에 Billing Account 설정 및 Private Key 발급이 필요 합니다.
 아래 문서를 참고해서 환경설정 해주시기 바랍니다.
- 
+
   - google cloud speech-to-text 개발환경 설정하기 : [Google Drive 링크(PDF)](https://drive.google.com/file/d/1IohYNCIXnQNZnGMJQks58hc3evzkMMld/view?usp=sharing)
 
 - [github aiqa repository](https://github.com/sungalex/aiqa)를 clone 합니다. 기존에 clone 되어 있는 경우는 pull 명령을 사용하여 checkout 합니다.
