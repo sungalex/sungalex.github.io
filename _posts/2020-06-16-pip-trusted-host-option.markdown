@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "pip PackagesNotFoundError 발생 시 --trusted-host option 사용방법"
+title:  "pip PackagesNotFoundError 발생 시 '--trusted-host' option 사용방법"
 date:   2020-06-16 13:30:00 +0900
 categories: Developer Python
 ---
