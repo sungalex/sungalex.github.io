@@ -13,8 +13,8 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
 
 임시 해결책으로 아래와 같이 ssl_verify 설정을 false로 변경하면 문제를 비켜갈 수 있습니다.(보안상 권장되지는 않습니다.)
 
-  ```bash
+  ~~~bash
   conda config --set ssl_verify false
-  ```
+  ~~~
 
 <https://rfriend.tistory.com/304> 블로그에서 이 문제의 다양한 해결 방법을 확인 할 수 있습니다.
