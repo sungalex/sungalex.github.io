@@ -73,6 +73,8 @@ categories: AI&QA AI&ASR
 
     - GMM은 Gaussian 분포가 여러 개 혼합된 **clustering 알고리즘** 이다. 현실에 존재하는 복잡한 형태의 확률 분포를 K개의 Gaussian distribution을 혼합하여 표현하자는 것이 GMM의 기본 아이디어 이다.
 
+      ![GMM](/img/study7/GMM.png)
+
   - DNN(Deep Neural Network) 모델
 
     - GMM 확률 모델 부분을 DNN(Deep Learning)으로 대체하고, HMM으로 음성의 변화를 예측하는 방법을 사용한다. (최근에는 HMM 부분까지 Deep Learning 모델로 대체하는 모델에 대한 연구가 많이 진행되고 있다.)
