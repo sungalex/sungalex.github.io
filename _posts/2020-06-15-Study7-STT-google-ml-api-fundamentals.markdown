@@ -123,7 +123,7 @@ categories: AI&QA AI&ASR
 - 아래 명령으로 필요한 패키지를 추가로 설치 합니다. (anaconda를 사용하는 경우, 본인이 사용하는 가상환경을 activate 후 설치 합니다.)
 
   ~~~bash
-  pip install --upgrade google-cloud-speech
+  pip install google-cloud-speech
   pip install pyaudio
   ~~~
 
