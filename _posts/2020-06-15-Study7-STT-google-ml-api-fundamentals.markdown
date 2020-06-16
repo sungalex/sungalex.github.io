@@ -11,17 +11,15 @@ categories: AI&QA AI&ASR
 
 ### 음성인식이란
 
+- 소리는 시간에 따른 기압의 분포이다(여러 개 주파수의 합이 신호의 세기로 나타난다). 즉, 일정한 시간을 주기로 측정한 기압의 차이이다.
+
+  - 소리의 특징 : <https://github.com/sungalex/aiqa/blob/master/digital_signal_processing.md> 참조
+
 - 음성인식이란 음성신호로부터 Text Data를 추출 하는 것이다.
 
   ![Speech Recognition](/img/study7/speech_recognition.png)
 
   - 입력된 음성이 어떤 단어들로 이루어져 있을 확률이 가장 높은가를 찾는 문제이다.
-
-  - 수식 표현 : 일정 길이 T 동안 입력된 음성 Sequence X(또는 O)에 대해서 인식기가 표현할 수 있는 모든 단어들의 조합 중 가장 가능성이 높은 단어열 W는 무언인가?
-
-    ![speech recognition formula](/img/study7/speech_recognition_formula.png)
-
-    ![speech recognition formula2](/img/study7/speech_recognition_formula2.png)
 
 - 음성신호의 저장 방법 : 대표적인 방법이 PCM 이다.
 
@@ -29,15 +27,23 @@ categories: AI&QA AI&ASR
 
   - PCM(Pulse Code Modulation) : 아날로그 음성 신호를 표본화 -> 양자화 -> 부호화 과정을 통해 디지털 음성 신호로 변환함 ([PCM 설명은 여기 참조](https://mintnlatte.tistory.com/310))
 
-  - Sampling Rate가 44.1kHz라며, 음성 신호를 1초에 44,100번 샘플링해서, 각각의 샘플링된 신호를 2Bytes(65,536개의 크기)로 저장 ==> 엄청난 데이터량
+  - Sampling Rate가 44.1kHz라면, 음성 신호를 1초에 44,100번 샘플링해서, 각각의 샘플링된 신호를 2Bytes(65,536개의 크기)로 저장 ==> 엄청난 데이터량
+
+- 음성인식의 수식 표현 : 일정 길이 T 동안 입력된 음성 Sequence X(또는 O)에 대해서 인식기가 표현할 수 있는 모든 단어들의 조합 중 가장 가능성이 높은 단어열 W는 무언인가?
+
+  ![speech recognition formula](/img/study7/speech_recognition_formula.png)
+
+  ![speech recognition formula2](/img/study7/speech_recognition_formula2.png)
 
 - ASR(automatic speech recognition) System 구성
 
   ![asr system](/img/study7/asr_system.png)
 
-  - 음향모델, 발음사전, 언어모델이 학습단계 결과물
+  - 음향모델, 발음사전, 언어모델이 학습단계 결과물 이다.
 
   - 음향모델(Acoustic Model) : 음성을 0.02초 구간을 0.01초씩 시간축에 따라 움직이며 만든 특징 벡터열 X와 어휘 셋 W에 대해 **P(X \| W)** 확률을 학습하는 과정(해당 언어의 음운 환경별 발음의 음향적 특성을 확률 모델로 대표 패턴을 생성하는 과정) 이다. 음향모델 학습을 위해서는 음성데이터와 이 음성데이터가 무슨 문장을 발성한 것인지에 대한 원고가 있어야 한다. 음성을 듣고 사람이 정답을 달아주는(원고를 작성) 옮겨쓰기(Transcription) 작업이 필요하다.
+
+    - 발성기관인 성대의 떨림 정도나 모양이 급격하게 변할 수 없으므로, 음성은 짧은 구간(보통 0.02초) 동안의 주기적인 단위로 음성을 분석하여 소리가 만들어진 상태를 예측한다. 
 
   - 언어모델(Language Model) : 방대한 텍스트를 분석해 모델을 만들어 현재 인식되고 있는 단어들 간의 결합 확률을 예측하는 과정이다. 언어모델에서는 특정 단어 다음에 나올 단어의 확률 추정이 이뤄진다. 발음이 비슷한 단어가 많거나 불분명하게 발음되어 음향모델만으로 판단했을 때 잘못된 인식이 발생할 확률을 낮추는 역할을 한다.
 
@@ -65,9 +71,11 @@ categories: AI&QA AI&ASR
 
     - GMM은 음성의 음향 특성의 분포를 모델링하는데 사용되고, HMM은 음성 신호의 시간 시퀀스를 모델링하는데 사용된다.
 
-    - GMM은 Gaussian 분포가 여러 개 혼합된 **clustering 알고리즘** 이다. 
+    - GMM은 Gaussian 분포가 여러 개 혼합된 **clustering 알고리즘** 이다. 현실에 존재하는 복잡한 형태의 확률 분포를 K개의 Gaussian distribution을 혼합하여 표현하자는 것이 GMM의 기본 아이디어 이다.
 
   - DNN(Deep Neural Network) 모델
+
+    - GMM 확률 모델 부분을 DNN(Deep Learning)으로 대체하고, HMM으로 음성의 변화를 예측하는 방법을 사용한다. (최근에는 HMM 부분까지 Deep Learning 모델로 대체하는 모델에 대한 연구가 많이 진행되고 있다.)
 
     - 음성 특징 추출
 
@@ -77,8 +85,6 @@ categories: AI&QA AI&ASR
 
       ![acoustic model](/img/study7/DNN-acoustic_model.png)
 
-    - GMM 확률 모델 부분을 DNN(Deep Learning)으로 대체하고, HMM으로 음성의 변화를 예측하는 방법을 사용한다. (최근에는 HMM 부분까지 Deep Learning 모델로 대체하는 모델에 대한 연구가 많이 진행되고 있다.)
-
     - ASR DNN 모델에 대한 설명 자료 : [카카오 AI 리포트 - 음성인식 방법과 카카오i의 음성형엔진](https://brunch.co.kr/@kakao-it/105)
 
     - 딥러닝(Deep Learning)을 이용한 음성 인식(Speech Recognition) 소개 자료 : [기계 학습(Machine Learning, 머신 러닝)은 즐겁다! Part 6](https://medium.com/@jongdae.lim/기계-학습-machine-learning-은-즐겁다-part-6-eb0ed6b0ed1d)
@@ -86,6 +92,8 @@ categories: AI&QA AI&ASR
 ### 음성인식 개발 환경
 
 - [Kaldi Speech Recognition Toolkit](https://github.com/kaldi-asr/kaldi) : 음성인식 및 신호 처리를 위해 C++로 작성된 가장 대표적인 오픈소스 ASR(automatic speech recognition) Toolkit 이다. Unix/Linux 계열 플랫폼 기반으로 개발되어 있다. (Windows 계열에 설치하는 방법이 있긴 하지만 추천하지 않는다. docker 컨테이너를 이용할 수도 있다.)
+
+  - [kaldi docker image 설치하기](https://github.com/kaldi-asr/kaldi/tree/master/docker/README.md)
 
 - [Zeroth](https://github.com/goodatlas/zeroth) : Kaldi 기반 한국어 ASR 오픈소스 프로젝트. Kaldi 음향모델에 한국어 언어모델을 추가하였다. MoreCoin App을 통해 음성 데이터 및 음성에 대한 텍스트 데이터를 Crowd sourcing 하여 공유하는 플랫폼을 이용할 수 있다.
 
