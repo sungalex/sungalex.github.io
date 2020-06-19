@@ -2,7 +2,7 @@
 layout: post
 title:  "[Study5] NLP(Natural Language Processing) 개요"
 date:   2020-05-18 15:30:00 +0900
-categories: AI&QA NLP
+categories: AI&QA 자연어처리
 ---
 
 *[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.06.08)*
