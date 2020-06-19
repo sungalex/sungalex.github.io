@@ -25,12 +25,10 @@ categories: AI&QA
 ## Chapter3. AI 기술 활용방안을 찾아보자
 
 - \[Day8\] 특강 - AI 프로젝트 사례
-- 머신러닝 성능평가 지표(Precision, Recall, Accuracy, F-Measure)에 대해 알아보자
-- 품질관리, 테스팅 분야의 AI 활용사례(AI 서비스, 솔루션 등) 및 "내일의 AI 화" 대상을 찾아보자
-- 개인별 추가 학습하기 (개인별 수준을 고려하여 개별 학습 진행)
-  - 공공데이터 활용하기
-  - 머신러닝 프레임워크 : Tensorflow, Keras, PyTorch
-  - 다양한 Google ML API(Vision, Language, Speech) 사용해보기
+- \[Day9\] Keras를 배워보자. - the Python deep learning API(Tensorflow 고수준 API)
+- \[Day9\] 성능평가 지표(Precision, Recall, Accuracy, F-Measure, confusion_matrix)에 대해 알아보자
+- \[Day10\] Web Crawling & 공공데이터 활용하기
+- \[Day11\] 품질관리, 테스팅 분야의 AI 활용 사례를 알아보자
 
 [day0]: https://sungalex.github.io/developer/2020/04/06/딥러닝-개발환경-구축하기-Windows.html
 [day1]: https://sungalex.github.io/ai&qa/2020/04/09/Study1-Development-Environment-and-AI-Concept.html
