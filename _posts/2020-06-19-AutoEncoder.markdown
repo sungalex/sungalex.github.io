@@ -7,7 +7,7 @@ categories: RL_UL
 
 ## AutoEncoder
 
-- 자기 자신을 학습하는 Unspervised Learning
+- 자기 자신을 학습하는 Unsupervised Learning
 
   - 입력과 출력층의 뉴런 수가 동일
   - encoder 부분만 분리하면 Clustering model이 됨
