@@ -1,4 +1,4 @@
 ---
 layout: category
-title: NLP
+title: 자연어처리
 ---
