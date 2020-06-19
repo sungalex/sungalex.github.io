@@ -1,4 +1,4 @@
 ---
 layout: category
-title: AI&Vision
+title: CV
 ---
