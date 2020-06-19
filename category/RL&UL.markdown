@@ -1,4 +1,4 @@
 ---
 layout: category
-title: RL&UL
+title: AI
 ---
