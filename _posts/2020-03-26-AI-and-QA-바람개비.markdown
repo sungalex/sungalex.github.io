@@ -7,7 +7,7 @@ categories: AI&QA
 
 *(created: '20.03.26, last-updated: '20.06.15)*
 
-## Chapter1. AI 기본부터 알아보자
+## 1. AI 기본부터 알아보자
 
 - \[Day0\] Ice Breaking, 학습목표 공유 및 학습 준비하기(개발환경 이해하기) : [딥러닝 개발환경 구축하기][day0]
 - \[Day1\] AI가 뭐지? Machine Learning과 전통적인 Programming은 뭐가 다를까? : [Study Day1 자료][day1]
@@ -15,14 +15,14 @@ categories: AI&QA
 - \[Day2\] 머신러닝 Hello World!!! MNIST 문자 인식 : [Study Day2 자료[2-2]][day2-2] 
 - \[Day3\] Machine Learning Cheat-Key! Python and 필수 라이브러리 : [Study Day3 자료][day3]
 
-## Chapter2. Machine Learning & Deep Learning 따라하기
+## 2. Machine Learning & Deep Learning 따라하기
 
 - \[Day4\] Computer Vision(영상처리) 따라하기 : [Study Day4 자료][day4]
 - \[Day5\] Natural Language Processing - 1 (자연어처리 개요) : [Study Day5 자료][day5]
 - \[Day6\] Natural Language Processing - 2 (딥러닝 자연어처리 모델) : [Study Day6 자료][day6]
 - \[Day7\] STT(음성 문자 변환) 따라하기 (Machine Learning API 서비스 사용해보기) : [Study Day7 자료][day7]
 
-## Chapter3. AI 기술 활용방안을 찾아보자
+## 3. AI 활용방안을 찾아보자
 
 - \[Day8\] 특강 - AI 프로젝트 사례
 - \[Day9\] Keras를 배워보자. - the Python deep learning API(Tensorflow 고수준 API)
