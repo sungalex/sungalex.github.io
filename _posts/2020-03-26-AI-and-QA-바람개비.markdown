@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[AI와 QA의 만남] 바람개비 활동계획"
+title:  "[AI와 QA의 만남] 바람개비 스터디"
 date:   2020-03-26 11:08:00
 categories: AI&QA
 ---
