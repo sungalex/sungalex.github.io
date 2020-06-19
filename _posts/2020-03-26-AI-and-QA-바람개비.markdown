@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "[AI와 QA의 만남] 바람개비 활동계획"
-date:   2020-03-26 11:08:00 +0900
+date:   2020-03-26 11:08:00
 categories: AI&QA
 ---
 
-*(created: '20.03.26, last-updated: '20.06.15)*
+*(created: '20.03.26, last-updated: '20.06.20)*
 
 ## 1. AI 기본부터 알아보자
 
