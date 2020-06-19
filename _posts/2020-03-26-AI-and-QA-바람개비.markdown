@@ -36,6 +36,6 @@ categories: AI&QA
 [day2-2]: https://sungalex.github.io/ai&qa/2020/04/20/Study2-machine-learning-hello-world-MNIST.html
 [day3]: https://sungalex.github.io/ai&qa/python/2020/04/28/Study3-Python-and-numpy-matplotlib.html
 [day4]: https://sungalex.github.io/ai&qa/cv/2020/05/11/Study4-Computer-Vision-and-CNN.html
-[day5]: https://sungalex.github.io/ai&qa/nlp/2020/05/18/Study5-NLP-fundamentals.html
-[day6]: https://sungalex.github.io/ai&qa/nlp/2020/05/18/Study6-NLP-DeepLearning-RNN-BERT.html
+[day5]: https://sungalex.github.io/ai&qa/자연어처리/2020/05/18/Study5-NLP-fundamentals.html
+[day6]: https://sungalex.github.io/ai&qa/자연어처리/2020/05/18/Study6-NLP-DeepLearning-RNN-BERT.html
 [day7]: https://sungalex.github.io/ai&qa/asr/2020/06/15/Study7-STT-google-ml-api-fundamentals.html
