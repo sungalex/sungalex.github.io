@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll Anchor links(Header IDs) 생성 Rules"
 date:   2020-04-10 04:15:00 +0900
-categories: Jekyll 
+categories: Dev 
 ---
 
 ## Jekyll Header IDs and links

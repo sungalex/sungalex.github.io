@@ -2,7 +2,7 @@
 layout: post
 title: About
 date:   2019-04-19 20:26:40
-categories: Jekyll
+categories: Dev
 ---
 
 이 사이트는 Artificial Intelligence, Machine Learning, Natural Language Processing, Computer Vision, Python, Markdown, LaTeX, docker, git 등 AI와 Programming 관련 기술 블로그 입니다.

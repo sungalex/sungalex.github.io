@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll !"
 date:   2019-04-19 20:26:44 +0900
-categories: Jekyll 
+categories: Dev 
 ---
 이 게시물은 `_posts` 디렉토리에서 찾을 수 있습니다. 계속해서 수정하고 사이트를 다시 빌드하여 변경 사항을 확인하십시오. 여러 가지 방법으로 사이트를 재구성 할 수 있지만, 가장 일반적인 방법은 웹 서버를 시작하고 파일이 업데이트 될 때 사이트를 자동으로 재생성하는 `jekyll serve`(또는 `bundle exec jekyll serve`)를 실행하는 것입니다.
 
