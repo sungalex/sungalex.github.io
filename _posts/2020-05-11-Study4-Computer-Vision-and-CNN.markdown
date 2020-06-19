@@ -2,7 +2,7 @@
 layout: post
 title:  "[Study4] Computer Vision and CNN(Convolutional Neural Network)"
 date:   2020-05-11 13:30:00 +0900
-categories: AI&QA AI&Vision
+categories: AI&QA CV
 ---
 
 ## Computer Vision 개요
