@@ -1,7 +1,6 @@
 ---
 layout: post
 title: About
-permalink: /about/
 categories: Jekyll
 ---
 
