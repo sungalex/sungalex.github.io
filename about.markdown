@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+categories: Jekyll
 ---
 
 이 사이트는 Artificial Intelligence, Machine Learning, Natural Language Processing, Computer Vision, Python, Markdown, LaTeX, docker, git 등 AI와 Programming 관련 기술 블로그 입니다.
