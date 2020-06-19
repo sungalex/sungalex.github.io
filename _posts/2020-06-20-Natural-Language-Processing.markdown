@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Natural Language Processing"
+title:  "NLP(Natural Language Processing)"
 date:   2020-06-20 04:40:00 +0900
 categories: NLP
 ---
