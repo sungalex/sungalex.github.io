@@ -2,7 +2,7 @@
 layout: post
 title:  "[Study6] NLP(Natural Language Processing) - RNN/LSTM에서 BERT까지"
 date:   2020-05-18 16:15:00 +0900
-categories: AI&QA AI&NLP
+categories: AI&QA NLP
 ---
 
 *[AI와 QA의 만남] - Study Day6 (학습일: '20.06.10, update: '20.06.10)*

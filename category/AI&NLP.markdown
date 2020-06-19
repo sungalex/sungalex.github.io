@@ -1,4 +1,4 @@
 ---
 layout: category
-title: AI&NLP
+title: NLP
 ---
