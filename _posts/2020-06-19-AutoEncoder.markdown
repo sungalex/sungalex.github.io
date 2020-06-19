@@ -2,7 +2,7 @@
 layout: post
 title:  "AutoEncoder"
 date:   2020-06-19 21:10:00 +0900
-categories: RL&UL
+categories: RL_UL
 ---
 
 ## AutoEncoder
