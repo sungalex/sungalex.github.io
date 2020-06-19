@@ -2,7 +2,7 @@
 layout: post
 title:  "Natural Language Processing"
 date:   2019-04-26 12:45:00 +0900
-categories: 자연어처리
+categories: AI 자연어처리
 ---
 
 ## IPA 인공지능센터 "고급(언어지능) 과정 1기" 스터디 자료

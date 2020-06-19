@@ -2,7 +2,7 @@
 layout: post
 title:  "[Study2-1] 딥러닝의 작동 원리: 뉴런에서 딥러닝까지"
 date:   2020-04-16 22:00:00 +0900
-categories: AI&QA
+categories: AI AI&QA
 ---
 
 *[AI와 QA의 만남] - Study Day2 (학습일: '20.04.21)*

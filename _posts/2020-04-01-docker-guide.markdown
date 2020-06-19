@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker TensorFlow 설치 가이드"
 date:   2020-04-01 01:30:00 +0900
-categories: Dev
+categories: AI Dev
 ---
 
 ## Docker 설치 가이드 참고자료

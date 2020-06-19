@@ -2,7 +2,7 @@
 layout: post
 title:  "[Study1] AI/머신러닝/딥러닝 개념 이해하기"
 date:   2020-04-10 02:00:00 +0900
-categories: AI&QA
+categories: AI AI&QA
 ---
 
 *[AI와 QA의 만남] - Study Day1 (학습일: '20.04.13)*

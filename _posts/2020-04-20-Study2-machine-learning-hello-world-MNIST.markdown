@@ -2,7 +2,7 @@
 layout: post
 title:  "[Study2-2] 머신러닝 Hello World!!! MNIST 문자 인식"
 date:   2020-04-21 01:45:00 +0900
-categories: AI&QA
+categories: AI AI&QA
 ---
 
 *[AI와 QA의 만남] - Study Day2 (학습일: '20.04.21, update: '20.04.26)*

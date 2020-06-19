@@ -2,7 +2,7 @@
 layout: post
 title:  "[Study7] STT(Speech to Text) - Google ML API 사용하기"
 date:   2020-06-15 16:00:00 +0900
-categories: AI&QA 음성처리
+categories: AI AI&QA 음성처리
 ---
 
 *[AI와 QA의 만남] - Study Day7 (학습일: '20.06.16, create: '20.06.15)*
