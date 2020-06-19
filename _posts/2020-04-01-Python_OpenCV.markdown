@@ -2,7 +2,7 @@
 layout: post
 title:  "Python OpenCV"
 date:   2020-04-01 01:10:00 +0900
-categories: CV
+categories: 영상처리
 ---
 
 ## Python Codes

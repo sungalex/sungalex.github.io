@@ -1,4 +1,4 @@
 ---
 layout: category
-title: CV
+title: 영상처리
 ---
