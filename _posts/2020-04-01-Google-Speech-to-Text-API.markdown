@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Speech-to-Text API 분석"
 date:   2020-04-01 02:00:00 +0900
-categories: AI&ASR
+categories: ASR
 ---
 
 ## Google Cloud Speech-to-Text 변환 및 화자 분할 분석
