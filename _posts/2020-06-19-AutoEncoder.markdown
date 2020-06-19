@@ -16,7 +16,7 @@ categories: RL_UL
 
   ![AutoEncoder](/img/AutoEncoder.PNG)
 
-- AutoEncoder 종류 : https://iq.opengenus.org/types-of-autoencoder/
+- AutoEncoder 종류 : <https://iq.opengenus.org/types-of-autoencoder>
 
 ### Anomaly Detection
 
