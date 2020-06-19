@@ -2,7 +2,7 @@
 layout: post
 title:  "딥러닝 개발환경 구축하기(Windows 환경)"
 date:   2020-04-06 22:50:00 +0900
-categories: Developer
+categories: Dev
 ---
 
 ## 딥러닝 개발환경 개요

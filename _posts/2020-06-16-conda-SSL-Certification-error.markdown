@@ -2,7 +2,7 @@
 layout: post
 title:  "conda install 시 SSL Certificate Error 처리 방법"
 date:   2020-06-16 12:30:00 +0900
-categories: Developer Python
+categories: Dev Python
 ---
 
 conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하는 경우는,

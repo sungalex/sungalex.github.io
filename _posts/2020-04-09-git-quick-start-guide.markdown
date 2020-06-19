@@ -2,7 +2,7 @@
 layout: post
 title:  "git Quick Start Guide(git - 간편 안내서)"
 date:   2020-04-09 13:05:00 +0900
-categories: Developer
+categories: Dev
 ---
 
 git을 처음 사용하는 사람들을 위한 가장 Simple 하고 전체적으로 잘 설명된 간략한 안내서는 Roger Dudler가 만든 ["git - the simple guide"](https://rogerdudler.github.io/git-guide/index.html) 입니다. 한국어 버전 사이트는 [git - 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html) 입니다.
