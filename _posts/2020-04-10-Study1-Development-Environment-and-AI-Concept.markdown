@@ -49,8 +49,6 @@ categories: AI AI&QA
 
   - [인공지능, 기계학습 그리고 딥러닝 Slideshare, 이진원/SNU](https://www.slideshare.net/JinWonLee9/ss-70446412) : 8, 14~15, 23, 26~36페이지 참조
 
-  - [[머신러닝] 머신러닝?!](https://devtimes.com/bigdata/2019/01/30/machine-learning/) : 스팸필터를 만들기 위해서는... 전통적인 접근 방식 vs. 머신러닝 접근 방식... 
-
   - [딥러닝의 기본 개념](https://www.youtube.com/watch?v=n7DNueHGkqE) (*김성훈 교수님의 강의, Neural Network(신경망) 개념부터 Deep Leaning까지 체계적인 정리*)
 
     [![딥러닝의 기본 개념](/img/study1/deep-neural-nets-for-everyone.png)](https://www.youtube.com/watch?v=n7DNueHGkqE)
