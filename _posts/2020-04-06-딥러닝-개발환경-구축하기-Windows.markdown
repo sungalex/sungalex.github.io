@@ -72,7 +72,7 @@ Python 개발 환경을 처음 설치 하는 경우는, 아래 선택 화면에�
 
 ### 2. Anaconda 가상 개발환경 사용하기
 
-<U>(*가상환경 이름을 vane에서 pinwheel로 변경함 - '20.6.20일 Update*)</U>
+*<U>(가상환경 이름을 vane에서 pinwheel로 변경함 - '20.6.20일 Update)</U>*
 
 패키지 버전관리(의존성 관리)를 위해 가상환경을 만듭니다.
 Anaconda prompt에서 아래 명령을 수행 합니다.
