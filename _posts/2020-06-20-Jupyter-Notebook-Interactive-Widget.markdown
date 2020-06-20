@@ -66,6 +66,8 @@ categories: Python Dev
   - <https://junpyopark.github.io/interactive_jupyter/>
   - <https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6>
 
+- source : <http://localhost:8889/notebooks/Jupyter_Notebook_Interact.ipynb>
+
 ### Callback 방식
 
 ~~~ipython
@@ -78,6 +80,8 @@ def f(x):
 
 interact(f, x=10);    # UI control 생성
 ~~~
+
+![interact1](/img/jupyter-interact1.gif)
 
 ### Decorator 방식
 
