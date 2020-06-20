@@ -72,19 +72,21 @@ Python 개발 환경을 처음 설치 하는 경우는, 아래 선택 화면에�
 
 ### 2. Anaconda 가상 개발환경 사용하기
 
+<U>(*가상환경 이름을 vane에서 pinwheel로 변경함 - '20.6.20일 Update*)</U>
+
 패키지 버전관리(의존성 관리)를 위해 가상환경을 만듭니다.
 Anaconda prompt에서 아래 명령을 수행 합니다.
 
 - **가상환경 생성**
   - `conda create --name 가상환경_이름 python=파이썬_버전`
-  - ex. `conda create --name vane python=3.7` *(바람개비를 의미하는 vane을 가상환경 이름으로 사용함)*
+  - ex. `conda create --name pinwheel python=3.7` *(바람개비를 의미하는 pinwheel을 가상환경 이름으로 사용함)*
 - **가상환경 리스트 보기**
   - `conda info --envs`
   - `conda env list`
 - **가상환경 활성화**: `activate 가상환경_이름`
-  - ex. `activate vane`
+  - ex. `activate pinwheel`
 - **가상환경 비활성화**: `deactivate 가상환경_이름` 또는 `deactivate`
-  - ex. `deactivate vane`
+  - ex. `deactivate pinwheel`
 
 conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하는 경우는,
 
@@ -208,12 +210,12 @@ print(tf.__version)) 명령은 tensorflow가 정상적으로 설치된 경우 te
 
 Anaconda를 설치하면 기본 개발환경으로 "base"라는 가상환경이 설정되어 있습니다. "base" 가상환경에는 numpy, pandas, matplolib 등 Data Science에 필요한 기본적인 Python 패키지들이 설치되어 있습니다.
 
-위에 설명한 [Anaconda 가상 개발환경 사용하기](#anaconda-가상-개발환경-사용하기) 부분에서 "vane" 가상환경을 새로 만들었는데, 이 환경에는 아직 필요한 패키지 틀이 설치되지 않는 상태 입니다.
+위에 설명한 [Anaconda 가상 개발환경 사용하기](#anaconda-가상-개발환경-사용하기) 부분에서 "pinwheel" 가상환경을 새로 만들었는데, 이 환경에는 아직 필요한 패키지 틀이 설치되지 않는 상태 입니다.
 
-아래 명령으로 "vane" 가상 환경을 활성화 합니다. "(vane) C:\Users\user>"와 같이 Prompt 맨 앞부분에 "(vane)"이라는 문자열이 추가된 것을 확인할 수 있습니다. (사용자 Home Directory 환경에 따라 Prompt 문자열은 달라질 수 있습니다.)
+아래 명령으로 "pinwheel" 가상 환경을 활성화 합니다. "(pinwheel) C:\Users\user>"와 같이 Prompt 맨 앞부분에 "(pinwheel)"이라는 문자열이 추가된 것을 확인할 수 있습니다. (사용자 Home Directory 환경에 따라 Prompt 문자열은 달라질 수 있습니다.)
 
   ```bash
-  conda activate vane
+  conda activate pinwheel
   ```
 
 아래와 같이 기본적인 패키지 몇 가지를 설치 합니다.
@@ -231,7 +233,7 @@ ipython, notebook, jupyter는 jypyter notebook 관련 패키지들 입니다. nu
 
 ### 7. Jupyter Notebook 개발환경 테스트
 
-아래 명령으로 Jupyter Notebook을 실행할 수 있습니다. 위에서 "vane"이라는 Anaconda 가상환경에 Jupyter Notebook을 설치했기 때문에 "vane" 가상환경에서 아래 명령을 실행 해야 합니다. 아래 명령을 실행하기 전에 Prompt 맨 앞 부분에 "(vane)"이 나타나 있는지 확인 합니다.
+아래 명령으로 Jupyter Notebook을 실행할 수 있습니다. 위에서 "pinwheel"이라는 Anaconda 가상환경에 Jupyter Notebook을 설치했기 때문에 "pinwheel" 가상환경에서 아래 명령을 실행 해야 합니다. 아래 명령을 실행하기 전에 Prompt 맨 앞 부분에 "(pinwheel)"이 나타나 있는지 확인 합니다.
 
   ```bash
   jupyter notebook
