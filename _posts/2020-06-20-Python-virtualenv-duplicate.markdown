@@ -58,19 +58,17 @@ categories: Python Dev
       pinwheel_pkg = pinwheel_file.read()
   
   # vane 패키지 설치내역 리스트로 만들기(버전 정보 포함)
-  vane_list = [_.split() for _ in vane_pkg.split("\n")]
+  vane_list = [_.split()[0] for _ in vane_pkg.split("\n") if _ is not ""]
 
   # pinwheel 패키지 설치내역 리스트로 만들기 (버전 정보 제외)
-  pinwheel_list = [_.split()[0] for _ in pinwheel_pkg.split("\n")]
+  pinwheel_list = [_.split()[0] for _ in pinwheel_pkg.split("\n") if _ is not ""]
+  pinwheel_list = [_.split("==")[0] for _ in pinwheel_list]
 
   # 설치되지 않은 패키지 찾기
   requirement = []
   for _ in vane_list:
-      if _[0] not in pinwheel_list:
+      if _.split("==")[0] not in pinwheel_list:
           requirement.append(_)
-
-  # requirement.txt 형식으로 바꾸기
-  requirement = [_[0] + "==" + _[1] for _ in requirement]
 
   # requirement.txt 저장하기
   with open("requirement.txt", "w") as f:
