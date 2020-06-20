@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Jupyter Notebook Interactive Widget 사용하기"
+title:  "Jupyter Interactive Widget 사용하기"
 date:   2020-06-20 21:30:00
 categories: Python Dev
 ---
 
-## Jupyter Interactive Widget (ipyWidget)
-
-### Jupyter Interactive Widget 개요
+## Jupyter Interactive Widget(ipyWidget) 개요
 
 - 사용자로 부터 입력을 받을 수 있게 해주는 Jupyter UI Component
 
@@ -15,7 +13,7 @@ categories: Python Dev
 
 - Jupyter의 Interactive Widget(ipyWidget) Reference : https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html
 
-### Jupyter ipyWidget 설치
+## Jupyter ipyWidget 설치
 
 - Reference : https://ipywidgets.readthedocs.io/en/latest/user_install.html
 
@@ -61,7 +59,7 @@ categories: Python Dev
     $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
     ~~~
 
-## Interact 
+## Interact 사용하기
 
 - Reference
   - https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html#
