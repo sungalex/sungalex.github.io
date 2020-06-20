@@ -11,7 +11,9 @@ categories: Python Dev
 
 - vane 가상환경에 설치된 패키지들를 pinwheel 가상환경에 동일하게 설치하는 방법을 소개합니다.
 
-### 전체 패키지 리스트 재설치하기 (Case 1)
+- anaconda 가상환경을 사용하는 경우에도 아래의 Case1과 Case2의 방법을 사용할 수 있습니다.
+
+### (Case 1) 전체 패키지 리스트 재설치하기
 
 - "vane" 가상환경을 활성화 한 후 설치된 패키지 리스트(버전정보 포함)를 "requirement.txt"에 저장하기
 
@@ -27,7 +29,7 @@ categories: Python Dev
   (pinwheel)$ pip install -r requirement.txt
   ~~~
 
-### pinwheel 환경에 설치되지 않은 패키지 만 추가 설치하기  (Case 2)
+### (Case 2) pinwheel 환경에 설치되지 않은 패키지 만 추가 설치하기
 
 #### 가상환경에 설치된 패키지 리스트 저장하기
 
@@ -83,7 +85,7 @@ $ activate pinwheel
 (pinwheel)$ pip install -r requirement.txt
 ~~~
 
-### virtualenvwrapper를 사용하는 경우 가상환경 복제하기  (Case 3)
+### (Case 3) virtualenvwrapper를 사용하는 경우 가상환경 복제하기
 
 - 아래와 같이 cpvirtualenv 명령어로 가상환경을 복제할 수 있습니다.
 
