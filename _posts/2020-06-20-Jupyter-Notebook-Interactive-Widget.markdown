@@ -63,7 +63,10 @@ categories: Python Dev
 
 ## Interact 
 
-- Reference : https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html#
+- Reference
+  - https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html#
+  - https://junpyopark.github.io/interactive_jupyter/
+  - https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
 
 ### Callback 방식
 
