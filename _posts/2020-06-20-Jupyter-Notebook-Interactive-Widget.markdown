@@ -11,11 +11,11 @@ categories: Python Dev
 
 - 잦은 Hyper parameter 변경을 테스트 해야 하는 경우 사용하면 편리함
 
-- Jupyter의 Interactive Widget(ipyWidget) Reference : https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html
+- Jupyter의 Interactive Widget(ipyWidget) Reference : <https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html>
 
 ## Jupyter ipyWidget 설치
 
-- Reference : https://ipywidgets.readthedocs.io/en/latest/user_install.html
+- Reference : <https://ipywidgets.readthedocs.io/en/latest/user_install.html>
 
 - pip 설치 및 활성화
 
@@ -32,7 +32,7 @@ categories: Python Dev
   $ conda install -c conda-forge ipywidgets
   ~~~
 
-- multiple 환경에 설치하는 경우(notebook은 `base` 환경에 설치되어 있고, kernel은 `py36` 환경에 설치되어 있다면), `widgetsnbextension`을 Notebook이 설치된 환경에 먼저 설치 후, `ipywidgets`을 kernel이 설치된 환경에 설치
+- multiple 환경에 사용하는 경우(notebook은 `base` 환경에 설치되어 있고, kernel은 `py36` 환경에 설치되어 있다면), `widgetsnbextension`을 Notebook이 설치된 환경에 먼저 설치 후, `ipywidgets`을 kernel이 설치된 환경에 설치
 
   ~~~bash
   $ conda install -n base -c conda-forge widgetsnbextension
@@ -62,9 +62,9 @@ categories: Python Dev
 ## Interact 사용하기
 
 - Reference
-  - https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html#
-  - https://junpyopark.github.io/interactive_jupyter/
-  - https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
+  - <https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html#>
+  - <https://junpyopark.github.io/interactive_jupyter/>
+  - <https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6>
 
 ### Callback 방식
 
