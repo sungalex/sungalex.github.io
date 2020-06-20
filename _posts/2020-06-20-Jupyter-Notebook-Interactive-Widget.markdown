@@ -41,7 +41,7 @@ categories: Python Dev
   $ conda install -n py36 -c conda-forge ipywidgets
   ~~~
 
-- JupyterLab Extension 추가 설치
+- Jupyter Lab을 사용하는 경우 labextension을 추가로 설치한다.
 
   - nldejs를 먼저 설치해야 한다.
 
@@ -83,23 +83,22 @@ interact(f, x=10);    # UI control 생성
 ~~~ipython
 @interact(x=True, y=1.0)
 def g(x, y):
-    return (x, y)
+  return (x, y)
 ~~~
 
 ### 그래프 예제
 
 ~~~ipython
-%matplotlib inline
 from ipywidgets import interactive
 import matplotlib.pyplot as plt
 import numpy as np
 
 def f(m, b):
-    plt.figure(2)
-    x = np.linspace(-10, 10, num=1000)
-    plt.plot(x, m * x + b)
-    plt.ylim(-5, 5)
-    plt.show()
+  plt.figure(2)
+  x = np.linspace(-10, 10, num=1000)
+  plt.plot(x, m * x + b)
+  plt.ylim(-5, 5)
+  plt.show()
 
 interactive_plot = interactive(f, m=(-2.0, 2.0), b=(-3, 3, 0.5))
 output = interactive_plot.children[-1]
