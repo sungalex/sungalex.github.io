@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Multi-cursor and selection - 에디터 다중선택 편집"
+title:  "Multi-cursor and selection - 다중선택 편집"
 date:   2020-06-21 09:40:00
 categories: Python Dev
 ---
