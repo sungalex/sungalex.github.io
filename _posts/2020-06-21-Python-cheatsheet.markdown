@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python 개발 Cheatsheet"
+title:  "Python 개발 Cheatsheet (업데이트중...)"
 date:   2020-06-21 02:00:00
 categories: Python Dev
 ---
