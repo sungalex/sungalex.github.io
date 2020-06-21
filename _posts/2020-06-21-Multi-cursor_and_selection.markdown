@@ -11,9 +11,9 @@ categories: Python Dev
 
 - Key Bindings for Visual Studio Code : <https://code.visualstudio.com/docs/getstarted/keybindings>
 
-- MaxOS (source: [Visual Studio Code Keyboard shortcuts for macOS, PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf))
+- MaxOS (source: [Visual Studio Code Keyboard shortcuts for MacOS, PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf))
 
-  | Keybinding      | Command                                     | 설명                                                |
+  | Keybinding      | Command                                     | Description                                         |
   | :-------------- | :------------------------------------------ | :-------------------------------------------------- |
   | ⌥ + click       | Insert cursor                               | 다중선택 할 지점에서 "Ctrl + 클릭, 클릭, 클릭, ..." |
   | ⌥⌘↑             | Insert cursor above                         |                                                     |
@@ -36,3 +36,49 @@ categories: Python Dev
 - Linux (source: [Visual Studio Code Keyboard shortcuts for Linux, PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf))
 
 ## Jupyter Notebook Multi-cursor and selection
+
+- reference: [Jupyter notebook에서 Multi-Cursor / Multiple Selection 적용하기](https://rrbb014.tistory.com/26)
+  - [Sublime-style multiple cursors in Jupyter](https://www.perfectlyrandom.org/2016/03/19/sublime-text-style-multiple-cursors-in-jupyter-notebook/)
+  - <https://github.com/jupyter/notebook/issues/278>
+
+- source: <https://github.com/sungalex/aiqa/blob/master/Sublime-style_multiple_cursors_in_Jupyter.ipynb>
+
+- 환경설정
+
+  1. Jypyter Notebook을 실행시켜서 Jupyter 설정 폴더 찾기
+
+      ~~~ipython
+      from jupyter_core.paths import jupyter_config_dir
+      
+      jupyter_dir = jupyter_config_dir()
+      print(jupyter_dir)        # Jupyter 설정 디렉토리 경로 (ex. `/Users/alex/.jupyter`)
+      ~~~
+
+  2. Jupyter 설정 폴더로 이동하여, custom 디렉토리에 custom.js 파일 생성 (폴더 및 파일 생성 -> 있는 경우 파일 오픈)
+
+      ~~~bash
+      $ cd /Users/alex/.jupyter     # Jupyter 설정 디렉토리
+      $ mkdir custom                # custom 디렉토리가 있는 경우 생략
+      $ cd custom
+      $ vi custom.js                # custom.js 생성 또는 오픈
+      ~~~
+
+  3. custom.js 파일에 아래의 구문 삽입
+
+      ~~~bash
+      require(["codemirror/keymap/sublime", "notebook/js/cell", "base/js/namespace"],
+          function(sublime_keymap, cell, IPython) {
+              cell.Cell.options_default.cm_config.keyMap = 'sublime';
+              var cells = IPython.notebook.get_cells();
+              for(var c=0; c < cells.length ; c++){
+                  cells[c].code_mirror.setOption('keyMap', 'sublime');
+              }
+          } 
+      );
+      ~~~
+
+- Multi-cursor Keyboard Shortcuts ([Sublime Text Unofficial Documentation: Keyboard Shortcuts - OSX](https://sublime-text-unofficial-documentation.readthedocs.io/en/sublime-text-2/reference/keyboard_shortcuts_osx.html))
+
+  ![sublime keyboard shortcuts](/img/sublime-keyboard-shortcuts-editing.png)
+
+- Windows : [Sublime Text 3 - Useful Shortcuts (Windows)](https://gist.github.com/mrliptontea/4c793ebdf72ed145bcbf)
