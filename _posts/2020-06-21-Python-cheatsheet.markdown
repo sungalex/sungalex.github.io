@@ -7,14 +7,6 @@ categories: Python Dev
 
 *(create: '20.6.21, update: '20.6.21)*
 
-## 편집기 다중선택 기능 사용하기
-
-- 다중선택 : Ctrl + 클릭, 클릭, 클릭, ...
-
-- 이동 : 방향키, Ctrl + 좌우 방향키 (Mac에서는 Alt)
-
-- 범위지정 : Ctrl + Shift + 방향키, Shift + 방향키
-
 ## help/dir 확인 및 특정 속성/method 검색
 
 - **dir() 내장함수** : 어떤 객체를 인자로 넣어주면 해당 객체가 어떤 변수와 메소드(method)를 가지고 있는지 나열해줍니다.
