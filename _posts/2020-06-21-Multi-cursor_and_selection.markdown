@@ -43,7 +43,9 @@ categories: Python Dev
 
 - source: <https://github.com/sungalex/aiqa/blob/master/Sublime-style_multiple_cursors_in_Jupyter.ipynb>
 
-- 환경설정
+- Keyboard Shortcuts 환경설정
+
+  - 아래의 환경설정을 하지 않아도 `Cmd + 멀티 클릭`과 `Cmd + 방향키`는 동작하지만, 다른 에디터에서 사용하던 단축키를 사용하기 위해서는 아래와 같은 환경설정이 필요합니다. 
 
   1. Jypyter Notebook을 실행시켜서 Jupyter 설정 폴더 찾기
 
