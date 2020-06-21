@@ -9,6 +9,8 @@ categories: Python Dev
 
 ## VS Code Multi-cursor and selection
 
+- Key Bindings for Visual Studio Code : <https://code.visualstudio.com/docs/getstarted/keybindings>
+
 - MaxOS (source: [Visual Studio Code Keyboard shortcuts for macOS, PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf))
 
   | Keybinding      | Command                                     | 설명                                                |
