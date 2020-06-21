@@ -37,15 +37,21 @@ categories: Python Dev
 
 ## Jupyter Notebook Multi-cursor and selection
 
+- Jupyter Notebook에서 <kbd>esc</kbd> 키로 명령어 모드로 전환 후 <kbd>H</kbd> 키를 누루면 Keyboard Shortcut 도움말 화면이 나옵니다. (Jupyter Notebook Edit Mode Keyboard Shortcuts 도움말 화면 예)
+
+  ![keyboard shortcuts(default)](/img/jupyter-notebook-shortcuts.png)
+
+### Keyboard Shortcuts 설정 변경하기
+
 - reference: [Jupyter notebook에서 Multi-Cursor / Multiple Selection 적용하기](https://rrbb014.tistory.com/26)
   - [Sublime-style multiple cursors in Jupyter](https://www.perfectlyrandom.org/2016/03/19/sublime-text-style-multiple-cursors-in-jupyter-notebook/)
   - <https://github.com/jupyter/notebook/issues/278>
 
 - source: <https://github.com/sungalex/aiqa/blob/master/Sublime-style_multiple_cursors_in_Jupyter.ipynb>
 
-- Keyboard Shortcuts 환경설정
+- Sublime Text style Keyboard Shortcuts 설정하기
 
-  - 아래의 환경설정을 하지 않아도 `Cmd + 멀티 클릭`과 `Cmd + 방향키`는 동작하지만, 다른 에디터에서 사용하던 단축키를 사용하기 위해서는 아래와 같은 환경설정이 필요합니다. 
+  - Sublime Text 에디터에서 사용하던 단축키를 사용하기 위해서는 아래와 같은 환경설정이 필요합니다. 
 
   1. Jypyter Notebook을 실행시켜서 Jupyter 설정 폴더 찾기
 
