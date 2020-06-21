@@ -16,8 +16,8 @@ categories: Python Dev
   | Keybinding      | Command                                     | Description                                         |
   | :-------------- | :------------------------------------------ | :-------------------------------------------------- |
   | ⌥ + click       | Insert cursor                               | 다중선택 할 지점에서 "Ctrl + 클릭, 클릭, 클릭, ..." |
-  | ⌥⌘↑             | Insert cursor above                         |                                                     |
-  | ⌥⌘↓             | Insert cursor below                         |                                                     |
+  | ⌥⌘↑             | Insert cursor above                         | 커서의 위 방향으로 다중 선택                        |
+  | ⌥⌘↓             | Insert cursor below                         | 커서의 아래 방향으로 다중 선택                      |
   | ⌘U              | Undo last cursor operation                  |                                                     |
   | ⇧⌥I             | Insert cursor at end of each line selected  |                                                     |
   | ⌘L              | Select current line                         |                                                     |
