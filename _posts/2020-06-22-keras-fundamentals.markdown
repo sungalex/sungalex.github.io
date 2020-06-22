@@ -28,8 +28,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   ~~~ipython
   from keras.layers import Dense
 
-  model.add(Input(shape=(28,28)))
-  model.add(Dense(units=64, activation='relu', input_dim=100))
+  model.add(Dense(units=64, activation='relu', input_shaoe=(28,28)))
   model.add(Dense(units=10, activation='softmax'))
   ~~~
 
@@ -51,21 +50,15 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
 - 배치의 형태로 트레이닝 데이터에 대한 반복작업을 수행할 수 있습니다:
 
   ~~~ipython
-  # 학습과 테스트를 위한 데이터를 읽어들입니다.
-  (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
-
-  # Scale images to the [0, 1] range
-  x_train = x_train.astype("float32") / 255
-  x_test = x_test.astype("float32") / 255
-
   # x_train and y_train are Numpy arrays --just like in the Scikit-Learn API.
+  # Training을 수행하기 전에 학습 데이터를 읽어들여야 합니다. (코드 생략)
   model.fit(x_train, y_train, epochs=5, batch_size=32)
   ~~~
 
 - 혹은, 모델에 배치를 수동으로 전달할 수도 있습니다:
 
   ~~~ipython
-  model.train_on_batch(x_batch, y_batch)
+  model.train_on_batch(x_batch, y_batch)    # 사전에 x_batch, y_batch를 생성해야함
   ~~~
 
 - 코드 한 줄로 모델의 성능을 평가해 보십시오:
