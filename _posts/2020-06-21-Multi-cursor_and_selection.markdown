@@ -7,7 +7,7 @@ categories: Python Dev
 
 *(create: '20.6.21, update: '20.6.21)*
 
-## VS Code Multi-cursor and selection
+## 1. VS Code Multi-cursor and selection
 
 - Key Bindings for Visual Studio Code : <https://code.visualstudio.com/docs/getstarted/keybindings>
 
@@ -35,13 +35,13 @@ categories: Python Dev
 
 - Linux (source: [Visual Studio Code Keyboard shortcuts for Linux, PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf))
 
-## Jupyter Notebook Multi-cursor and selection
+## 2. Jupyter Notebook Multi-cursor and selection
 
 - Jupyter Notebook에서 <kbd>esc</kbd> 키로 명령어 모드로 전환 후 <kbd>H</kbd> 키를 누루면 Keyboard Shortcut 도움말 화면이 나옵니다. (Jupyter Notebook Edit Mode Keyboard Shortcuts 도움말 화면 예)
 
   ![keyboard shortcuts(default)](/img/jupyter-notebook-shortcuts.png)
 
-### Keyboard Shortcuts 설정 변경하기
+### 2.1 Keyboard Shortcuts 설정 변경하기
 
 - reference: [Jupyter notebook에서 Multi-Cursor / Multiple Selection 적용하기](https://rrbb014.tistory.com/26)
   - [Sublime-style multiple cursors in Jupyter](https://www.perfectlyrandom.org/2016/03/19/sublime-text-style-multiple-cursors-in-jupyter-notebook/)
@@ -84,6 +84,8 @@ categories: Python Dev
           } 
       );
       ~~~
+
+### 2.2 Sublime Text Style Keyboard Shortcuts
 
 - Multi-cursor Keyboard Shortcuts ([Sublime Text Unofficial Documentation: Keyboard Shortcuts - OSX](https://sublime-text-unofficial-documentation.readthedocs.io/en/sublime-text-2/reference/keyboard_shortcuts_osx.html))
 
