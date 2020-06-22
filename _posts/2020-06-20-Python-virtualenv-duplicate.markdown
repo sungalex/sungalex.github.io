@@ -15,23 +15,23 @@ categories: Python Dev
 
 ### (Case 1) 전체 패키지 리스트 재설치하기
 
-- "vane" 가상환경을 활성화 한 후 설치된 패키지 리스트(버전정보 포함)를 "requirement.txt"에 저장하기
+1. "vane" 가상환경을 활성화 한 후 설치된 패키지 리스트(버전정보 포함)를 "requirement.txt"에 저장하기
 
-  ~~~bash
-  $ activate vane
-  (vane)$ pip freeze > requirement.txt
-  ~~~
+    ~~~bash
+    $ activate vane
+    (vane)$ pip freeze > requirement.txt
+    ~~~
 
-- "pinwheel" 가상환경을 활성화 한 후 "requirement.txt"의 패키지 리스트를 설치하기
+2. "pinwheel" 가상환경을 활성화 한 후 "requirement.txt"의 패키지 리스트를 설치하기
 
-  ~~~bash
-  $ activate pinwheel
-  (pinwheel)$ pip install -r requirement.txt
-  ~~~
+    ~~~bash
+    $ activate pinwheel
+    (pinwheel)$ pip install -r requirement.txt
+    ~~~
 
 ### (Case 2) pinwheel 환경에 설치되지 않은 패키지 만 추가 설치하기
 
-#### 가상환경에 설치된 패키지 리스트 저장하기
+#### 1. 가상환경에 설치된 패키지 리스트 저장하기
 
 - "vane" 가상환경에 설치된 패키지 리스트 저장하기
 
@@ -47,7 +47,7 @@ categories: Python Dev
   (pinwheel)$ pip freeze > pinwheel_requirement.txt
   ~~~
 
-#### pinwheel에 설치되지 않은 패키지 리스트를 requirement.txt로 만들기
+#### 2. pinwheel에 설치되지 않은 패키지 리스트를 requirement.txt로 만들기
 
 - 아래 코드를 python 파일(.py 파일)로 저장한 후 실행하면 requirement.txt 파일이 생성됨
 
@@ -78,7 +78,7 @@ categories: Python Dev
           f.writelines(_ + "\n")
   ~~~
 
-#### "pinwheel" 가상환경을 활성화 한 후 "requirement.txt"의 패키지 리스트를 설치하기
+#### 3. "pinwheel" 가상환경을 활성화 한 후 "requirement.txt"의 패키지 리스트를 설치하기
 
 ~~~bash
 $ activate pinwheel
