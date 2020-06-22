@@ -5,7 +5,7 @@ date:   2020-06-20 21:30:00
 categories: Python Dev
 ---
 
-## Jupyter Interactive Widget(ipyWidget) 개요
+## 1. Jupyter Interactive Widget(ipyWidget) 개요
 
 - 사용자로 부터 입력을 받을 수 있게 해주는 Jupyter UI Component
 
@@ -13,7 +13,7 @@ categories: Python Dev
 
 - Jupyter Interactive Widget(ipyWidget) Reference : <https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html>
 
-## Jupyter ipyWidget 설치
+## 2. Jupyter ipyWidget 설치
 
 - Reference : <https://ipywidgets.readthedocs.io/en/latest/user_install.html>
 
@@ -59,7 +59,7 @@ categories: Python Dev
     $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
     ~~~
 
-## Interact 사용하기
+## 3. Interact 사용하기
 
 - Reference
   - <https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html#>
@@ -68,7 +68,7 @@ categories: Python Dev
 
 - source : <https://github.com/sungalex/aiqa/blob/master/Jupyter_Notebook_Interact.ipynb>
 
-### Callback 방식
+### 3.1 Callback 방식
 
 ~~~ipython
 from __future__ import print_function
@@ -81,7 +81,7 @@ def f(x):
 interact(f, x=10);    # UI control 생성
 ~~~
 
-### Decorator 방식
+### 3.2 Decorator 방식
 
 ~~~ipython
 @interact(x=True, y=1.0)
@@ -89,7 +89,7 @@ def g(x, y):
   return (x, y)
 ~~~
 
-### 그래프 예제
+### 3.3 그래프 예제
 
 ~~~ipython
 from ipywidgets import interactive
