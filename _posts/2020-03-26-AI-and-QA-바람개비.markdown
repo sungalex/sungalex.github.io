@@ -25,7 +25,7 @@ categories: AI AI&QA
 ## 3. AI 활용방안을 찾아보자
 
 - \[Day8\] 특강 - AI 프로젝트 사례
-- \[Day9\] Keras를 배워보자. - the Python deep learning API(Tensorflow 고수준 API)
+- \[Day9\] Keras를 배워보자. - the Python deep learning API(Tensorflow 고수준 API) : [Study Day9 자료][day9]
 - \[Day9\] 성능평가 지표(Precision, Recall, Accuracy, F-Measure, confusion_matrix)에 대해 알아보자
 - \[Day10\] Web Crawling & 공공데이터 활용하기
 - \[Day11\] 품질관리, 테스팅 분야의 AI 활용 사례를 알아보자
@@ -39,3 +39,4 @@ categories: AI AI&QA
 [day5]: https://sungalex.github.io/ai/ai&qa/자연어처리/2020/05/18/Study5-NLP-fundamentals.html
 [day6]: https://sungalex.github.io/ai/ai&qa/자연어처리/2020/05/18/Study6-NLP-DeepLearning-RNN-BERT.html
 [day7]: https://sungalex.github.io/ai/ai&qa/음성처리/2020/06/15/Study7-STT-google-ml-api-fundamentals.html
+[day9]: https://sungalex.github.io/python/ai/ai&qa/2020/06/22/keras-fundamentals.html
