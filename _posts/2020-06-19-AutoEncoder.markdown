@@ -5,7 +5,7 @@ date:   2020-06-19 21:10:00 +0900
 categories: AI
 ---
 
-## AutoEncoder
+## 1. AutoEncoder 란?
 
 - 자기 자신을 학습하는 Unsupervised Learning
 
@@ -18,7 +18,7 @@ categories: AI
 
 - AutoEncoder 종류 : <https://iq.opengenus.org/types-of-autoencoder>
 
-### Encoder/Decoder란?
+## 2. Encoder/Decoder란?
 
 - Encoder란?
   - 일반적 의미 : 물리 환경으로부터 피드백을 제공하는 센서 장치
@@ -31,7 +31,7 @@ categories: AI
 
 - Encoder는 set() 함수로 Key를 추출한 후 dict() 객체를 직접 만들어서 구현할 수도 있고, Scikit-Learn의 preprocessing.LabelEncoder()를 사용하여 fit()으로 생성할 수도 있음
 
-### Encoder/Decoder 직접 만들기
+### 2.1 Encoder/Decoder 직접 만들기
 
   ~~~ipython
   # Encoder 만들기
@@ -44,7 +44,7 @@ categories: AI
   print(dec[0])     # 'SALES'
   ~~~
 
-### Encoder/Decoder 사용하기
+### 2.2 Encoder/Decoder 사용하기
 
   ~~~ipython
   enc_data = [ enc[i] for i in data]
@@ -54,7 +54,7 @@ categories: AI
   print(dec_data)     # ['ACCOUNTING', 'RESEARCH', 'SALES', 'RESEARCH', 'RESEARCH']
   ~~~
 
-### Scikit-Learn 기반 Encoding/Decoding
+### 2.3 Scikit-Learn 기반 Encoding/Decoding
 
   ~~~ipython
   # Encoder/Decoder 생성
@@ -79,7 +79,7 @@ categories: AI
   le.inverse_transform([0, 0, 1, 2])    # array(['ACCOUNTING', 'ACCOUNTING', 'RESEARCH', 'SALES'], dtype='<U10')
   ~~~
 
-## Keras AutoEncoder on Iris Dataset
+## 3. Keras AutoEncoder on Iris Dataset
 
 * Source : https://www.kaggle.com/shivam1600/autoencoder-on-iris-dataset
 
@@ -200,12 +200,14 @@ plt.scatter(x_test['Petal.Length'], x_test['Petal.Width'],c=y_test.astype('categ
 plt.show()
 ~~~
 
-## Anomaly Detection
+## 4. AutoEncoder 응용사례
+
+### 4.1 Anomaly Detection
 
 - 정상 데이터에 비해 비정상 데이터 수가 너무 적으면(1만배 이상 차이가 나면) 지도학습으로 학습이 잘 안됨
 - AutoEncoder 모델로 정상을 학습 -> 구현시 재구성 Error가 크면 비정상 이라고 간주함
     
-## Denoising Autoencoder
+## 4.2 Denoising Autoencoder
 
 - 오토인코더가 의미있는 특성(feature)을 학습하도록 제약을 주기 위해 입력에 노이즈(noise, 잡음)를 추가
 - 노이즈가 없는 원본 입력을 재구성하도록 학습시키는 것
