@@ -81,7 +81,8 @@ categories: AI
 
 ## 3. Keras AutoEncoder on Iris Dataset
 
-* Source : https://www.kaggle.com/shivam1600/autoencoder-on-iris-dataset
+* reference : <https://www.kaggle.com/shivam1600/autoencoder-on-iris-dataset>
+* Source : <https://github.com/sungalex/aiqa/blob/master/keras_AutoEncoder.ipynb>
 
 ~~~ipython
 import pandas as pd
