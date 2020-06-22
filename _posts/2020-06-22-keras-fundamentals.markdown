@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Study9] Keras - 파이썬 딥러닝 라이브러리"
+title:  "[Study9] Keras - 파이썬 딥러닝 라이브러리(작성중...)"
 date:   2020-06-22 21:00:00
 categories: Python AI AI&QA
 ---
