@@ -11,7 +11,7 @@ categories: Python Dev
 
 - 잦은 Hyper parameter 변경을 테스트 해야 하는 경우 사용하면 편리함
 
-- Jupyter의 Interactive Widget(ipyWidget) Reference : <https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html>
+- Jupyter Interactive Widget(ipyWidget) Reference : <https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html>
 
 ## Jupyter ipyWidget 설치
 
@@ -41,19 +41,19 @@ categories: Python Dev
 
 - Jupyter Lab을 사용하는 경우 labextension을 추가로 설치한다.
 
-  - nldejs를 먼저 설치해야 한다.
+  - nodejs를 먼저 설치해야 한다.
 
     ~~~bash
     $ pip install nodejs
     ~~~
 
-  - conda 환경을 사용하는 경우 nodejs 설치한다.
+  - conda 환경을 사용하는 경우 아래의 명령으로 nodejs를 설치한다.
 
     ~~~bash
     $ conda install -c conda-forge nodejs
     ~~~
 
-  - labextension jupyterlab-manager을 설치한다.
+  - labextension(jupyterlab-manager)을 설치한다.
 
     ~~~bash
     $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
