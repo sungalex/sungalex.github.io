@@ -68,7 +68,7 @@ categories: Python Dev
       $ cd /Users/alex/.jupyter     # Jupyter 설정 디렉토리
       $ mkdir custom                # custom 디렉토리가 있는 경우 생략
       $ cd custom
-      $ vi custom.js                # custom.js 생성 또는 오픈
+      $ vi custom.js                # custom.js 생성 또는 오픈(본인이 사용하기 편한 텍스트 편집기를 사용하면 됨)
       ~~~
 
   3. custom.js 파일에 아래의 구문 삽입
