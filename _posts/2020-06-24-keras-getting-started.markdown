@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Keras 시작하기"
+title:  "[Study9] Keras 시작하기"
 date:   2020-06-24 13:00:00
 categories: Python AI AI&QA
 ---
