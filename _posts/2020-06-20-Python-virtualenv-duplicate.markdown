@@ -5,7 +5,7 @@ date:   2020-06-20 19:00:00
 categories: Python Dev
 ---
 
-## Python 가상환경에 설치된 패키지를 다른 가상환경에 설치하기
+## Python virtualenv 가상환경에 설치된 패키지를 다른 가상환경에 설치하기(복제 또는 부분 설치)
 
 - vane과 pinwheel 이라는 virtualenv 가상환경이 설치되어 있는 상황을 가정합니다.
 
@@ -98,3 +98,29 @@ $ activate pinwheel
 - [virtualenvwrapper 공식 도큐먼트](https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#cpvirtualenv)에 따르면, 아래와 같은 주의사항이 있어서 이 명령을 사용하는 것은 권장되지 않습니다.
 
 > (구글 번역) : 가상 환경 복사는 잘 지원되지 않습니다. 각 virtualenv에는 하드 코딩 된 경로 정보가 있으며, 복사 코드가 특정 파일을 업데이트해야한다는 것을 모르는 경우가 있습니다. 주의해서 사용하십시오.
+
+### (Case 4) virtualenv-clone 패키지를 사용하여 복제하기
+
+#### 1. virtualenv-clone 패키지를 설치 합니다.
+
+~~~bash
+(vane)$ pip install virtualenv-clone
+~~~
+
+#### 2. virtualenv-clone 명령으로 vane(source) 환경을 pinwheel(target) 환경으로 복제 하비다.
+
+~~~bash
+(vane)$ virtualenv-clone vane pinwheel
+(vane)$ activate pinwheel
+(pinwheel)$
+~~~
+
+---
+
+## conda 가상환경 복제하기
+
+`conda create --name <Target 환경 이름> --clone <Source 환경 이름>` 명령으로 conda 가상환경을 복제할 수 있습니다.
+
+~~~bash
+(vane)$ conda create --name pinwheel --clone vane
+~~~
