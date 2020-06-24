@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Study9] Keras - 파이썬 딥러닝 라이브러리(작성중...)"
+title:  "[Study9] Keras 소개 및 학습 레퍼런스"
 date:   2020-06-22 21:00:00
 categories: Python AI AI&QA
 ---
@@ -11,7 +11,9 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
 
 ## 1. Keras 소개
 
-### 1-1. [30초 케라스](https://keras.io/ko/#30)
+### 1.1. 30초 케라스
+
+(reference: <https://keras.io/ko/#30>)
 
 케라스의 주요 데이터 구조는 [`models`](https://keras.io/ko/models/about-keras-models/)로 레이어를 조직하는 방식입니다. 가장 간단한 종류의 모델인 [`Sequential`](https://keras.io/ko/models/sequential/) 모델은 레이어를 선형적으로 쌓습니다. 보다 복잡한 구조를 만드려면, [Keras functional API](https://keras.io/guides/functional_api/)를 사용하여 레이어로 임의의 그래프를 구축하면 됩니다.
 
@@ -66,7 +68,9 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   classes = model.predict(x_test, batch_size=128)
   ~~~
 
-### 1-2. [Keras 설치](https://keras.io/ko/#_4)
+### 1.2. Keras 설치
+
+(reference: <https://keras.io/ko/#_4>)
 
 - Tensorflow를 설치 합니다. (Keras 벡엔드로 Tensorflow를 사용 합니다. Tensorflow 2.x latest 버전을 설치 합니다.)
 
@@ -93,28 +97,30 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   pip install pydot
   ~~~
 
-## 2. Keras 시작하기
+## 2. Keras 학습 레퍼런스
 
-### 2-1. [케라스 Sequential 모델 시작하기](https://keras.io/ko/getting-started/sequential-model-guide/)
+### 2.1. [Keras 시작하기](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html)
 
-### 2-2. [케라스 함수형 API 첫걸음](https://keras.io/ko/getting-started/functional-api-guide/)
+#### 2.1.1. [케라스 Sequential 모델 시작하기](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html#케라스-sequential-모델-시작하기)
 
-## 3. Keras models
+#### 2.1.2. [케라스 함수형 API 첫걸음](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html#케라스-함수형-api-첫걸음)
 
-### 3-1. [Keras 모델에 관하여](https://keras.io/ko/models/about-keras-models/)
+### 3. Keras models
 
-### 3-2. [Sequential 모델 API](https://keras.io/ko/models/sequential/)
+#### 3.1. [Keras 모델에 관하여](https://keras.io/ko/models/about-keras-models/)
 
-### 3-3. [Keras 함수형 API](https://keras.io/guides/functional_api/)
+#### 3.2. [Sequential 모델 API](https://keras.io/ko/models/sequential/)
 
-## 4. Keras layers
+#### 3.3. [Keras 함수형 API](https://keras.io/guides/functional_api/)
 
-### 4-1. [Keras 레이어에 관하여](https://keras.io/ko/layers/about-keras-layers/)
+### 4. Keras layers
 
-### 4-2. [직접 케라스 레이어 만들기](https://keras.io/ko/layers/writing-your-own-keras-layers/)
+#### 4.1. [Keras 레이어에 관하여](https://keras.io/ko/layers/about-keras-layers/)
 
-## 5. [Keras Visualization](https://keras.io/ko/visualization/)
+#### 4.2. [직접 케라스 레이어 만들기](https://keras.io/ko/layers/writing-your-own-keras-layers/)
 
-### 5-1. 모델 시각화
+### 5. [Keras Visualization](https://keras.io/ko/visualization/)
 
-### 5-2. 학습 히스토리 시각화
+#### 5.1. 모델 시각화
+
+#### 5.2. 학습 히스토리 시각화
