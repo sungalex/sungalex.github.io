@@ -111,7 +111,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
 
 #### 3.2. [Sequential 모델 API](https://keras.io/ko/models/sequential/)
 
-#### 3.3. [Keras 함수형 API](https://keras.io/guides/functional_api/)
+#### 3.3. [Keras 함수형 API](https://keras.io/ko/models/model/)
 
 ### 4. Keras layers
 
