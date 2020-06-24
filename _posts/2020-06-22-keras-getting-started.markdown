@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2. Keras 시작하기"
+title:  "Keras 시작하기"
 date:   2020-06-22 21:00:00
 categories: Python AI AI&QA
 ---
@@ -9,7 +9,7 @@ categories: Python AI AI&QA
 
 reference : [케라스 Sequential 모델 시작하기](https://keras.io/ko/getting-started/sequential-model-guide/), [케라스 함수형 API 첫걸음](https://keras.io/ko/getting-started/functional-api-guide/)
 
-## 2.1. 케라스 Sequential 모델 시작하기
+## 케라스 Sequential 모델 시작하기
 
 [`Sequential`](https://keras.io/ko/models/sequential/) 모델은 레이어를 선형으로 연결하여 구성합니다. 레이어 인스턴스를 생성자에게 넘겨줌으로써 `Sequential` 모델을 구성할 수 있습니다.
 
@@ -33,7 +33,7 @@ model.add(Dense(32, input_dim=784))
 model.add(Activation('relu'))
 ~~~
 
-### 2.1.1. 입력형태 지정하기
+### 1. 입력형태 지정하기
 
 만들어진 모델은 입력 형태에 대한 정보를 필요로 합니다. 때문에 `Sequential` 모델의 첫 번째 레이어는 입력 형태에 대한 정보를 받습니다. 두 번째 이후 레이어들은 자동으로 형태를 추정할 수 있기 때문에 형태 정보를 갖고 있을 필요는 없습니다. 
 
@@ -55,7 +55,7 @@ model.add(Activation('relu'))
 
 - 입력 데이터를 위해 고정된 배치 형태를 필요로 하는 경우에는 레이어에 batch_size 인자를 넘길 수 있습니다. 이는 순환 신경망(recurrent network)를 사용할 때 유용합니다. 예를 들어, batch_size=32와 input_shape=(6,8)을 레이어에 넘겨주면 이후의 모든 입력을 32, 6, 8의 형태로 기대하여 처리합니다.
 
-### 2.1.2. 컴파일
+### 2. 컴파일
 
 모델을 학습시키기 이전에, `compile` 메소드를 통해서 학습 방식에 대한 환경설정을 해야 합니다. 다음의 세 개의 인자를 입력으로 받습니다.
 
@@ -81,7 +81,7 @@ model.add(Activation('relu'))
 
 - 기준(metric) 리스트 : 분류 문제에 대해서는 metrics=['accuracy'] 처럼 설정합니다. metric은 문자열 식별자 또는 사용자 정의 metric 함수를 사용할 수 있습니다.
 
-### 2.1.3. 학습
+### 3. 학습
 
 케라스 모델들은 입력 데이터와 라벨로 구성된 Numpy 배열 위에서 이루어집니다. 모델을 학습기키기 위해서는 일반적으로 `fit` 함수를 사용합니다. 여기서 자세한 정보를 알 수 있습니다.
 
@@ -130,13 +130,15 @@ model.add(Activation('relu'))
     model.fit(data, one_hot_labels, epochs=10, batch_size=32)
     ~~~
 
-## 2.2. 케라스 함수형 API 첫걸음
+---
+
+## 케라스 함수형 API 첫걸음
 
 케라스 함수형 API는 다중-아웃풋 모델, 비순환 유향 그래프, 혹은 레이어 공유 모델과 같이 복잡한 모델을 정의하는데 최적의 방법입니다.
 
 이 가이드는 독자가 Sequential 모델에 대한 지식이 있다고 가정합니다.
 
-### 2.2.1. 밀집 연결 네트워크(예시)
+### 1. 밀집 연결 네트워크(예시)
 
 밀집 연결 네트워크를 구현하기에는 `Sequential` 모델이 더 적합한 선택이겠지만, 아주 간단한 예시를 위해서 케라스 함수형 API로 구현해 보겠습니다.
 
@@ -179,7 +181,7 @@ input_sequences = Input(shape=(20, 784))
 processed_sequences = TimeDistributed(model)(input_sequences)
 ~~~
 
-### 2.2.2. 다중-인풋과 다중-아웃풋 모델
+### 2. 다중-인풋과 다중-아웃풋 모델
 
 다중 인풋과 아웃풋을 다루는 모델은 함수형 API를 사용하기 특히 적합한 사례입니다. 함수형 API를 사용해서 복잡하게 얽힌 많은 수의 데이터 줄기를 간편하게 관리할 수 있습니다.
 
