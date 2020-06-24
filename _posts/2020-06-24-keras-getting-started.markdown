@@ -9,6 +9,14 @@ categories: Python AI AI&QA
 
 reference : [케라스 Sequential 모델 시작하기](https://keras.io/ko/getting-started/sequential-model-guide/), [케라스 함수형 API 첫걸음](https://keras.io/ko/getting-started/functional-api-guide/)
 
+- [케라스 Sequential 모델 시작하기](#케라스-sequential-모델-시작하기)
+  - [1. 입력형태 지정하기](#1-입력형태-지정하기)
+  - [2. 컴파일](#2-컴파일)
+  - [3. 학습](#3-학습)
+- [케라스 함수형 API 첫걸음](#케라스-함수형-api-첫걸음)
+  - [1. 밀집 연결 네트워크(예시)](#1-밀집-연결-네트워크-예시)
+  - [2. 다중-인풋과 다중-아웃풋 모델(예시)](#2-다중-인풋과-다중-아웃풋-모델-예시)
+
 ## 케라스 Sequential 모델 시작하기
 
 [`Sequential`](https://keras.io/ko/models/sequential/) 모델은 레이어를 선형으로 연결하여 구성합니다. 레이어 인스턴스를 생성자에게 넘겨줌으로써 `Sequential` 모델을 구성할 수 있습니다.
@@ -181,7 +189,7 @@ input_sequences = Input(shape=(20, 784))
 processed_sequences = TimeDistributed(model)(input_sequences)
 ~~~
 
-### 2. 다중-인풋과 다중-아웃풋 모델
+### 2. 다중-인풋과 다중-아웃풋 모델(예시)
 
 다중 인풋과 아웃풋을 다루는 모델은 함수형 API를 사용하기 특히 적합한 사례입니다. 함수형 API를 사용해서 복잡하게 얽힌 많은 수의 데이터 줄기를 간편하게 관리할 수 있습니다.
 
