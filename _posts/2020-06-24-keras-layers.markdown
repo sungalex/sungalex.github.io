@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Keras layers"
+title:  "Keras 레이어(keras.layers)"
 date:   2020-06-24 21:00:00
 categories: Python AI
 ---
