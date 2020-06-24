@@ -121,8 +121,8 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
 
   - [직접 케라스 레이어 만들기](https://sungalex.github.io/python/ai/2020/06/24/keras-layers.html#2-직접-케라스-레이어-만들기)
 
-- [Keras Visualization](https://keras.io/ko/visualization/)
+- [Keras Visualization](https://sungalex.github.io/python/ai/2020/06/24/keras-visualization.html)
 
-  - [모델 시각화](https://keras.io/ko/visualization/#_1)
+  - [모델 시각화](https://sungalex.github.io/python/ai/2020/06/24/keras-visualization.html#1-keras-모델-시각화)
 
-  - [학습 히스토리 시각화](https://keras.io/ko/visualization/#_2)
+  - [학습 히스토리 시각화](https://sungalex.github.io/python/ai/2020/06/24/keras-visualization.html#2-keras-학습-히스토리-시각화)
