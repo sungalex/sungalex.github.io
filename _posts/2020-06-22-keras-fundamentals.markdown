@@ -97,30 +97,32 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   pip install pydot
   ~~~
 
+---
+
 ## 2. Keras 학습 레퍼런스
 
-### 2.1. [Keras 시작하기](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html)
+- [Keras 시작하기](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html)
 
-#### 2.1.1. [케라스 Sequential 모델 시작하기](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html#케라스-sequential-모델-시작하기)
+  - [케라스 Sequential 모델 시작하기](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html#케라스-sequential-모델-시작하기)
 
-#### 2.1.2. [케라스 함수형 API 첫걸음](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html#케라스-함수형-api-첫걸음)
+  - [케라스 함수형 API 첫걸음](https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html#케라스-함수형-api-첫걸음)
 
-### 3. Keras models
+- [Keras models](https://sungalex.github.io/python/ai/2020/06/24/keras-models.html)
 
-#### 3.1. [Keras 모델에 관하여](https://keras.io/ko/models/about-keras-models/)
+  - [Keras 모델에 관하여](https://sungalex.github.io/python/ai/2020/06/24/keras-models.html#keras-모델에-관하여)
 
-#### 3.2. [Sequential 모델 API](https://keras.io/ko/models/sequential/)
+  - [Sequential 모델 API](https://sungalex.github.io/python/ai/2020/06/24/keras-models.html#sequential-모델-api)
 
-#### 3.3. [Keras 함수형 API(Model 클래스 API)](https://keras.io/ko/models/model/)
+  - [Keras 함수형 API(Model 클래스 API)](https://sungalex.github.io/python/ai/2020/06/24/keras-models.html#keras-함수형-apimodel-클래스-api)
 
-### 4. Keras layers
+- [Keras layers](https://keras.io/ko/layers/about-keras-layers/)
 
-#### 4.1. [Keras 레이어에 관하여](https://keras.io/ko/layers/about-keras-layers/)
+  - [Keras 레이어에 관하여](https://keras.io/ko/layers/about-keras-layers/)
 
-#### 4.2. [직접 케라스 레이어 만들기](https://keras.io/ko/layers/writing-your-own-keras-layers/)
+  - [직접 케라스 레이어 만들기](https://keras.io/ko/layers/writing-your-own-keras-layers/)
 
-### 5. [Keras Visualization](https://keras.io/ko/visualization/)
+- [Keras Visualization](https://keras.io/ko/visualization/)
 
-#### 5.1. 모델 시각화
+  - [모델 시각화](https://keras.io/ko/visualization/#_1)
 
-#### 5.2. 학습 히스토리 시각화
+  - [학습 히스토리 시각화](https://keras.io/ko/visualization/#_2)
