@@ -13,33 +13,33 @@ GitLab Flavored Markdown(GFM)은 표준 Markdown 표준을 확장하여, Markdow
 
 ID는 다음 규칙에 따라 헤더의 컨텐츠에서 생성됩니다.
 
-    1. 모든 텍스트는 소문자로 변환됩니다.
-    2. 단어가 아닌 텍스트(예 : 문장 부호 또는 HTML)는 제거됩니다.
-    3. 모든 공백은 하이픈(-)으로 변환됩니다.
-    4. 연속 된 둘 이상의 하이픈은 하나로 변환됩니다.
-    5. 동일한 ID를 가진 헤더가 이미 생성 된 경우 1부터 시작하여 고유 한 증분 번호가 추가됩니다.
+>1. 모든 텍스트는 소문자로 변환됩니다.
+>2. 단어가 아닌 텍스트(예 : 문장 부호 또는 HTML)는 제거됩니다.
+>3. 모든 공백은 하이픈(-)으로 변환됩니다.
+>4. 연속 된 둘 이상의 하이픈은 하나로 변환됩니다.
+>5. 동일한 ID를 가진 헤더가 이미 생성 된 경우 1부터 시작하여 고유 한 증분 번호가 추가됩니다.
 
 Markdown Header 사용 예:
 
-    ~~~
-    # This header has spaces in it
-    ## This header has a :thumbsup: in it
-    # This header has Unicode in it: 한글
-    ## This header has spaces in it
-    ### This header has spaces in it
-    ## This header has 3.5 in it (and parentheses)
-    ~~~
+~~~markdown
+# This header has spaces in it
+## This header has a :thumbsup: in it
+# This header has Unicode in it: 한글
+## This header has spaces in it
+### This header has spaces in it
+## This header has 3.5 in it (and parentheses)
+~~~
 
 위의 Markdown 코드는 다음과 같은 링크 ID를 생성합니다.
 
-    ~~~
-    this-header-has-spaces-in-it
-    this-header-has-a-in-it
-    this-header-has-unicode-in-it-한글
-    this-header-has-spaces-in-it-1
-    this-header-has-spaces-in-it-2
-    this-header-has-3-5-in-it-and-parentheses
-    ~~~
+~~~markdown
+this-header-has-spaces-in-it
+this-header-has-a-in-it
+this-header-has-unicode-in-it-한글
+this-header-has-spaces-in-it-1
+this-header-has-spaces-in-it-2
+this-header-has-3-5-in-it-and-parentheses
+~~~
 
 문서 내에서 위의 링크 ID를 `[This header has spaces in it](#this-header-has-spaces-in-it)` 처럼 사용할 수 있습니다.
 
