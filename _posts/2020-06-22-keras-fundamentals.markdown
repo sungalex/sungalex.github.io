@@ -20,9 +20,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
 - 필요한 모듈을 import 합니다.
 
   ~~~ipython
-  import tensorflow as tf
   from tensorflow import keras
-  import numpy as np
   ~~~
 
 - 먼저 학습 데이터를 읽어들입니다. (MNIST datasets를 읽어들입니다.)
