@@ -71,7 +71,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
 - 또는, 새로운 데이터에 대해서 예측 결과를 생성해 보십시오:
 
   ~~~ipython
-  classes = model.predict(x_test, batch_size=128)
+  classes = model.predict(x_test, batch_size=32)
   ~~~
 
 ### 1.2. Keras 설치
