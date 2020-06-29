@@ -23,15 +23,6 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   from tensorflow import keras
   ~~~
 
-- 먼저 학습 데이터를 읽어들입니다. (MNIST datasets를 읽어들입니다.)
-
-  ~~~ipython
-  mnist = keras.datasets.mnist
-
-  (x_train, y_train), (x_test, y_test) = mnist.load_data()
-  x_train, x_test = x_train / 255.0, x_test / 255.0
-  ~~~
-
 - keras `Sequential` 모델을 생성합니다:
 
   ~~~ipython
@@ -60,13 +51,13 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   model.fit(x_train, y_train, epochs=5, batch_size=32)
   ~~~
 
-- 코드 한 줄로 모델의 성능을 평가해 보십시오:
+- `evaluate()` 메소드로 학습된 모델의 성능을 평가해 보십시오:
 
   ~~~ipython
   loss_and_metrics = model.evaluate(x_test, y_test, batch_size=32)
   ~~~
 
-- 또는, 새로운 데이터에 대해서 예측 결과를 생성해 보십시오:
+- `predict()` 메소드로 새로운 데이터에 대해서 예측 결과를 생성할 수 있습니다:
 
   ~~~ipython
   classes = model.predict(x_test, batch_size=32)
@@ -82,7 +73,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   $ pip install tensorflow
   ~~~
 
-  또는, 아래와 같이 tensorflow 버전을 명시적으로 지정하여 설치할 수도 있습니다.
+  또는, 아래와 같이 tensorflow 버전을 명시적으로 지정하여 설치할 수도 있습니다. (`tensorflow==latest` 형태로 가장 최신 버전을 설치할수도 있습니다.)
 
   ~~~bash
   $ pip install tensorflow==2.1
