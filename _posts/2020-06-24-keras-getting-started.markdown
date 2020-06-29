@@ -169,7 +169,6 @@ inputs = Input(shape=(784,))
 
 # 레이어 인스턴스는 텐서에 대해 호출 가능하고, 텐서를 반환합니다
 x = Dense(64, activation='relu')(inputs)
-x = Dense(64, activation='relu')(x)
 predictions = Dense(10, activation='softmax')(x)
 
 # 이는 Input 레이어와 3개의 Dense 레이어를 포함하는 모델을 만들어 냅니다
