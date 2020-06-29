@@ -7,7 +7,9 @@ categories: Python AI
 
 *(create: '20.6.30, update: '20.6.30)*
 
-(reference: <https://scikit-learn.org/stable/modules/classes.html?highlight=metrics#module-sklearn.metrics>)
+*reference:*
+  - *<https://scikit-learn.org/stable/modules/classes.html?highlight=metrics#module-sklearn.metrics>*
+  - *<https://datascienceschool.net/view-notebook/731e0d2ef52c41c686ba53dcaf346f32/>*
 
 ## 모델 평가와 성능 향상
 
