@@ -73,6 +73,8 @@ model.add(Activation('relu'))
 
     ~~~ipython
     # For a multi-class classification
+    # sparse_categorical_crossentropy ; 다중 분류 손실함수(integer type 클래스)
+    # categorical_crossentropy ; 다중 분류 손실함수(one-hot encoding 클래스)
     model.compile(optimizer='rmsprop',
                 loss='categorical_crossentropy',
                 metrics=['accuracy'])
