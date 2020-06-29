@@ -25,7 +25,7 @@ categories: AI AI&QA
 ## 3. AI 활용방안을 찾아보자
 
 - \[Day8\] 특강 - AI 프로젝트 사례
-- \[Day9\] the Python deep learning API(Tensorflow 고수준 API) - Keras를 배워보자 : [Study Day9 자료1][day9], [자료2][day9-2]
+- \[Day9\] Python deep learning API(Tensorflow 고수준 API) - Keras를 배워보자 : [Study Day9 자료1][day9], [자료2][day9-2]
 - \[Day10\] 성능평가 지표(Precision, Recall, Accuracy, F-Measure, confusion_matrix)에 대해 알아보자
 - [개별 학습 주제] 품질관리, 테스팅 분야의 AI 활용 사례를 알아보자
 
