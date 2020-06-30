@@ -40,4 +40,4 @@ categories: AI AI&QA
 [day7]: https://sungalex.github.io/ai/ai&qa/음성처리/2020/06/15/Study7-STT-google-ml-api-fundamentals.html
 [day9]: https://sungalex.github.io/python/ai/ai&qa/2020/06/22/keras-fundamentals.html
 [day9-2]: https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html
-[day10]: https://sungalex.github.io/python/ai/2020/06/30/metrics-model-evaluation.html
+[day10]: https://sungalex.github.io/python/ai/ai&qa/2020/06/30/metrics-model-evaluation.html
