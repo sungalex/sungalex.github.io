@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "모델 성능 평가지표와 측정"
+title:  "[Stydy10] 모델 성능 평가지표와 측정"
 date:   2020-06-30 02:15:00
-categories: Python AI
+categories: Python AI AI&QA
 ---
 
 *(create: '20.6.30, update: '20.6.30)*
