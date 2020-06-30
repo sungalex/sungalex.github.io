@@ -26,7 +26,7 @@ categories: AI AI&QA
 
 - \[Day8\] 특강 - AI 프로젝트 사례
 - \[Day9\] Python 딥러닝 API(Tensorflow 고수준 API) - Keras를 배워보자 : [Study Day9 자료1][day9], [자료2][day9-2]
-- \[Day10\] 성능평가 지표(Precision, Recall, Accuracy, F-Measure, confusion_matrix)에 대해 알아보자
+- \[Day10\] 성능평가 지표(Precision, Recall, Accuracy, F-Measure, confusion_matrix)에 대해 알아보자 : [Study Day10 자료][day10]
 - [개별 학습 주제] 소프트웨어 품질관리, 테스팅 분야의 AI 활용 사례를 알아보자
 
 [day0]: https://sungalex.github.io/ai/dev/2020/04/06/딥러닝-개발환경-구축하기-Windows.html
@@ -40,3 +40,4 @@ categories: AI AI&QA
 [day7]: https://sungalex.github.io/ai/ai&qa/음성처리/2020/06/15/Study7-STT-google-ml-api-fundamentals.html
 [day9]: https://sungalex.github.io/python/ai/ai&qa/2020/06/22/keras-fundamentals.html
 [day9-2]: https://sungalex.github.io/python/ai/ai&qa/2020/06/24/keras-getting-started.html
+[day10]: https://sungalex.github.io/python/ai/2020/06/30/metrics-model-evaluation.html
