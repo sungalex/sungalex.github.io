@@ -15,9 +15,8 @@ categories: Python AI
 
 (source: <https://github.com/sungalex/aiqa/blob/master/model-evaluation-and-improvement.ipynb>)
 
+  - Train/Validation/Test Data
   - 교차 검증(Cross Validation)
-  - 매개변수 과대적합과 검증 세트
   - 평가 지표 및 측정
-  - 에러의 종류
   - 오차 행렬(Confusion matrics)
-  - 정밀도-재현율 곡선과 ROC 곡선
+  - 정확도, 정밀도, 재현율, F1 점수
