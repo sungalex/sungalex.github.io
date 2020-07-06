@@ -5,7 +5,7 @@ date:   2020-06-24 21:30:00
 categories: Python AI
 ---
 
-*(create: '20.6.24, update: '20.6.24)*
+*(create: '20.6.24, update: '20.07.06)*
 
 (reference: <https://keras.io/ko/visualization/>)
 
@@ -19,7 +19,7 @@ categories: Python AI
 아래 예시는 모델의 그래프를 플롯팅하고 그 결과를 파일로 저장합니다:
  
 ~~~ipython
-from keras.utils import plot_model
+from tensorflow.keras.utils import plot_model
 plot_model(model, to_file='model.png')
 ~~~
 
@@ -34,7 +34,7 @@ plot_model(model, to_file='model.png')
 
 ~~~ipython
 from IPython.display import SVG
-from keras.utils import model_to_dot
+from tensorflow.keras.utils import model_to_dot
 
 SVG(model_to_dot(model).create(prog='dot', format='svg'))
 ~~~
