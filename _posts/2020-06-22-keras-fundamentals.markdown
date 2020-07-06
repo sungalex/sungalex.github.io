@@ -11,7 +11,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [케라스에 �
 
 ## 1. Keras 소개
 
-### 1.1. 30초 케라스
+### 1.1. 케라스 맛보기
 
 (reference: <https://keras.io/ko/#30>)
 
