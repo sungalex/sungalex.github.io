@@ -120,14 +120,14 @@ categories: AI AI&QA 음성처리
   git pull origin master
   ~~~
 
-- 아래 명령으로 필요한 패키지를 추가로 설치 합니다. (anaconda를 사용하는 경우, 본인이 사용하는 가상환경을 activate 후 설치 합니다.)
+- 아래 명령으로 필요한 패키지를 추가로 설치 합니다.
 
   ~~~bash
   pip install google-cloud-speech
   pip install pyaudio
   ~~~
 
-  - anaconda를 사용하는 경우, pip 명령어 대신 conda 명령을 사용할 수 있습니다.
+  - anaconda를 사용하는 경우, `pip install` 명령어를 사용하여 설치 합니다.
 
 - STT 폴더의 파일을 jupyter notebook에서 학습 합니다. 
 
