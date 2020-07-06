@@ -5,7 +5,7 @@ date:   2020-04-06 22:50:00 +0900
 categories: AI AI&QA Dev
 ---
 
-*(created: '20.04.06, updated: '20.06.20)*
+*(created: '20.04.06, updated: '20.07.06)*
 
 - [딥러닝 개발환경 개요](#딥러닝-개발환경-개요)
 - [개발환경 설치 과정](#개발환경-설치-과정)
@@ -209,7 +209,7 @@ print(tf.__version)) 명령은 tensorflow가 정상적으로 설치된 경우 te
 
 ### \[tensorflow 설치 에러 발생 시 tensorflow 설치 추가 옵션\]
 
-tensorflow가 정상적으로 설치되지 않는 경우, 아래 두가지 항목을 확인 합니다.
+tensorflow가 정상적으로 설치되지 않는 경우, 아래 두가지 항목을 추가로 설치/설정 후 tensorflow를 재설치 합니다.
 
 #### \[Microsoft Visual C++ 재배포 가능 패키지 설치\]
 
