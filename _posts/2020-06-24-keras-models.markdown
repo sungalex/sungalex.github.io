@@ -5,13 +5,16 @@ date:   2020-06-24 20:00:00
 categories: Python AI
 ---
 
-*(create: '20.6.24, update: '20.6.24)*
+*(create: '20.6.24, update: '20.07.06)*
 
 - [Keras 모델에 관하여](#keras-모델에-관하여)
 - [Sequential 모델 API](#sequential-모델-api)
+  - [compile 메소드](#compile-메소드)
+  - [fit 메소드](#fit-메소드)
+  - [evaluate 메소드](#evaluate-메소드)
+  - [predict 메소드](#predict-메소드)
 - [Keras 함수형 API(Model 클래스 API)](#keras-함수형-apimodel-클래스-api)
 
----
 
 ## Keras 모델에 관하여
 
@@ -25,10 +28,11 @@ Keras가 제공하는 모델에는 [Sequential 모델](https://keras.io/ko/model
 - `model.inputs`: 모델의 입력 텐서들이 저장된 1차원 리스트 입니다.
 - `model.outputs`: 모델의 출력 텐서들이 저장된 1차원 리스트 입니다.
 - `model.summary()`: 모델의 구조를 요약해 출력해 줍니다. `utils.print_summary(model)`로도 동일한 출력을 얻을 수 있습니다.
-- `model.get_config()`: 모델의 설정이 저장된 딕셔너리를 반환합니다. 모든 모델은 다음과 같이 설정 내용으로부터 다시 인스턴스화 될 수 있습니다.
+- `model.get_config()`: 모델의 설정이 저장된 딕셔너리를 반환합니다. 모든 모델은 다음과 같이 `from_config()` 메소드로 설정 내용으로부터 다시 인스턴스화 될 수 있습니다.
 
   ~~~ipython
   config = model.get_config()
+
   model = Model.from_config(config)
   # 또는, Sequential 모델의 경우:
   model = Sequential.from_config(config)
@@ -49,7 +53,7 @@ Keras가 제공하는 모델에는 [Sequential 모델](https://keras.io/ko/model
 
 ### compile 메소드
 
-학습을 위해서 모델을 구성합니다.
+학습을 위해서 모델의 옵티마이저, 손실함수 등을 설정 합니다.
 
 ~~~ipython
 compile(optimizer, loss=None, metrics=None, \
@@ -144,8 +148,8 @@ predict(x, batch_size=None, verbose=0, steps=None, callbacks=None)
 함수형 API에서, 인풋 텐서와 아웃풋 텐서가 주어졌을 때, Model을 다음과 같이 인스턴스화 할 수 있습니다:
 
 ~~~ipython
-from keras.models import Model
-from keras.layers import Input, Dense
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense
 
 a = Input(shape=(32,))
 b = Dense(32)(a)
@@ -154,7 +158,7 @@ model = Model(inputs=a, outputs=b)
 
 이 모델은 `a`를 받아 `b`를 계산하는데 필요한 모든 레이어를 포함합니다.
 
-다중 인풋 혹은 다중 아웃풋 모델의 경우 리스트를 사용할 수도 있습니다:
+다중 인풋 혹은 다중 아웃풋 모델의 경우 아래와 같이 리스트를 사용할 수도 있습니다:
 
 ~~~ipython
 model = Model(inputs=[a1, a2], outputs=[b1, b2, b3])
