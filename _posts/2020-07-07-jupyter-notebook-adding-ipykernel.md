@@ -115,7 +115,7 @@ which python
 {
  "argv": [ "/Users/alex/venvs/pinwheel/bin/python", "-m", "ipykernel",
           "-f", "{connection_file}"],
- "display_name": "virtualEnv",
+ "display_name": "venv_pinwheel",
  "language": "python"
 }
 ~~~
