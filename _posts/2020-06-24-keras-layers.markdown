@@ -68,7 +68,7 @@ keras.layers.Dense(units, activation=None, use_bias=True, \
 ~~~
 
 - `units`: 양의 정수, 아웃풋 공간의 차원
-- `activation`: 사용할 활성화 함수. 따로 정하지 않으면, 활성화가 적용되지 않습니다. (다시 말해, "선형적" 활성화: a(x) = x)
+- `activation`: 사용할 활성화 함수. 따로 정하지 않으면, 활성화가 적용되지 않습니다. (다시 말해, "선형적" 활성화 a(x) = x)
 - `use_bias`: boolean. 레이어가 편향 벡터를 사용하는지 여부
 - `kernel_initializer`: kernel 가중치 행렬의 초기값 설정
 - `bias_initializer`: 편향 벡터의 초기값 설정
@@ -174,11 +174,11 @@ Keras 2.0의 레이어는 다음의 메소드를 포함하고 있습니다. (세
 
 - `call(x)`: 레이어의 논리의 핵심이 되는 메서드입니다. 마스킹을 지원하는 레이어를 만들 것이 아니라면 call의 첫 번째 인수에 전달되는 인풋 텐서만 주의하면 됩니다.
 
-- `compute_output_shape(input_shape)`: 레이어가 인풋의 형태를 수정하는 경우, 형태 변형 논리를 지정해야 합니다. 이는 케라스가 자동 형태 추론을 할 수 있도록 합니다.
+- `compute_output_shape(input_shape)`: 레이어가 인풋의 형태를 수정하는 경우, 형태 변형 로직을 지정해야 합니다. 이는 케라스가 자동 형태 추론을 할 수 있도록 합니다.
 
 ~~~ipython
-from keras import backend as K
-from keras.layers import Layer
+import tensorflow as tf
+from tensorflow.keras.layers import Layer
 
 class MyLayer(Layer):
 
@@ -195,7 +195,7 @@ class MyLayer(Layer):
     super(MyLayer, self).build(input_shape)  # 끝에서 꼭 이 함수를 호출하십시오
 
   def call(self, x):
-    return K.dot(x, self.kernel)
+    return tf.dot(x, self.kernel)
 
   def compute_output_shape(self, input_shape):
     return (input_shape[0], self.output_dim)
