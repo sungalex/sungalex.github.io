@@ -169,14 +169,10 @@ CUDA를 설치한 이후 진행 합니다.
 tensorflow GPU 버전을 사용하기 위해서는 [NVIDIA Cuda Toolkit 설치](#cudagpu-computing-sdk-설치하기)와 [cuDNN 설치](#cudnngpu-가속-라이브러리-설치하기)를 완료해야 합니다.
 
   ```bash
-  conda install tensorflow-gpu
-  ```
-
-아래와 같이 Python 패키지 관리자인 pip 명령을 이용해서도 설치가 가능합니다.
-
-  ```bash
   pip install tensorflow-gpu
   ```
+
+anaconda를 사용하는 경우에도 tensorflow 설치는 Python 패키지 관리자인 pip 명령을 이용하는 것을 권장 합니다. `conda install` 명령을 사용하는 경우 패키지가 정상적으로 설치되지 않을 수 있습니다.
 
 Python을 실행하여 tensorflow가 잘 설치되었는지 확인 합니다. (">>>" 문자열은 Python 명령어를 실행할 수 있는 Interpreter Prompt 입니다.)
 tf.test.is_gpu_available() 명령은 GPU가 사용 가능한 상태인지를 알려 줍니다.(결과가 True일 경우 제대로 설치 된 것입니다.)
@@ -194,7 +190,7 @@ tf.test.is_gpu_available() 명령은 GPU가 사용 가능한 상태인지를 알
 아래 명령으로 tensorflow CPU 버전을 설치 합니다.
 
   ```bash
-  conda install tensorflow
+  pip install tensorflow
   ```
 
 Python을 실행하여 tensorflow가 잘 설치되었는지 확인 합니다.
