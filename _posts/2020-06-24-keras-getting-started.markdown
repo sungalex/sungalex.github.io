@@ -5,7 +5,7 @@ date:   2020-06-24 13:00:00
 categories: Python AI AI&QA
 ---
 
-*(create: '20.6.24, update: '20.6.30)*
+*(create: '20.6.24, update: '20.07.06)*
 
 reference : [케라스 Sequential 모델 시작하기](https://keras.io/ko/getting-started/sequential-model-guide/), [케라스 함수형 API 첫걸음](https://keras.io/ko/getting-started/functional-api-guide/)
 
@@ -21,11 +21,13 @@ reference : [케라스 Sequential 모델 시작하기](https://keras.io/ko/getti
 ## 케라스 Sequential 모델 시작하기
 
 ### 1. 모델 생성하기
+
 [`Sequential`](https://keras.io/ko/models/sequential/) 모델은 레이어를 선형으로 연결하여 구성합니다. 레이어 인스턴스를 생성자에게 넘겨줌으로써 `Sequential` 모델을 구성할 수 있습니다.
 
 ~~~ipython
-from keras.models import Sequential
-from keras.layers import Dense, Activation
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation
 
 model = Sequential([
     Dense(32, input_shape=(784,)),
@@ -136,7 +138,7 @@ model.add(Activation('relu'))
     labels = np.random.randint(10, size=(1000, 1))
 
     # Convert labels to categorical one-hot encoding
-    one_hot_labels = keras.utils.to_categorical(labels, num_classes=10)
+    one_hot_labels = tf.keras.utils.to_categorical(labels, num_classes=10)
 
     # Train the model, iterating on the data in batches of 32 samples
     model.fit(data, one_hot_labels, epochs=10, batch_size=32)
@@ -161,8 +163,8 @@ model.add(Activation('relu'))
 - 이러한 모델은 케라스 Sequential 모델과 완전히 동일한 방식으로 학습됩니다.
 
 ~~~ipython
-from keras.layers import Input, Dense
-from keras.models import Model
+from tensorflow.keras.layers import Input, Dense
+from tensorflow.keras.models import Model
 
 # 이는 텐서를 반환합니다
 inputs = Input(shape=(784,))
@@ -182,7 +184,7 @@ model.fit(data, labels)  # starts training
 함수형 API를 사용하면 학습된 모델을 재사용하기 편리합니다: 어느 모델이건 텐서에 대해 호출하여 레이어처럼 사용할 수 있습니다. 모델을 호출하면 모델의 구조만 재사용하는 것이 아니라 가중치까지 재사용되는 것임을 참고하십시오.
 
 ~~~ipython
-from keras.layers import TimeDistributed
+from tensorflow.keras.layers import TimeDistributed
 
 # 20 시간 단계의 시퀀스에 대한 입력 텐서로, 각각 784 차원의 벡터를 담고 있습니다.
 input_sequences = Input(shape=(20, 784))
@@ -207,8 +209,8 @@ processed_sequences = TimeDistributed(model)(input_sequences)
 주요 인풋은 헤드라인을 (각 정수가 단어 하나를 인코딩하는) 정수 시퀀스의 형태로 전달받습니다. 정수는 1에서 10,000사이의 값이며 (10,000 단어의 어휘목록), 시퀀스의 길이는 100 단어입니다.
 
 ~~~ipython
-from keras.layers import Input, Embedding, LSTM, Dense
-from keras.models import Model
+from tensorflow.keras.layers import Input, Embedding, LSTM, Dense
+from tensorflow.keras.models import Model
 
 # 헤드라인 인풋: 1에서 10000사이의 100개 정수로 이루어진 시퀀스를 전달받습니다
 # "name"인수를 전달하여 레이어를 명명할 수 있음을 참고하십시오.
@@ -231,7 +233,7 @@ auxiliary_output = Dense(1, activation='sigmoid', name='aux_output')(lstm_out)
 
 ~~~ipython
 auxiliary_input = Input(shape=(5,), name='aux_input')
-x = keras.layers.concatenate([lstm_out, auxiliary_input])
+x = tf.keras.layers.concatenate([lstm_out, auxiliary_input])
 
 # 심화 밀집 연결 네트워크를 상층에 쌓습니다
 x = Dense(64, activation='relu')(x)
