@@ -5,7 +5,7 @@ date:   2020-05-18 15:30:00 +0900
 categories: AI AI&QA 자연어처리
 ---
 
-*[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.06.08)*
+*[AI와 QA의 만남] - Study Day5 (학습일: '20.05.26, update: '20.07.06)*
 
 ## NLP(Natural Language Processing)
 
@@ -116,10 +116,10 @@ KoNLPy는 한국어 자연어처리를 위한 파이썬 패키지 이다. 대표
 - KoNLPy 설치방법
   - OS와 비트 수가 일치하고, 버전이 1.7 이상인 [자바(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)가 설치되어 있어야 한다. [JAVA_HOME](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html)을 설정 한다. [자바(JAVA) 다운로드 및 설치하기. 환경설정 세팅하는 법](https://jhnyang.tistory.com/224) 블로그 글을 참고한다.
 
-  - Windows 환경에서는 Python Java 라이브러리(JPype)를 별도로 설치 해야 한다. 설치된 Python 버전에 맞는 [JPype를 다운로드](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype) 후, 다운로드 한 JPype 파일이 있는 폴더에서 아래 명령으로 설치한다.
+  - Windows 환경에서는 Python Java 라이브러리(JPype)를 별도로 설치 해야 한다. 설치된 Python 버전에 맞는 [JPype를 다운로드](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype) 후, 다운로드 한 JPype 파일이 있는 폴더에서 아래 명령으로 설치한다. wheel 파일명에서 "-cp37-" 부분이 python 3.7 버전을 의미한다.
   
     ```bash
-    pip install JPype1-0.7.5-cp36-cp36m-win_amd64.whl
+    pip install JPype1‑0.7.5‑cp37‑cp37m‑win_amd64.whl
     ```
 
   - KoNLPy 패키지를 설치 한다.
