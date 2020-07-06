@@ -5,7 +5,7 @@ date:   2020-06-15 16:00:00 +0900
 categories: AI AI&QA 음성처리
 ---
 
-*[AI와 QA의 만남] - Study Day7 (학습일: '20.06.16, create: '20.06.15)*
+*[AI와 QA의 만남] - Study Day7 (학습일: '20.06.16, create: '20.06.15, update: '20.07.06)*
 
 ## 딥러닝 음성인식 - STT(Speech to Text)
 
