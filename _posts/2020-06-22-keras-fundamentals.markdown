@@ -7,7 +7,7 @@ categories: Python AI AI&QA
 
 *(create: '20.6.22, update: '20.07.06)*
 
-reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Documentation(English)](https://keras.io/documentation/)
+reference : [Keras Documentation(Korean)](https://keras.io/ko/), [케라스에 대하여](http://keras-ko.kr/about/), [Keras Documentation(English)](https://keras.io/documentation/)
 
 ## 1. Keras 소개
 
@@ -17,7 +17,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
 
 케라스의 주요 데이터 구조는 [`models`](https://keras.io/ko/models/about-keras-models/)로 레이어를 조직하는 방식입니다. 가장 간단한 종류의 모델인 [`Sequential`](https://keras.io/ko/models/sequential/) 모델은 레이어를 선형적으로 쌓습니다. 보다 복잡한 구조를 만드려면, [Keras functional API](https://keras.io/guides/functional_api/)를 사용하여 레이어로 임의의 그래프를 구축하면 됩니다.
 
-- 필요한 모듈을 import 합니다.
+- 필요한 모듈을 import 합니다. tensorflow를 keras backend로 사용하는 경우는, `import keras` 보다는 `from tensorflow import keras` 처럼 tensorflow API 형태로 import 하는 방식을 추천 합니다.([참고](https://github.com/keras-team/keras/releases/tag/2.3.0))
 
   ~~~ipython
   from tensorflow import keras
@@ -84,6 +84,8 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   ~~~bash
   $ pip install keras==2.3
   ~~~
+
+  - 케라스는 텐서플로 2.0에 tensorflow.keras로 포함되어 있으므로 케라스를 사용하려면 텐서플로 2.0을 설치하면 됩니다. (multi backend를 사용할 필요가 없는 경우, 즉 tensorflow backend 만 사용할 경우 keras를 별도로 설치할 필요가 없습니다.)
 
 - 선택적으로, HDF5 and h5py(디스크에 케라스 모델을 저장하실 경우 필요합니다) 라이브러리와 graphviz, pydot(모델 그래프를 시각화하는 visualization utilities에 사용됩니다) 라이브러리를 설치하는 것도 고려해 보십시오:
 
