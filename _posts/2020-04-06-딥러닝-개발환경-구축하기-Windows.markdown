@@ -118,6 +118,8 @@ conda 명령어 사용 시 아래와 같은 SSL Certificate 오류가 발생하�
 
 ### 4. 텐서플로 GPU 버전 설치하기 (NVIDIA GPU가 있는 경우)
 
+*(reference: [TensorFlow 2 설치](https://www.tensorflow.org/install?hl=ko) and [TensorFlow > 설치 > GPU 지원](https://www.tensorflow.org/install/gpu?hl=ko))*
+
 #### 4-1. GPU 모델 및 CUDA 지원 여부 확인하기
 
 머신러닝/딥러닝 학습을 위해서는 고속의 병렬처리가 필요하며, GPU(Graphics Processing Unit, 비디오 카드)가 고속의 병렬처리를 수행하는 장치 입니다.
@@ -186,6 +188,8 @@ tf.test.is_gpu_available() 명령은 GPU가 사용 가능한 상태인지를 알
 <br>
 
 ### 5. 텐서플로 CPU 버전 설치하기 (NVIDIA GPU가 없는 경우)
+
+*(reference: [TensorFlow 2 설치](https://www.tensorflow.org/install?hl=ko) and [TensorFlow > 설치 > pip를 사용하여 TensorFlow 설치](https://www.tensorflow.org/install/pip?hl=ko))*
 
 아래 명령으로 tensorflow CPU 버전을 설치 합니다.
 
