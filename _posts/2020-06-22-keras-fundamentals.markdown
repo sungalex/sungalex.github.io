@@ -79,7 +79,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   $ pip install tensorflow==2.1
   ~~~
 
-- Keras를 설치 합니다. 기존의 keras를 직접 import 하는 방식을 사용하기 위해서는 keras 버전을 2.3으로 지정해서 설치해야 합니다. keras 버전 2.4부터 tensorflow.keras로만 import 가능(`from tensorflow import keras` 처럼 사용 가능) 하기 때문에 keras를 직접 import 해서 사용(`import keras` 처럼 사용) 하던 기존 코드가 동작하지 않습니다.
+- Keras를 설치 합니다. keras 버전을 2.3으로 지정해서 설치 합니다. keras 버전 2.4부터 더이상 멀티 백엔드를 지원하지 않습니다. keras 2.4의 [Release Note](https://github.com/keras-team/keras/releases/tag/2.4.0)를 참고 하세요.
 
   ~~~bash
   $ pip install keras==2.3
