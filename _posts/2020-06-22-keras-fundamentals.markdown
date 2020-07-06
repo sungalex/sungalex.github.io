@@ -79,7 +79,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   $ pip install tensorflow==2.1
   ~~~
 
-- Keras를 설치 합니다. keras 버전을 2.3으로 지정해서 설치 합니다. keras 버전 2.4부터 더이상 멀티 백엔드를 지원하지 않습니다. keras 2.4의 [Release Note](https://github.com/keras-team/keras/releases/tag/2.4.0)와 [박해선님의 텐서 플로우 블로그](https://tensorflow.blog/2020/06/18/케라스-2-4-0-버전이-릴리스되었습니다/)를 참고 하세요.
+- Keras를 설치 합니다. keras 버전을 2.3으로 지정해서 설치 합니다. keras 버전 2.4부터 더이상 멀티 백엔드를 지원하지 않습니다. keras 2.4 [Release Note](https://github.com/keras-team/keras/releases/tag/2.4.0)와 [박해선님의 텐서 플로우 블로그](https://tensorflow.blog/2020/06/18/케라스-2-4-0-버전이-릴리스되었습니다/)를 참고 하세요.
 
   ~~~bash
   $ pip install keras==2.3
