@@ -14,7 +14,9 @@ categories: Python AI
   - [evaluate 메소드](#evaluate-메소드)
   - [predict 메소드](#predict-메소드)
 - [Keras 함수형 API(Model 클래스 API)](#keras-함수형-apimodel-클래스-api)
+- [Model 하위 클래스 만들기](#model-하위-클래스-만들기)
 
+-----
 
 ## Keras 모델에 관하여
 
@@ -45,7 +47,7 @@ Keras가 제공하는 모델에는 [Sequential 모델](https://keras.io/ko/model
 - `model.save_weights(filepath)`: 모델의 가중치를 HDF5 파일로 저장 합니다.
 - `model.load_weights(filepath, by_name=False)`: 모델의 가중치를 (save_weights에 의해 생성된) HDF5 파일로부터 불러옵니다. 기본 설정인 by_name=False는 모델과 가중치 파일의 네트워크 구조가 동일하다 가정합니다. 만약 구조가 다르다면, by_name=True를 사용해 동일한 이름을 가진 층들에 대해서만 가중치를 불러올 수도 있습니다.
 
----
+-----
 
 ## Sequential 모델 API
 
@@ -139,7 +141,7 @@ predict(x, batch_size=None, verbose=0, steps=None, callbacks=None)
 
 - 반환값 : 예측 값의 Numpy 배열.
 
----
+-----
 
 ## Keras 함수형 API(Model 클래스 API)
 
@@ -168,3 +170,52 @@ model = Model(inputs=[a1, a2], outputs=[b1, b2, b3])
 
 `Model 클래스 API`의 메소드는 `Sequential 모델 API`의 메소드와 거의 동일합니다.
 [Sequential 모델 API](#sequential-모델-api) 부분을 참고하세요.
+
+-----
+
+## Model 하위 클래스 만들기
+
+(reference: <https://keras.io/ko/models/about-keras-models/> > #Model-하위-클래스-만들기)
+
+Keras 2.2.0 버전부터 `Model` 클래스의 하위 클래스를 만들어 모델을 구현할 수 있는 API가 추가되었습니다. 해당 API를 사용해 `Model`의 하위 클래스를 만들고, `call` 메소드에 사용자의 요구에 맞는 포워드 패스 과정을 구현하여 모델을 만들 수도 있습니다.
+
+다음은 `Model`의 하위 클래스로서 만들어진 간단한 다층 퍼셉트론의 예제입니다.
+
+~~~ipython
+from tensorflow import keras
+
+class SimpleMLP(keras.Model):
+
+    def __init__(self, use_bn=False, use_dp=False, num_classes=10):
+        super(SimpleMLP, self).__init__(name='mlp')
+        self.use_bn = use_bn
+        self.use_dp = use_dp
+        self.num_classes = num_classes
+
+        self.dense1 = keras.layers.Dense(32, activation='relu')
+        self.dense2 = keras.layers.Dense(num_classes, activation='softmax')
+        if self.use_dp:    # Dropout layer를 사용
+            self.dp = keras.layers.Dropout(0.5)
+        if self.use_bn:    # 배치정규화를 사용
+            self.bn = keras.layers.BatchNormalization(axis=-1)
+
+    def call(self, inputs):
+        x = self.dense1(inputs)
+        if self.use_dp:
+            x = self.dp(x)
+        if self.use_bn:
+            x = self.bn(x)
+        return self.dense2(x)
+
+model = SimpleMLP()   # 모델 생성 시 Dropout, 배치정규화 옵션을 지정(True or False)
+model.compile(...)
+model.fit(...)
+~~~
+
+모델에 사용되는 각 층은 `__init__(self, ...)`에 정의되어 있고, 포워드 패스는 `call(self, inputs)`에 구현되어 있습니다. 임의의 층을 지정해 주는 것과 같이 사용자는 `call` 내부에서 self.add_loss(loss_tensor)를 호출함으로써 임의의 손실 함수를 지정해줄 수도 있습니다.( `__init__()`에 `loss_tensor`를 먼저 정의해야 함 )
+
+위와 같이 모델을 구현할 때 모델의 구조는 정적 그래프가 아닌 Python 코드로서 정의되기 때문에, 모델의 구조를 확인하거나 저장할 수 없습니다. 결과적으로 해당 API를 사용하여 모델을 구현한 경우 다음의 메소드들과 속성들을 사용할 수 없습니다.
+
+  - `model.inputs`, `model.outputs`, `model.to_yaml()`, `model.to_json()`, `model.get_config()`, `model.save()`
+
+※ **중요한 점**: 작업에 적합한 API를 사용해야 합니다. Model 클래스의 하위 클래스를 만드는 API는 복잡한 모델을 구현하는데 있어서 높은 유연성을 제공해 줄 수는 있지만, 코드가 좀 더 길고 복잡해지며, 사용자 오류의 소지가 높아진다는 단점이 있습니다. 가능하면 사용자 친화적인 함수형 API를 사용하는 것이 좋습니다.
