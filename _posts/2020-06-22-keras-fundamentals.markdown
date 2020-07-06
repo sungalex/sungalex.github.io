@@ -85,7 +85,7 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [케라스에 �
   $ pip install keras==2.3
   ~~~
 
-  - 케라스는 텐서플로 2.0에 tensorflow.keras로 포함되어 있으므로 케라스를 사용하려면 텐서플로 2.0을 설치하면 됩니다. (multi backend를 사용할 필요가 없는 경우, 즉 tensorflow backend 만 사용할 경우 keras를 별도로 설치할 필요가 없습니다.)
+  - 케라스는 텐서플로 2.0에 tensorflow.keras로 포함되어 있으므로 케라스를 사용하려면 텐서플로 2.0 이상을 설치하면 됩니다. (multi backend를 사용할 필요가 없는 경우, 즉 tensorflow backend 만 사용할 경우 keras를 별도로 설치할 필요가 없습니다.)
 
 - 선택적으로, HDF5 and h5py(디스크에 케라스 모델을 저장하실 경우 필요합니다) 라이브러리와 graphviz, pydot(모델 그래프를 시각화하는 visualization utilities에 사용됩니다) 라이브러리를 설치하는 것도 고려해 보십시오:
 
