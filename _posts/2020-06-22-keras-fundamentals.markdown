@@ -112,6 +112,8 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [케라스에 �
 
   - [Keras 함수형 API(Model 클래스 API)](https://sungalex.github.io/python/ai/2020/06/24/keras-models.html#keras-함수형-apimodel-클래스-api)
 
+  - [Model 하위 클래스 만들기](https://sungalex.github.io/python/ai/2020/06/24/keras-models.html#model-하위-클래스-만들기)
+
 - [Keras layers](https://sungalex.github.io/python/ai/2020/06/24/keras-layers.html)
 
   - [Keras 레이어에 관하여](https://sungalex.github.io/python/ai/2020/06/24/keras-layers.html#1-keras-레이어에-관하여)
