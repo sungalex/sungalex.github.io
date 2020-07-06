@@ -5,7 +5,7 @@ date:   2020-06-24 21:00:00
 categories: Python AI
 ---
 
-*(create: '20.6.24, update: '20.6.24)*
+*(create: '20.6.24, update: '20.07.06)*
 
 - [1. Keras 레이어에 관하여](#1-keras-레이어에-관하여)
 - [2. 직접 케라스 레이어 만들기](#2-직접-케라스-레이어-만들기)
@@ -33,7 +33,7 @@ Keras의 모든 층들은 아래의 메소드들을 공통적으로 가지고 �
   또는,
 
   ~~~ipython
-  rom keras import layers
+  from tensorflow.keras import layers
 
   config = layer.get_config()
   layer = layers.deserialize({'class_name': layer.__class__.__name__,
