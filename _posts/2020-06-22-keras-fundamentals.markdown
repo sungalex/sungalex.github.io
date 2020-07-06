@@ -5,7 +5,7 @@ date:   2020-06-22 21:00:00
 categories: Python AI AI&QA
 ---
 
-*(create: '20.6.22, update: '20.6.24)*
+*(create: '20.6.22, update: '20.07.06)*
 
 reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Documentation(English)](https://keras.io/documentation/)
 
@@ -79,10 +79,10 @@ reference : [Keras Documentation(Korean)](https://keras.io/ko/), [Keras Document
   $ pip install tensorflow==2.1
   ~~~
 
-- Keras를 설치 합니다.
+- Keras를 설치 합니다. 기존의 keras를 직접 import 하는 방식을 사용하기 위해서는 keras 버전을 2.3으로 지정해서 설치해야 합니다. keras 버전 2.4부터 tensorflow.keras로만 import 가능(`from tensorflow import keras` 처럼 사용 가능) 하기 때문에 keras를 직접 import 해서 사용(`import keras` 처럼 사용) 하던 기존 코드가 동작하지 않습니다.
 
   ~~~bash
-  $ pip install keras
+  $ pip install keras==2.3
   ~~~
 
 - 선택적으로, HDF5 and h5py(디스크에 케라스 모델을 저장하실 경우 필요합니다) 라이브러리와 graphviz, pydot(모델 그래프를 시각화하는 visualization utilities에 사용됩니다) 라이브러리를 설치하는 것도 고려해 보십시오:
