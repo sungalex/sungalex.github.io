@@ -7,6 +7,12 @@ categories: Python Dev
 
 가상환경에 개발환경이 세팅된 상황에서 jupyter notebook에서 가상환경을 사용하기 위해, Jupyter Notebook에 가상환경 kernel을 추가한다.
 
+아래와 같이 Jupyter Notebook에 가상환경 kernel을 추가해두면, Jupyter notebook을 사용중에 다른 가상환경의 노트북 파일을 생성하여 실행할 수 있다. Jupyter Notebook 실행 중에 가상환경을 전환하지 않고, Jupyter Notebook 우측 상단에 `New` 버튼을 선택 하여 원하는 가상환경의 노트북 파일을 생성할 수 있다. (예로, tensorflow 1.0 환경을 사용중에, tensorflow 2.0 환경으로 전환하여 작업할 수 있다.)
+
+아래의 방법1과 방법2의 실행 결과는 동일하며, 방법2의 경우 Jupyter Notebook kernel 환경설정에 대한 이해에 도움이 되며, `kernel.json`에 다양한 옵션을 자유롭게 설정할 수 있다.
+
+아래의 예는 Mac 환경의 경우이지만, Windows 환경에서도 동일한 방법으로 kernel을 추가할 수 있다. (파일의 경로와 가상환경 activate 명령이 조금 다름)
+
 -----
 
 ## \[방법1\] ipykernel install 명령으로 추가하기
