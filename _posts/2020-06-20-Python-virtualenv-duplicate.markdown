@@ -104,14 +104,16 @@ $ activate pinwheel
 #### 1. virtualenv-clone 패키지를 설치 합니다.
 
 ~~~bash
-(vane)$ pip install virtualenv-clone
+$ pip install virtualenv-clone
 ~~~
 
-#### 2. virtualenv-clone 명령으로 vane(source) 환경을 pinwheel(target) 환경으로 복제 하비다.
+#### 2. virtualenv-clone 명령으로 vane(source) 환경을 pinwheel(target) 환경으로 복제 합니다.
+
+아래 명령을 vane 가상환경이 설치된 폴더 바로 상위 폴더에서 실행합니다.
 
 ~~~bash
-(vane)$ virtualenv-clone vane pinwheel
-(vane)$ activate pinwheel
+$ virtualenv-clone vane pinwheel
+$ activate pinwheel
 (pinwheel)$
 ~~~
 
