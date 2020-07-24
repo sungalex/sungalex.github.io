@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python 개발 Cheatsheet (업데이트중...)"
+title:  "Python 개발 Cheatsheet 1 - Helper 기능"
 date:   2020-06-21 02:00:00
 categories: Python Dev
 ---
