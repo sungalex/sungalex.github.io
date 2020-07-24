@@ -127,3 +127,13 @@ which python
 ~~~
 
 jupyter notebook을 실행해서 가상환경이 추가되어 있는지 확인한다.
+
+## \[참고\] Jupyter Notebook에 추가된 가상환경 kernel 삭제하기
+
+위의 "4. kernel.json file 생성하기"에서 설명한 `/Users/alex/Library/Jupyter/kernels` 아래에 있는 폴더 중 삭제하고자 하는 가상환경 커널의 폴더를 아래의 명령으로 삭제한다.
+
+~~~bash
+rm -rf <폴더명>
+~~~
+
+- `rm -rf' 명령은 실수로 잘못된 폴더를 삭제하지 않도록 사용 시 각별한 주의가 필요하다.
