@@ -17,15 +17,15 @@ categories: Python AI AI&QA
 
   - Train/Validation/Test Data
 
-    ![validataion_set](/img/validation_dataset.png)
+    ![validataion_set](../img/validation_dataset.png)
 
   - 교차 검증(Cross Validation)
 
-    ![cross-validation](/img/cross-validation.png)
+    ![cross-validation](../img/cross-validation.png)
 
   - K-겹 교차 검증(K-Fold Cross Validation)
 
-    ![k-fold](/img/k-fold-cross-validation.png)
+    ![k-fold](../img/k-fold-cross-validation.png)
 
   - 평가 지표 및 측정
 
@@ -38,14 +38,14 @@ categories: Python AI AI&QA
     - FP : False Positive (실제 Negative를 Positive로 잘못 예측한 데이터)
     - TP : True Positive (실제 Positive를 Positive로 정확히 예측한 데이터)
 
-    ![confusion_matrix](/img/confusion_matrix.png)
+    ![confusion_matrix](../img/confusion_matrix.png)
 
   - 정확도, 정밀도, 재현율, F-점수
 
     - 정확도(Accuracy)와 오차행렬(Confusion_Matrix) 관계
 
-      ![accuracy-cm](/img/accuracy-confusion_matrix.PNG)
+      ![accuracy-cm](../img/accuracy-confusion_matrix.PNG)
 
     - 정밀도, 재현율, F-점수
 
-      ![Precision-Recall](/img/precision-recall-f_score.PNG)
+      ![Precision-Recall](../img/precision-recall-f_score.PNG)
