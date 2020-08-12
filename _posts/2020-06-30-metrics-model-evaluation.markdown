@@ -33,12 +33,12 @@ categories: Python AI AI&QA
 
   - 오차 행렬(Confusion matrics)
 
-    ![confusion_matrix](/img/confusion_matrix.png)
-
     - TN : True Negative (실제 Negative를 Negative로 정확히 예측한 데이터)
     - FN : False Negative (실제 Positive를 Negative로 잘못 예측한 데이터)
     - FP : False Positive (실제 Negative를 Positive로 잘못 예측한 데이터)
     - TP : True Positive (실제 Positive를 Positive로 정확히 예측한 데이터)
+
+    ![confusion_matrix](/img/confusion_matrix.png)
 
   - 정확도, 정밀도, 재현율, F-점수
 
@@ -48,4 +48,4 @@ categories: Python AI AI&QA
 
     - 정밀도, 재현율, F-점수
 
-      ![Precision-Recall](/img/precision-recall-f_ma.PNG)
+      ![Precision-Recall](/img/precision-recall-f_score.PNG)
