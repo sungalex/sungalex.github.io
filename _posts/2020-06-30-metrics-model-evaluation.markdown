@@ -44,8 +44,8 @@ categories: Python AI AI&QA
 
     - 정확도(Accuracy)와 오차행렬(Confusion_Matrix) 관계
 
-      ![accuracy-cm](../img/accuracy-confusion_matrix.PNG)
+      ![accuracy-cm](../img/accuracy-confusion_matrix.png)
 
     - 정밀도, 재현율, F-점수
 
-      ![Precision-Recall](../img/precision-recall-f_score.PNG)
+      ![Precision-Recall](../img/precision-recall-f_score.png)
