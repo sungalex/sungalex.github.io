@@ -15,20 +15,22 @@ categories: Python Dev
 
   | Keybinding      | Command                                     | Description                                         |
   | :-------------- | :------------------------------------------ | :-------------------------------------------------- |
-  | ⌥ + click       | Insert cursor                               | 다중선택 할 지점에서 "Ctrl + 클릭, 클릭, 클릭, ..." |
-  | ⌥⌘↑             | Insert cursor above                         | 커서의 위 방향으로 다중 선택                        |
-  | ⌥⌘↓             | Insert cursor below                         | 커서의 아래 방향으로 다중 선택                      |
+  | ⌘ + /           | Toggle line comment                         | 선택 라인 코멘트 Toggle                                 |
+  | ⌘D              | Select current word(repeatedly)             | 현재 커서가 있는 단어와 동일한 단어를 다중 선택                |
+  | ⌘F2             | Select all occurrences of current word      | 현재 단어와 동일한 모든 단어 선택                           |
+  | ⌘ + click       | Insert cursor                               | 다중선택 할 지점에서 "Command + 클릭, 클릭, 클릭, ..."      |
+  | ⌥⌘ ↑            | Add cursor above                            | 커서의 위 방향으로 다중 선택                               |
+  | ⌥⌘ ↓            | Add cursor below                            | 커서의 아래 방향으로 다중 선택                             |
+  | ⌥ ↑ / ↓         | Move Up / Down selected line or block       | 선택된 라인/블럭을 위/아래로 이동(Cut & Phase 대체)          |
   | ⌘U              | Undo last cursor operation                  |                                                     |
-  | ⇧⌥I             | Insert cursor at end of each line selected  |                                                     |
-  | ⌘L              | Select current line                         |                                                     |
-  | ⇧⌘L             | Select all occurrences of current selection |                                                     |
-  | ⌘F2             | Select all occurrences of current word      |                                                     |
-  | ⌃⇧⌘→ / ←        | Expand / shrink selection                   |                                                     |
-  | ⇧⌥ + drag mouse | Column (box) selection                      |                                                     |
-  | ⇧⌥⌘↑ / ↓        | Column (box) selection up/down              |                                                     |
-  | ⇧⌥⌘← / →        | Column (box) selection left/right           |                                                     |
-  | ⇧⌥⌘PgUp         | Column (box) selection page up              |                                                     |
-  | ⇧⌥⌘PgDn         | Column (box) selection page down            |                                                     |
+  | ⌥⇧I             | Insert cursor at end of each line selected  | 선택된 각 라인의 맨 끝에 다중 선택 커서 추가                  |
+  | ⌥⇧ + drag mouse | Column (box) selection                      | 동일한 Column 다중 선택 (또는 ⌥ + drag mouse)            |
+  | ⌘L              | Select current line                         | 현재 라인 선택                                         |
+  | ⌃⌘⇧ → / ←       | Expand / shrink selection                   |                                                     |
+  | ⌥⌘⇧ ↑ / ↓       | Column (box) selection up/down              |                                                     |
+  | ⌥⌘⇧ ← / →       | Column (box) selection left/right           |                                                     |
+  | ⌥⌘⇧ PgUp        | Column (box) selection page up              |                                                     |
+  | ⌥⌘⇧ PgDn        | Column (box) selection page down            |                                                     |
   | → / ← / ↑ / ↓   | Multi-cursor moving left/right/up/down      |                                                     |
 
 - Windows (source: [Visual Studio Code Keyboard shortcuts for Windows, PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf))
